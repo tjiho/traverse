@@ -14,11 +14,11 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
-print("loading data...")
+logger.info("loading data...")
 
 embedding_model = SentenceTransformer("dangvantuan/sentence-camembert-base")
 index = faiss.read_index("data/tags.index")
-spell = Speller('fr')
+# spell = Speller('fr')
 
 with open("data/tags_list.json", "r") as f:
   tags = json.load(f)
@@ -29,7 +29,7 @@ with open("data/fr-improved.json", "r") as f:
 
 reranker = CrossEncoder("cross-encoder/nli-deberta-v3-small")
 #classifier = pipeline("zero-shot-classification", model="MoritzLaurer/bge-m3-zeroshot-v2.0")
-generator = pipeline("text-generation", model="mistralai/Ministral-3-3B-Instruct-2512", max_new_tokens=10)
+#generator = pipeline("text-generation", model="mistralai/Ministral-3-3B-Instruct-2512", max_new_tokens=10)
 
 
 def detect_category(query: str) -> list[str]:
@@ -67,9 +67,11 @@ Exemples:
     response = result[0]["generated_text"][-1]["content"].strip().lower()
 
     if "attribute" in response:
-        return ["attribute"]
+      logger.debug(f"Search for attribute")
+      return ["attribute"]
     elif "poi" in response:
-        return ["poi"]
+      logger.debug(f"Search for poi")
+      return ["poi"]
     return ["poi", "attribute"]
 # def detect_category(query: str) -> str:
 #     prompt = """Tu classes des requêtes de recherche.
@@ -164,6 +166,11 @@ Exemples:
 def get_description(tag: str, tags_data) -> str:
     return tags_data.get(tag, {}).get("improved-message", tag)
 
+def get_category(tag:str, tags_data) -> str:
+  cat = tags_data.get(tag, {}).get("category", "")
+  logger.debug(f"cat for {tag}: {cat}")
+  return cat
+
 def quickSelectionTop50(query, tags):
   query_embedding = embedding_model.encode([improve_query(query)], normalize_embeddings=True).astype("float32")
 
@@ -175,30 +182,40 @@ def quickSelectionTop50(query, tags):
   return tags
 
 
-def rerank(query: str, candidates: list[str], tags_data, top_k: int = 5) -> list[tuple[str, float]]:
+def rerank(query: str, candidates: list[str], tags_data, category_searched, top_k: int = 5) -> list[tuple[str, float]]:
 
-  descriptions = [get_description(tag, tags_data) for tag in candidates]
-  pairs = [[query, desc] for desc in descriptions]
+    filtered_candidates = [tag for tag in candidates if get_category(tag, tags_data) == category_searched]
+    logger.debug(f"Filtered on {filtered_candidates}")
 
-  
-  scores = reranker.predict(pairs)
+    descriptions = [get_description(tag, tags_data) for tag in filtered_candidates]
+    pairs = [[query, desc] for desc in descriptions]
+    logger.debug(f"Looking in {pairs}")
 
-  entailment_scores = scores[:, 2]
-  
-  # On retourne les tags originaux avec leurs scores
-  results = list(zip(candidates, entailment_scores))
-  results.sort(key=lambda x: x[1], reverse=True)
-  
-  return results[:top_k]
+    scores = reranker.predict(pairs)
+    if scores.ndim == 1:
+      entailment_scores = scores
+    else:
+      entailment_scores = scores[:, 2]
+
+    results = list(zip(filtered_candidates, entailment_scores))
+    logger.debug(f"Got {results}")
+    results.sort(key=lambda x: x[1], reverse=True)
+
+    return results[:top_k]
 
 query = "a"
 while query != "":
   query = input("recherche ? ")
 
   if query:
-    query_corrected = spell(query)  # "où manger", #"endroit pour manger une pizza rapidement"
+    query_corrected = query #spell(query)  # "où manger", #"endroit pour manger une pizza rapidement"
     logger.debug(f"Corrected to {query_corrected}")
-    print(detect_category(query_corrected))
-    #print(rerank(query_corrected, quickSelectionTop50(query_corrected, tags), tags_data))
+    print()
+    print(rerank(
+      query_corrected, 
+      quickSelectionTop50(query_corrected, tags),
+      tags_data,
+      "poi" #detect_category(query_corrected)
+    ))
   else:
     print("bye")
