@@ -4,32 +4,32 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Traverse is an OSM (OpenStreetMap) tag search tool. It enables natural language search for OSM tags in French using semantic embeddings and cross-encoder reranking.
+Traverse is a semantic search tool for OpenStreetMap tags. It converts French natural language queries ("où manger", "parking vélo") into OSM tags (`amenity=restaurant`, `amenity=bicycle_parking`).
 
 ## Commands
 
-Build the search index (requires GPU via switcherooctl):
+Build search indexes (requires GPU via switcherooctl):
 ```bash
 switcherooctl launch uv run create-index.py
 ```
 
-Run the interactive search REPL:
+Run interactive search:
 ```bash
-switcherooctl launch rlwrap uv run search.py
+switcherooctl launch uv run search.py
 ```
 
-Run evaluation against test cases:
+Run evaluation (98.8% recall on 100 test cases):
 ```bash
-uv run evaluate.py
+uv run test/evaluate.py
 ```
 
 ## Architecture
 
-The system uses a two-stage retrieval pipeline:
+Two-stage retrieval pipeline:
 
-1. **Embedding Search** (`utils/embedding_search.py`): Uses `google/embeddinggemma-300m` to encode queries and search against FAISS indexes. Returns top-k candidates with cosine similarity scores.
+1. **Embedding Search** (`utils/embedding_search.py`): Uses `intfloat/multilingual-e5-base` with "query:"/"passage:" prefixes. Searches both POI and attribute indexes, returns top candidates.
 
-2. **Cross-Encoder Reranking** (`utils/rerank_with_crossencoder.py`): Uses `cross-encoder/ms-marco-MiniLM-L-6-v2` to rerank candidates. Runs on CUDA.
+2. **Cross-Encoder Reranking** (`utils/rerank_with_crossencoder.py`): Uses `BAAI/bge-reranker-v2-m3` (multilingual) to rerank candidates. Runs on CUDA.
 
 ### Data Flow
 
@@ -40,14 +40,21 @@ The system uses a two-stage retrieval pipeline:
 
 ### Tag Categories
 
-Tags are split into two categories:
 - **POI**: Points of interest (restaurants, shops, etc.)
-- **Attributes**: Characteristics (wheelchair access, cuisine type, etc.)
+- **Attributes**: Characteristics (cuisine type, wheelchair access, etc.)
 
-### Data Scripts
+Search queries both indexes and merges results (`search_multi` function).
 
-`data_scripts/` contains utilities for scraping, enriching, and processing OSM wiki data.
+## Key Files
 
-## Types
+- `utils/embedding_search.py`: `search_multi()` - main search function
+- `utils/rerank_with_crossencoder.py`: `rerank()` - cross-encoder reranking
+- `utils/query_expansion.py`: LLM-based query expansion (experimental, not used)
+- `test/evaluate.py`: Evaluation script with recall/MRR metrics
+- `data/search_cases.json`: Test cases for evaluation
 
-`utils/types/__init__.py` defines `TagItem` TypedDict with: `tag`, `score`, `category`, `description`.
+## Future Work
+
+- API REST (FastAPI) - planned
+- Automatic POI/attribute detection (tested, heuristics best at 87%)
+- Query expansion with LLM (implemented but adds latency without improving recall)

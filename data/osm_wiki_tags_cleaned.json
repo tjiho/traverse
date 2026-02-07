@@ -52,7 +52,7 @@
       },
       "pub": {
         "description_fr": "Pub/Brasserie",
-        "description_enriched": "pub, taverne, brasserie, bière pression, bar anglais, sport TV, pinte",
+        "description_enriched": "pub, bar, taverne, brasserie, bière pression, boire un verre, pinte, soirée",
         "category": "poi",
         "usage_count": 196343
       },
@@ -1156,7 +1156,7 @@
       },
       "fast_food": {
         "description_fr": "Restauration rapide",
-        "description_enriched": "fast-food, restauration rapide, burger, frites, kebab, sandwich, emporter, snack",
+        "description_enriched": "fast-food, restauration rapide, manger rapidement, burger, frites, kebab, sandwich, emporter, snack, où manger",
         "category": "poi",
         "usage_count": 634188
       },
@@ -1947,7 +1947,7 @@
       },
       "supermarket": {
         "description_fr": "Supermarché",
-        "description_enriched": "supermarché, grande surface, courses, alimentation, rayons, caddie",
+        "description_enriched": "supermarché, grande surface, faire les courses, alimentation, rayons, caddie, hypermarché",
         "category": "poi",
         "usage_count": 483041
       },
@@ -2247,7 +2247,7 @@
       },
       "convenience": {
         "description_fr": "Épicerie",
-        "description_enriched": "supérette, épicerie, alimentation, dépannage, commerce proximité",
+        "description_enriched": "supérette, épicerie, faire les courses, alimentation, dépannage, commerce proximité, ouvert tard",
         "category": "poi",
         "usage_count": 805239
       },
@@ -2367,7 +2367,7 @@
       },
       "grocery": {
         "description_fr": "Épicerie",
-        "description_enriched": "épicerie, alimentation, courses, dépannage, produits quotidiens, proximité",
+        "description_enriched": "épicerie, faire les courses, alimentation, courses, dépannage, produits quotidiens, proximité",
         "category": "poi",
         "usage_count": 6761
       },
@@ -2520,6 +2520,18 @@
         "description_enriched": "instruments musique, guitares, pianos, partitions, accessoires musique",
         "category": "poi",
         "usage_count": 7785
+      },
+      "fishmonger": {
+        "description_fr": "Fishmonger",
+        "description_enriched": "poissonnerie, poisson, fruits de mer, marée, écailler, crustacés",
+        "category": "poi",
+        "usage_count": 1000
+      },
+      "market": {
+        "description_fr": "Market",
+        "description_enriched": "marché, marché couvert, étals, producteurs, marché fermier",
+        "category": "poi",
+        "usage_count": 1000
       }
     }
   },
@@ -2534,7 +2546,7 @@
       },
       "hostel": {
         "description_fr": "Hôtel",
-        "description_enriched": "auberge jeunesse, hébergement, budget, voyageurs, dortoir",
+        "description_enriched": "auberge de jeunesse, dormir, hébergement pas cher, dortoir, backpacker, nuit",
         "category": "poi",
         "usage_count": 61374
       },
@@ -2636,13 +2648,13 @@
       },
       "caravan_site": {
         "description_fr": "Site de caravaning",
-        "description_enriched": "camping-car, caravaning, aires, stationnement",
+        "description_enriched": "camping, aire camping-car, caravaning, emplacement, tente, camping-car, dormir",
         "category": "poi",
         "usage_count": 35160
       },
       "guest_house": {
         "description_fr": "Gîte / Chambre d'hôtes",
-        "description_enriched": "chambre hôtes, hébergement, gîte, accueil, bed breakfast",
+        "description_enriched": "chambre d'hôtes, dormir, hébergement, gîte, nuit, bed and breakfast, maison d'hôtes",
         "category": "poi",
         "usage_count": 192053
       },
@@ -2737,7 +2749,7 @@
       },
       "sports_centre": {
         "description_fr": "Centre sportif",
-        "description_enriched": "sport, équipement sportif, vêtements sport, chaussures, fitness, running",
+        "description_enriched": "centre sportif, salle de sport, complexe sportif, gymnase, sports en salle, entraînement",
         "category": "poi",
         "usage_count": 259649
       },
@@ -2785,7 +2797,7 @@
       },
       "swimming_area": {
         "description_fr": "Zone de baignade",
-        "description_enriched": "zone de baignade",
+        "description_enriched": "zone de baignade, nager, baignade, lac, rivière, plage, natation en plein air",
         "category": "poi",
         "usage_count": 6413
       },
@@ -2887,7 +2899,7 @@
       },
       "fitness_centre": {
         "description_fr": "Centre de mise en forme",
-        "description_enriched": "sport, équipement sportif, vêtements sport, chaussures, fitness, running",
+        "description_enriched": "salle de sport, musculation, fitness, gym, entraînement, cardio, cours collectifs",
         "category": "poi",
         "usage_count": 98917
       },
@@ -6776,6 +6788,18 @@
         "description_enriched": "cuisine turque, kebab, mezze, lahmacun, pide",
         "category": "attribute",
         "usage_count": 8813
+      },
+      "vegetarian": {
+        "description_fr": "Vegetarian",
+        "description_enriched": "végétarien, sans viande, légumes, cuisine végétarienne",
+        "category": "attribute",
+        "usage_count": 1000
+      },
+      "vegan": {
+        "description_fr": "Vegan",
+        "description_enriched": "vegan, végétalien, sans produit animal, 100% végétal",
+        "category": "attribute",
+        "usage_count": 1000
       }
     }
   },
@@ -6805,6 +6829,12 @@
         "description_enriched": "accès partiel en fauteuil roulant, accessibilité partielle",
         "category": "attribute",
         "usage_count": 461164
+      },
+      "yes": {
+        "description_fr": "Accessible en fauteuil roulant",
+        "description_enriched": "accessible fauteuil roulant, handicapé, PMR, mobilité réduite, rampe, ascenseur",
+        "category": "attribute",
+        "usage_count": 5000
       }
     }
   },
@@ -7673,6 +7703,12 @@
         "description_enriched": "athlétisme, piste, stade, course, saut, lancer",
         "category": "attribute",
         "usage_count": 68475
+      },
+      "diving": {
+        "description_fr": "Diving",
+        "description_enriched": "plongée, plongée sous-marine, apnée, sous l'eau",
+        "category": "attribute",
+        "usage_count": 1000
       }
     }
   },
@@ -7790,7 +7826,7 @@
       "church": {
         "description_fr": "Église",
         "description_enriched": "église, lieu culte, paroisse, chrétien, cathédrale, chapelle",
-        "category": "other",
+        "category": "poi",
         "usage_count": 426382
       },
       "horsewalker": {
@@ -9919,6 +9955,17 @@
         "description_enriched": "vélos, cycles, bicyclettes, réparation vélo, accessoires vélo, VTT",
         "category": "other",
         "usage_count": 706
+      }
+    }
+  },
+  "aeroway": {
+    "description": "aeroway",
+    "values": {
+      "aerodrome": {
+        "description_fr": "Aerodrome",
+        "description_enriched": "aéroport, aérodrome, avion, vol, aviation, terminal, piste",
+        "category": "poi",
+        "usage_count": 1000
       }
     }
   }

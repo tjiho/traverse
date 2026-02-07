@@ -1,7 +1,7 @@
 from sentence_transformers import CrossEncoder
 from .types import TagItem
 # === CONFIG ===
-CROSS_ENCODER_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"  # ou nli-deberta-v3-small
+CROSS_ENCODER_MODEL = "BAAI/bge-reranker-v2-m3"  # multilingue, supporte le français
 
 # === CHARGEMENT ===
 reranker = CrossEncoder(CROSS_ENCODER_MODEL, device="cuda")

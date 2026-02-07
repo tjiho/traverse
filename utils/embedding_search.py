@@ -12,7 +12,8 @@ def search(query: str, index, tags, descriptions, category: str = "poi", top_k: 
     Returns:
         Liste de dicts: {"tag": "...", "score": 0.85, "category": "...", "description": "..."}
     """
-    query_embedding = model.encode([query], normalize_embeddings=True).astype("float32")
+    # Préfixe "query: " pour E5
+    query_embedding = model.encode([f"query: {query}"], normalize_embeddings=True).astype("float32")
 
     results = []
     scores, indices = index.search(query_embedding, top_k)
@@ -43,7 +44,8 @@ def search_multi(query: str, indexes: list[dict], top_k_per_index: int = 30, top
     Returns:
         Liste fusionnée triée par score
     """
-    query_embedding = model.encode([query], normalize_embeddings=True).astype("float32")
+    # Préfixe "query: " pour E5
+    query_embedding = model.encode([f"query: {query}"], normalize_embeddings=True).astype("float32")
 
     all_results = []
 

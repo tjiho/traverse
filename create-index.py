@@ -8,7 +8,9 @@ MODEL_NAME = "intfloat/multilingual-e5-base"
 
 def index(tags, descriptions, filename):
     model = SentenceTransformer(MODEL_NAME)
-    embeddings = model.encode(descriptions, show_progress_bar=True, normalize_embeddings=True)
+    # Ajouter le préfixe "passage: " pour E5
+    descriptions_with_prefix = [f"passage: {d}" for d in descriptions]
+    embeddings = model.encode(descriptions_with_prefix, show_progress_bar=True, normalize_embeddings=True)
 
     # Construire l'index FAISS
     index = faiss.IndexFlatIP(embeddings.shape[1])
