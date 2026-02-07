@@ -1,0 +1,52 @@
+[
+  {
+    "query": "restaurant",
+    "expected": ["tag:amenity=restaurant"],
+    "category": "poi"
+  },
+  {
+    "query": "restaurant indien",
+    "expected": ["tag:cuisine=indian"],
+    "category": "attribute"
+  },
+  {
+    "query": "où manger",
+    "expected": ["tag:amenity=restaurant", "tag:amenity=fast_food", "tag:amenity=cafe"],
+    "category": "poi"
+  },
+  {
+    "query": "boulangerie",
+    "expected": ["tag:shop=bakery"],
+    "category": "poi"
+  },
+  {
+    "query": "poser son vélo",
+    "expected": ["tag:amenity=bicycle_parking"],
+    "category": "poi"
+  },
+  {
+    "query": "bar à jeux",
+    "expected": ["tag:cafe=boardgame"],
+    "category": "poi"
+  },
+  {
+    "query": "faire les courses",
+    "expected": ["tag:shop=supermarket", "tag:shop=grocery", "tag:shop=convenience"],
+    "category": "poi"
+  },
+  {
+    "query": "cuisine chinoise",
+    "expected": ["tag:cuisine=chinese"],
+    "category": "attribute"
+  },
+  {
+    "query": "aéroport",
+    "expected": ["tag:aeroway=aerodrome"],
+    "category": "poi"
+  },
+  {
+    "query": "accessible fauteuil roulant",
+    "expected": ["tag:wheelchair=yes"],
+    "category": "attribute"
+  }
+]

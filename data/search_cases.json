@@ -1,0 +1,503 @@
+[
+  {
+    "query": "restaurant",
+    "expected": ["tag:amenity=restaurant"],
+    "category": "poi"
+  },
+  {
+    "query": "où manger",
+    "expected": ["tag:amenity=restaurant", "tag:amenity=fast_food", "tag:amenity=cafe"],
+    "category": "poi"
+  },
+  {
+    "query": "boulangerie",
+    "expected": ["tag:shop=bakery"],
+    "category": "poi"
+  },
+  {
+    "query": "poser son vélo",
+    "expected": ["tag:amenity=bicycle_parking"],
+    "category": "poi"
+  },
+  {
+    "query": "faire les courses",
+    "expected": ["tag:shop=supermarket", "tag:shop=grocery", "tag:shop=convenience"],
+    "category": "poi"
+  },
+  {
+    "query": "aéroport",
+    "expected": ["tag:aeroway=aerodrome"],
+    "category": "poi"
+  },
+  {
+    "query": "café",
+    "expected": ["tag:amenity=cafe"],
+    "category": "poi"
+  },
+  {
+    "query": "bar",
+    "expected": ["tag:amenity=bar", "tag:amenity=pub"],
+    "category": "poi"
+  },
+  {
+    "query": "pharmacie",
+    "expected": ["tag:amenity=pharmacy"],
+    "category": "poi"
+  },
+  {
+    "query": "hôpital",
+    "expected": ["tag:amenity=hospital", "tag:healthcare=hospital"],
+    "category": "poi"
+  },
+  {
+    "query": "médecin",
+    "expected": ["tag:amenity=doctors", "tag:healthcare=doctor"],
+    "category": "poi"
+  },
+  {
+    "query": "dentiste",
+    "expected": ["tag:amenity=dentist", "tag:healthcare=dentist"],
+    "category": "poi"
+  },
+  {
+    "query": "banque",
+    "expected": ["tag:amenity=bank"],
+    "category": "poi"
+  },
+  {
+    "query": "distributeur",
+    "expected": ["tag:amenity=atm"],
+    "category": "poi"
+  },
+  {
+    "query": "retirer de l'argent",
+    "expected": ["tag:amenity=atm", "tag:amenity=bank"],
+    "category": "poi"
+  },
+  {
+    "query": "poste",
+    "expected": ["tag:amenity=post_office"],
+    "category": "poi"
+  },
+  {
+    "query": "envoyer une lettre",
+    "expected": ["tag:amenity=post_office", "tag:amenity=post_box"],
+    "category": "poi"
+  },
+  {
+    "query": "toilettes",
+    "expected": ["tag:amenity=toilets"],
+    "category": "poi"
+  },
+  {
+    "query": "parking",
+    "expected": ["tag:amenity=parking"],
+    "category": "poi"
+  },
+  {
+    "query": "garer ma voiture",
+    "expected": ["tag:amenity=parking"],
+    "category": "poi"
+  },
+  {
+    "query": "station essence",
+    "expected": ["tag:amenity=fuel"],
+    "category": "poi"
+  },
+  {
+    "query": "faire le plein",
+    "expected": ["tag:amenity=fuel"],
+    "category": "poi"
+  },
+  {
+    "query": "borne de recharge",
+    "expected": ["tag:amenity=charging_station"],
+    "category": "poi"
+  },
+  {
+    "query": "recharger ma voiture électrique",
+    "expected": ["tag:amenity=charging_station"],
+    "category": "poi"
+  },
+  {
+    "query": "cinéma",
+    "expected": ["tag:amenity=cinema"],
+    "category": "poi"
+  },
+  {
+    "query": "théâtre",
+    "expected": ["tag:amenity=theatre"],
+    "category": "poi"
+  },
+  {
+    "query": "musée",
+    "expected": ["tag:tourism=museum"],
+    "category": "poi"
+  },
+  {
+    "query": "bibliothèque",
+    "expected": ["tag:amenity=library"],
+    "category": "poi"
+  },
+  {
+    "query": "parc",
+    "expected": ["tag:leisure=park"],
+    "category": "poi"
+  },
+  {
+    "query": "aire de jeux",
+    "expected": ["tag:leisure=playground"],
+    "category": "poi"
+  },
+  {
+    "query": "piscine",
+    "expected": ["tag:leisure=swimming_pool", "tag:sport=swimming"],
+    "category": "poi"
+  },
+  {
+    "query": "nager",
+    "expected": ["tag:leisure=swimming_pool", "tag:leisure=swimming_area"],
+    "category": "poi"
+  },
+  {
+    "query": "salle de sport",
+    "expected": ["tag:leisure=fitness_centre", "tag:leisure=sports_centre"],
+    "category": "poi"
+  },
+  {
+    "query": "tennis",
+    "expected": ["tag:sport=tennis", "tag:leisure=pitch sport=tennis"],
+    "category": "poi"
+  },
+  {
+    "query": "jouer au foot",
+    "expected": ["tag:sport=soccer", "tag:leisure=pitch sport=soccer"],
+    "category": "poi"
+  },
+  {
+    "query": "stade",
+    "expected": ["tag:leisure=stadium"],
+    "category": "poi"
+  },
+  {
+    "query": "hôtel",
+    "expected": ["tag:tourism=hotel"],
+    "category": "poi"
+  },
+  {
+    "query": "dormir",
+    "expected": ["tag:tourism=hotel", "tag:tourism=hostel", "tag:tourism=guest_house"],
+    "category": "poi"
+  },
+  {
+    "query": "camping",
+    "expected": ["tag:tourism=camp_site", "tag:tourism=caravan_site"],
+    "category": "poi"
+  },
+  {
+    "query": "école",
+    "expected": ["tag:amenity=school"],
+    "category": "poi"
+  },
+  {
+    "query": "université",
+    "expected": ["tag:amenity=university"],
+    "category": "poi"
+  },
+  {
+    "query": "coiffeur",
+    "expected": ["tag:shop=hairdresser"],
+    "category": "poi"
+  },
+  {
+    "query": "vétérinaire",
+    "expected": ["tag:amenity=veterinary"],
+    "category": "poi"
+  },
+  {
+    "query": "fleuriste",
+    "expected": ["tag:shop=florist"],
+    "category": "poi"
+  },
+  {
+    "query": "boucherie",
+    "expected": ["tag:shop=butcher"],
+    "category": "poi"
+  },
+  {
+    "query": "poissonnerie",
+    "expected": ["tag:shop=seafood", "tag:shop=fishmonger"],
+    "category": "poi"
+  },
+  {
+    "query": "librairie",
+    "expected": ["tag:shop=books"],
+    "category": "poi"
+  },
+  {
+    "query": "magasin de vélo",
+    "expected": ["tag:shop=bicycle"],
+    "category": "poi"
+  },
+  {
+    "query": "louer un vélo",
+    "expected": ["tag:amenity=bicycle_rental"],
+    "category": "poi"
+  },
+  {
+    "query": "église",
+    "expected": ["tag:amenity=place_of_worship", "tag:building=church"],
+    "category": "poi"
+  },
+  {
+    "query": "zoo",
+    "expected": ["tag:tourism=zoo"],
+    "category": "poi"
+  },
+  {
+    "query": "aquarium",
+    "expected": ["tag:tourism=aquarium"],
+    "category": "poi"
+  },
+  {
+    "query": "point de vue",
+    "expected": ["tag:tourism=viewpoint"],
+    "category": "poi"
+  },
+  {
+    "query": "restaurant indien",
+    "expected": ["tag:cuisine=indian"],
+    "category": "attribute"
+  },
+  {
+    "query": "cuisine chinoise",
+    "expected": ["tag:cuisine=chinese"],
+    "category": "attribute"
+  },
+  {
+    "query": "manger japonais",
+    "expected": ["tag:cuisine=japanese", "tag:cuisine=sushi"],
+    "category": "attribute"
+  },
+  {
+    "query": "pizza",
+    "expected": ["tag:cuisine=pizza"],
+    "category": "attribute"
+  },
+  {
+    "query": "burger",
+    "expected": ["tag:cuisine=burger"],
+    "category": "attribute"
+  },
+  {
+    "query": "kebab",
+    "expected": ["tag:cuisine=kebab"],
+    "category": "attribute"
+  },
+  {
+    "query": "sushi",
+    "expected": ["tag:cuisine=sushi"],
+    "category": "attribute"
+  },
+  {
+    "query": "végétarien",
+    "expected": ["tag:cuisine=vegetarian"],
+    "category": "attribute"
+  },
+  {
+    "query": "vegan",
+    "expected": ["tag:cuisine=vegan"],
+    "category": "attribute"
+  },
+  {
+    "query": "glace",
+    "expected": ["tag:cuisine=ice_cream", "tag:shop=ice_cream", "tag:amenity=ice_cream"],
+    "category": "attribute"
+  },
+  {
+    "query": "accessible fauteuil roulant",
+    "expected": ["tag:wheelchair", "tag:wheelchair=limited"],
+    "category": "attribute"
+  },
+  {
+    "query": "où manger chinois",
+    "expected": ["tag:cuisine=chinese"],
+    "category": "attribute",
+    "note": "poi implicite + attribute explicite"
+  },
+  {
+    "query": "escape game",
+    "expected": ["tag:leisure=escape_game"],
+    "category": "poi"
+  },
+  {
+    "query": "bowling",
+    "expected": ["tag:leisure=bowling_alley", "tag:sport=10pin"],
+    "category": "poi"
+  },
+  {
+    "query": "mini golf",
+    "expected": ["tag:leisure=miniature_golf"],
+    "category": "poi"
+  },
+  {
+    "query": "patinoire",
+    "expected": ["tag:leisure=ice_rink"],
+    "category": "poi"
+  },
+  {
+    "query": "sauna",
+    "expected": ["tag:leisure=sauna"],
+    "category": "poi"
+  },
+  {
+    "query": "laverie",
+    "expected": ["tag:shop=laundry"],
+    "category": "poi"
+  },
+  {
+    "query": "pressing",
+    "expected": ["tag:shop=dry_cleaning"],
+    "category": "poi"
+  },
+  {
+    "query": "opticien",
+    "expected": ["tag:shop=optician", "tag:healthcare=optometrist"],
+    "category": "poi"
+  },
+  {
+    "query": "kiné",
+    "expected": ["tag:healthcare=physiotherapist"],
+    "category": "poi"
+  },
+  {
+    "query": "fontaine à eau",
+    "expected": ["tag:amenity=drinking_water"],
+    "category": "poi"
+  },
+  {
+    "query": "boire de l'eau",
+    "expected": ["tag:amenity=drinking_water"],
+    "category": "poi"
+  },
+  {
+    "query": "poubelle",
+    "expected": ["tag:amenity=waste_basket"],
+    "category": "poi"
+  },
+  {
+    "query": "recyclage",
+    "expected": ["tag:amenity=recycling"],
+    "category": "poi"
+  },
+  {
+    "query": "taxi",
+    "expected": ["tag:amenity=taxi"],
+    "category": "poi"
+  },
+  {
+    "query": "gare routière",
+    "expected": ["tag:amenity=bus_station"],
+    "category": "poi"
+  },
+  {
+    "query": "terminal ferry",
+    "expected": ["tag:amenity=ferry_terminal"],
+    "category": "poi"
+  },
+  {
+    "query": "commissariat",
+    "expected": ["tag:amenity=police"],
+    "category": "poi"
+  },
+  {
+    "query": "pompiers",
+    "expected": ["tag:amenity=fire_station"],
+    "category": "poi"
+  },
+  {
+    "query": "mairie",
+    "expected": ["tag:amenity=townhall"],
+    "category": "poi"
+  },
+  {
+    "query": "marché",
+    "expected": ["tag:amenity=marketplace", "tag:shop=market"],
+    "category": "poi"
+  },
+  {
+    "query": "primeur",
+    "expected": ["tag:shop=greengrocer"],
+    "category": "poi"
+  },
+  {
+    "query": "fromager",
+    "expected": ["tag:shop=cheese"],
+    "category": "poi"
+  },
+  {
+    "query": "caviste",
+    "expected": ["tag:shop=wine", "tag:shop=alcohol"],
+    "category": "poi"
+  },
+  {
+    "query": "jouets",
+    "expected": ["tag:shop=toys"],
+    "category": "poi"
+  },
+  {
+    "query": "jeux vidéo",
+    "expected": ["tag:shop=video_games"],
+    "category": "poi"
+  },
+  {
+    "query": "bricolage",
+    "expected": ["tag:shop=doityourself", "tag:shop=hardware"],
+    "category": "poi"
+  },
+  {
+    "query": "jardinerie",
+    "expected": ["tag:shop=garden_centre"],
+    "category": "poi"
+  },
+  {
+    "query": "animalerie",
+    "expected": ["tag:shop=pet"],
+    "category": "poi"
+  },
+  {
+    "query": "téléphone",
+    "expected": ["tag:shop=mobile_phone"],
+    "category": "poi"
+  },
+  {
+    "query": "informatique",
+    "expected": ["tag:shop=computer", "tag:shop=electronics"],
+    "category": "poi"
+  },
+  {
+    "query": "équitation",
+    "expected": ["tag:sport=equestrian", "tag:leisure=horse_riding"],
+    "category": "poi"
+  },
+  {
+    "query": "escalade",
+    "expected": ["tag:sport=climbing"],
+    "category": "poi"
+  },
+  {
+    "query": "plongée",
+    "expected": ["tag:sport=scuba_diving", "tag:sport=diving"],
+    "category": "poi"
+  },
+  {
+    "query": "golf",
+    "expected": ["tag:leisure=golf_course", "tag:sport=golf"],
+    "category": "poi"
+  },
+  {
+    "query": "skatepark",
+    "expected": ["tag:sport=skateboard", "tag:leisure=pitch sport=skateboard"],
+    "category": "poi"
+  }
+]
