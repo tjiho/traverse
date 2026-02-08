@@ -44,12 +44,6 @@
         "category": "poi",
         "usage_count": 3467
       },
-      "Comercio": {
-        "description_fr": "Commerce",
-        "description_enriched": "commerce, boutique, magasin, achats, shopping, courses",
-        "category": "poi",
-        "usage_count": 332
-      },
       "pub": {
         "description_fr": "Pub/Brasserie",
         "description_enriched": "pub, bar, taverne, brasserie, bière pression, boire un verre, pinte, soirée",
@@ -163,12 +157,6 @@
         "description_enriched": "pension animaux, garde chien, garde chat, chenil, chatterie, vacances animaux, gardiennage",
         "category": "poi",
         "usage_count": 5445
-      },
-      "building": {
-        "description_fr": "Bâtiment",
-        "description_enriched": "meubles, ameublement, mobilier, décoration, literie, canapés, rangement",
-        "category": "poi",
-        "usage_count": 323
       },
       "customs": {
         "description_fr": "Douane",
@@ -290,12 +278,6 @@
         "category": "poi",
         "usage_count": 7026
       },
-      "check_in": {
-        "description_fr": "Check In",
-        "description_enriched": "enregistrement, comptoir embarquement, aéroport, carte embarquement, valises, bagages",
-        "category": "poi",
-        "usage_count": 385
-      },
       "restaurant": {
         "description_fr": "Restaurant",
         "description_enriched": "restaurant, manger, déjeuner, dîner, menu, carte, réservation table, repas, gastronomie",
@@ -349,12 +331,6 @@
         "description_enriched": "cimetière, tombes, sépultures, défunts, recueillement, nécropole, funéraire",
         "category": "poi",
         "usage_count": 159645
-      },
-      "sacco": {
-        "description_fr": "Sacco",
-        "description_enriched": "coopérative épargne crédit, mutuelle, microfinance, épargne communautaire",
-        "category": "poi",
-        "usage_count": 318
       },
       "social_centre": {
         "description_fr": "Centre social",
@@ -2728,12 +2704,6 @@
         "description_enriched": "loisirs, terrain communal",
         "category": "poi",
         "usage_count": 31041
-      },
-      "paddling_pool": {
-        "description_fr": "Paddling Pool",
-        "description_enriched": "paddling pool",
-        "category": "poi",
-        "usage_count": 401
       },
       "bathing_place": {
         "description_fr": "Bathing Place",

@@ -5,3 +5,4 @@ class TagItem(TypedDict):
     score: float
     category: str
     description: str
+    usage_count: int

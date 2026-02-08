@@ -4,6 +4,7 @@ import json
 import numpy as np
 
 INPUT_FILE = "data/osm_wiki_tags_cleaned.json"
+NATURAL_DESC_FILE = "data/osm_wiki_tags_natural_desc.json"
 MODEL_NAME = "intfloat/multilingual-e5-base"
 
 def index(tags, descriptions, filename):
@@ -28,8 +29,11 @@ def index(tags, descriptions, filename):
 with open(INPUT_FILE, "r") as f:
     tags_data = json.load(f)
 
+# Charger les descriptions naturelles (générées par Mistral)
+with open(NATURAL_DESC_FILE, "r", encoding="utf-8") as f:
+    natural_descriptions = json.load(f)
 
-poi_tags = []   
+poi_tags = []
 poi_descriptions = []
 attribute_tags = []
 attribute_descriptions = []
@@ -37,9 +41,14 @@ attribute_descriptions = []
 for key, key_data in tags_data.items():
     for value, value_data in key_data.get("values", {}).items():
         tag = f"{key}={value}"
-        desc = value_data.get("description_enriched", value_data.get("description_fr", ""))
+        # Utiliser la description naturelle si disponible, sinon fallback
+        desc = natural_descriptions.get(tag, value_data.get("description_enriched", value_data.get("description_fr", "")))
+        # Préfixer avec le nom français pour améliorer le matching
+        name_fr = value_data.get("description_fr", "")
+        if name_fr and not desc.lower().startswith(name_fr.lower()):
+            desc = f"{name_fr}. {desc}"
         cat = value_data.get("category", "other")
-        
+
         if cat == "poi":
             poi_tags.append(tag)
             poi_descriptions.append(desc)
