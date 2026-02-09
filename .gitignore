@@ -1,3 +1,7 @@
+res.txt
+attributes_list_desc.json
+attributes_list.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
