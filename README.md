@@ -1,6 +1,6 @@
 # Traverse
 
-Recherche sémantique de tags OpenStreetMap en langage naturel français.
+Recherche sémantique de tags OpenStreetMap en langage naturel en français.
 
 Transforme des requêtes comme "où manger", "parking vélo", "acheter du pain" en tags OSM correspondants (`amenity=restaurant`, `amenity=bicycle_parking`, `shop=bakery`).
 
@@ -8,10 +8,16 @@ Transforme des requêtes comme "où manger", "parking vélo", "acheter du pain" 
 
 Pipeline en 2 étapes :
 
-1. **Embedding search** - Recherche sémantique avec `intfloat/multilingual-e5-base` dans des index FAISS (POI + attributs)
-2. **Reranking** - Affinement avec `Qwen/Qwen3-Reranker-0.6B`, séparant résultats populaires et niche
+1. **Embedding search** - Recherche sémantique avec `intfloat/multilingual-e5-base` dans des index FAISS (POI + attributs). Recherche rapide pour selectionner le top 100.
+2. **Reranking** - Affinement avec `Qwen/Qwen3-Reranker-0.6B`, séparant résultats populaires (tag avec plus de 10000 occurence) et niche (moins de 10000). Selectionne deux top 5 (populaire et niche)
 
-Les descriptions des tags sont des phrases en français naturel générées par Mistral Large, enrichies du nom français (`description_fr`) pour un meilleur matching.
+Les modèles traitent la description du tag + la traduction française du tag + la valeur litteral du tag. 
+
+Les données de départ sont un mélange de scrapping du wiki openstreetmap, ainsi qu'un fichier json provenant de ce repo https://github.com/plepe/openstreetmap-tag-translations. Les statistiques sur les tags proviennent de https://taginfo.openstreetmap.org/
+
+Les descriptions des tags ont été généré par Mistral Large. Ce sont des phrases en français naturel. 
+
+
 
 Performance : **98.4% recall** sur 100 cas de test.
 
@@ -23,19 +29,21 @@ uv sync
 
 ## Usage
 
-Construire les index (nécessite GPU) :
+Conseillé de faire tourner ces scripts avec une carte graphique d'au moins 4gio de vram.
+
+Construire les index :
 ```bash
-switcherooctl launch uv run create-index.py
+uv run create-index.py
 ```
 
 Recherche interactive :
 ```bash
-switcherooctl launch uv run search.py
+rlwrap uv run search.py
 ```
 
 Évaluation :
 ```bash
-switcherooctl launch uv run test/evaluate.py
+uv run test/evaluate.py
 ```
 
 ## Architecture
