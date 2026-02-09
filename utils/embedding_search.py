@@ -1,80 +1,43 @@
-from sentence_transformers import SentenceTransformer
+from dataclasses import replace
 
-MODEL_NAME = "intfloat/multilingual-e5-base"
-
-model = SentenceTransformer(MODEL_NAME)
+from .types import Candidate
 
 
-def search(query: str, index, tags, descriptions, category: str = "poi", top_k: int = 10, min_score: float = 0.3) -> list[dict]:
+def search(query: str, candidates: list[Candidate], settings: dict) -> list[Candidate]:
     """
-    Recherche dans un seul index.
-
-    Returns:
-        Liste de dicts: {"tag": "...", "score": 0.85, "category": "...", "description": "..."}
-    """
-    # Préfixe "query: " pour E5
-    query_embedding = model.encode([f"query: {query}"], normalize_embeddings=True).astype("float32")
-
-    results = []
-    scores, indices = index.search(query_embedding, top_k)
-
-    for idx, score in zip(indices[0], scores[0]):
-        if score >= min_score:
-            results.append({
-                "tag": tags[idx],
-                "description": descriptions[idx],
-                "score": float(score),
-                "category": category,
-            })
-
-    return results
-
-
-def search_multi(query: str, indexes: list[dict], top_k_per_index: int = 30, top_k_total: int = 50, min_score: float = 0.3) -> list[dict]:
-    """
-    Recherche dans plusieurs index et fusionne les résultats.
-    Prend top_k_per_index de chaque index pour éviter qu'une catégorie domine.
+    Recherche par embedding dans les index FAISS.
 
     Args:
-        indexes: Liste de dicts avec keys: index, tags, descriptions, category
-                 Ex: [{"index": poi_index, "tags": poi_tags, "descriptions": poi_desc, "category": "poi"}, ...]
-        top_k_per_index: Nombre de résultats à prendre par index
-        top_k_total: Nombre total de résultats à retourner
+        query: Requête en français
+        candidates: Liste complète de candidats (même ordre que les index FAISS)
+        settings: {"model", "indexes", "top_k_per_index", "top_k_total", "min_score"}
 
     Returns:
-        Liste fusionnée triée par score
+        Sous-ensemble de candidats avec score rempli, triés par score décroissant
     """
-    # Préfixe "query: " pour E5
-    query_embedding = model.encode([f"query: {query}"], normalize_embeddings=True).astype("float32")
+    model = settings["model"]
+    top_k_per_index = settings.get("top_k_per_index", 30)
+    top_k_total = settings.get("top_k_total", 50)
+    min_score = settings.get("min_score", 0.0)
 
-    all_results = []
+    query_embedding = model.encode(
+        [f"query: {query}"], normalize_embeddings=True
+    ).astype("float32")
 
-    for idx_data in indexes:
-        index = idx_data["index"]
-        tags = idx_data["tags"]
-        descriptions = idx_data["descriptions"]
-        category = idx_data["category"]
+    results = []
+
+    for index_config in settings["indexes"]:
+        index = index_config["index"]
+        category = index_config["category"]
+
+        # Filtrer les candidats de cette catégorie (même ordre que le FAISS index)
+        cat_candidates = [c for c in candidates if c.category == category]
 
         scores, indices = index.search(query_embedding, top_k_per_index)
 
         for idx, score in zip(indices[0], scores[0]):
             if score >= min_score:
-                all_results.append({
-                    "tag": tags[idx],
-                    "description": descriptions[idx],
-                    "score": float(score),
-                    "category": category,
-                })
+                results.append(replace(cat_candidates[idx], score=float(score)))
 
-    # Trier par score et garder top_k_total
-    all_results.sort(key=lambda x: x["score"], reverse=True)
-    return all_results[:top_k_total]
-
-
-# TODO: Idée future - classifier la requête en POI/attribut pour optimiser la recherche
-# Options testées (voir test_category_detection.py):
-# - Heuristiques basées sur mots-clés: 86.7% accuracy, 0ms
-# - Embedding similarity avec prototypes: 80%, 0.5s
-# - Zero-shot (mDeBERTa): 33%, 1s
-# - LLM (Gemma 3 1B): 37%, 5s
-# Pour l'instant on cherche partout, le reranker trie.
+    results.sort(key=lambda c: c.score, reverse=True)
+    return results[:top_k_total]

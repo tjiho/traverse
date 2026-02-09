@@ -9,29 +9,9 @@ import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import json
-import faiss
-from utils.embedding_search import search_multi
+from utils.prepare import prepare
+from utils.embedding_search import search
 from utils.rerank_with_crossencoder import rerank
-
-# Charger les index POI
-poi_index = faiss.read_index("data/poi.index")
-with open("data/poi_list.json", "r", encoding="utf-8") as f:
-    poi_tags = json.load(f)
-with open("data/poi_list_desc.json", "r", encoding="utf-8") as f:
-    poi_descriptions = json.load(f)
-
-# Charger les index Attributs
-attr_index = faiss.read_index("data/attributes.index")
-with open("data/attributes_list.json", "r", encoding="utf-8") as f:
-    attr_tags = json.load(f)
-with open("data/attributes_list_desc.json", "r", encoding="utf-8") as f:
-    attr_descriptions = json.load(f)
-
-# Config pour search_multi
-INDEXES = [
-    {"index": poi_index, "tags": poi_tags, "descriptions": poi_descriptions, "category": "poi"},
-    {"index": attr_index, "tags": attr_tags, "descriptions": attr_descriptions, "category": "attribute"},
-]
 
 
 def compute_metrics(expected: set, found_tags: list) -> tuple[float, float]:
@@ -49,18 +29,22 @@ def compute_metrics(expected: set, found_tags: list) -> tuple[float, float]:
     return recall, mrr
 
 
-def evaluate(test_file: str = "data/search_cases.json", search_top_k_per_index: int = 30, search_top_k_total: int = 50, rerank_top_k: int = 10):
+def evaluate(test_file: str = "data/search_cases.json", search_top_k_per_index: int = 30, search_top_k_total: int = 50):
     """
     Évalue la recherche sur les cas de tests
 
     Deux étapes:
     1. Search (embedding) - récupère search_top_k candidats
-    2. Rerank (cross-encoder) - garde rerank_top_k résultats
+    2. Rerank (cross-encoder) - garde top_k résultats
 
     Métriques:
     - Recall: proportion des tags attendus trouvés
     - MRR: Mean Reciprocal Rank (position moyenne du premier tag correct)
     """
+    candidates, search_settings, rerank_settings = prepare()
+    search_settings["top_k_per_index"] = search_top_k_per_index
+    search_settings["top_k_total"] = search_top_k_total
+
     with open(test_file, "r", encoding="utf-8") as f:
         cases = json.load(f)
 
@@ -77,16 +61,16 @@ def evaluate(test_file: str = "data/search_cases.json", search_top_k_per_index: 
         # Convertir format "tag:amenity=restaurant" → "amenity=restaurant"
         expected = {tag[4:] if tag.startswith("tag:") else tag for tag in expected}
 
-        # Étape 1: Search (embedding) dans POI + Attributs
-        search_results = search_multi(query, INDEXES, top_k_per_index=search_top_k_per_index, top_k_total=search_top_k_total, min_score=0.0)
-        search_tags = [r["tag"] for r in search_results]
+        # Étape 1: Search (embedding)
+        search_results = search(query, candidates, search_settings)
+        search_tags = [r.tag for r in search_results]
         search_recall, search_mrr = compute_metrics(expected, search_tags)
         search_recall_total += search_recall
         search_mrr_total += search_mrr
 
-        # Étape 2: Rerank
-        rerank_results = rerank(query, search_results, top_k=rerank_top_k)
-        rerank_tags = [r["tag"] for r in rerank_results]
+        # Étape 2: Rerank (cross-encoder)
+        rerank_results = rerank(query, search_results, rerank_settings)
+        rerank_tags = [r.tag for r in rerank_results]
         rerank_recall, rerank_mrr = compute_metrics(expected, rerank_tags)
         rerank_recall_total += rerank_recall
         rerank_mrr_total += rerank_mrr

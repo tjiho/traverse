@@ -1,8 +1,11 @@
-from typing import TypedDict
+from dataclasses import dataclass, replace
 
-class TagItem(TypedDict):
-    tag: str
-    score: float
-    category: str
-    description: str
-    usage_count: int
+
+@dataclass
+class Candidate:
+    tag: str                  # "amenity=restaurant"
+    description_fr: str       # "Restaurant"
+    description_natural: str  # "Lieu où l'on déguste des repas..." (Mistral)
+    category: str             # "poi" | "attribute"
+    usage_count: int          # 1534079
+    score: float = 0.0        # rempli par search, puis écrasé par rerank
