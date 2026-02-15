@@ -39,30 +39,18 @@ def _compute_scores(inputs, settings: dict) -> list[float]:
     return batch_scores[:, 1].exp().tolist()
 
 
-def rerank(query: str, candidates: list[Candidate], settings: dict) -> list[Candidate]:
-    """
-    Re-rank avec Qwen3-Reranker, par petits batches.
-    Retourne top_k tags populaires + top_k tags niche, fusionnés.
+def _score_candidates(query: str, candidates: list[Candidate], task_instruction: str, settings: dict) -> list[Candidate]:
+    """Score une liste de candidats avec une instruction donnée. Retourne les candidats avec score."""
+    if not candidates:
+        return []
 
-    Args:
-        query: Requête en français
-        candidates: Candidats scorés (sortie de search)
-        settings: {"model", "tokenizer", "token_true_id", "token_false_id",
-                   "prefix_tokens", "suffix_tokens", "max_length",
-                   "task_instruction", "top_k", "batch_size", "usage_count_threshold"}
-    """
-    top_k = settings.get("top_k", 5)
     batch_size = settings.get("batch_size", 10)
-    usage_count_threshold = settings.get("usage_count_threshold", 10_000)
-    task_instruction = settings["task_instruction"]
 
-    # Construire les paires query/document
     pairs = []
     for c in candidates:
-        doc = f"{c.tag} ({c.description_fr}): {c.description_natural}" if c.description_fr else f"{c.tag}: {c.description_natural}"
+        doc = f"{c.description_fr}: {c.description_natural}" if c.description_fr else f"{c.description_natural}"
         pairs.append(_format_pair(query, doc, task_instruction))
 
-    # Scorer par batches pour éviter l'OOM
     all_scores = []
     for i in range(0, len(pairs), batch_size):
         batch = pairs[i:i + batch_size]
@@ -70,17 +58,39 @@ def rerank(query: str, candidates: list[Candidate], settings: dict) -> list[Cand
         scores = _compute_scores(inputs, settings)
         all_scores.extend(scores)
 
-    # Séparer populaires et niche
-    popular = []
-    niche = []
-    for candidate, score in zip(candidates, all_scores):
-        scored = replace(candidate, score=score)
-        if candidate.usage_count >= usage_count_threshold:
-            popular.append(scored)
-        else:
-            niche.append(scored)
+    return [replace(c, score=s) for c, s in zip(candidates, all_scores)]
 
-    popular.sort(key=lambda c: c.score, reverse=True)
-    niche.sort(key=lambda c: c.score, reverse=True)
 
-    return popular[:top_k] + niche[:top_k]
+def rerank(query: str, candidates: list[Candidate], settings: dict) -> list[Candidate]:
+    """
+    Re-rank avec Qwen3-Reranker, par petits batches.
+    Score les POI et attributs séparément avec des instructions adaptées,
+    puis retourne top_k tags populaires + top_k tags niche.
+
+    Args:
+        query: Requête en français
+        candidates: Candidats scorés (sortie de search)
+        settings: {"model", "tokenizer", "token_true_id", "token_false_id",
+                   "prefix_tokens", "suffix_tokens", "max_length",
+                   "task_instructions", "top_k", "batch_size", "usage_count_threshold"}
+    """
+    top_k = settings.get("top_k", 5)
+    usage_count_threshold = settings.get("usage_count_threshold", 10_000)
+    task_instructions = settings["task_instructions"]
+
+    # Séparer par catégorie et scorer avec l'instruction adaptée
+    poi_candidates = [c for c in candidates if c.category == "poi"]
+    attr_candidates = [c for c in candidates if c.category == "attribute"]
+
+    poi_scored = _score_candidates(query, poi_candidates, task_instructions["poi"], settings)
+    attr_scored = _score_candidates(query, attr_candidates, task_instructions["attribute"], settings)
+
+    # Split popular/niche par catégorie, top_k de chaque groupe
+    def _split_and_top(scored, top_k):
+        popular = sorted([c for c in scored if c.usage_count >= usage_count_threshold], key=lambda c: c.score, reverse=True)[:top_k]
+        niche = sorted([c for c in scored if c.usage_count < usage_count_threshold], key=lambda c: c.score, reverse=True)[:top_k]
+        popular = [replace(c, visibility="popular") for c in popular]
+        niche = [replace(c, visibility="niche") for c in niche]
+        return popular + niche
+
+    return _split_and_top(poi_scored, top_k) + _split_and_top(attr_scored, top_k)

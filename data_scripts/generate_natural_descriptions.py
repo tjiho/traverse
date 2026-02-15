@@ -1,5 +1,5 @@
 """
-Génère des descriptions naturelles en français à partir des descriptions enrichies (mots-clés)
+Génère des descriptions naturelles en français à partir des descriptions wiki EN/FR
 en utilisant l'API Mistral. Sauvegarde dans data/osm_wiki_tags_natural_desc.json
 """
 
@@ -10,22 +10,38 @@ from mistralai import Mistral
 
 API_KEY = os.environ["MISTRAL_API_KEY"]
 MODEL = "mistral-large-latest"
-INPUT_FILE = "data/osm_wiki_tags_cleaned.json"
+INPUT_FILE = "data/data_tmp/osm_tags_complete.json"
 OUTPUT_FILE = "data/osm_wiki_tags_natural_desc.json"
 BATCH_SIZE = 20  # tags par requête pour réduire le nombre d'appels
 
 client = Mistral(api_key=API_KEY)
 
 
-def build_batch_prompt(tags_batch: list[dict]) -> str:
-    """Construit un prompt pour transformer un batch de descriptions en phrases naturelles."""
-    lines = []
-    for item in tags_batch:
-        lines.append(f"- {item['tag']}: {item['keywords']}")
+def format_tag_descriptions(item: dict) -> str:
+    """Formate les descriptions EN/FR d'un tag pour le prompt."""
+    tag = item["tag"]
+    desc_en = item.get("description_en", "")
+    desc_fr = item.get("description_fr", "")
 
-    return f"""Transforme chaque liste de mots-clés en UNE phrase descriptive naturelle en français.
-La phrase doit décrire ce qu'est le lieu ou l'attribut, en utilisant les mots-clés fournis.
-Garde la phrase courte (max 20 mots). Ne mets pas le nom du tag dans la phrase.
+    parts = [f"- {tag}"]
+    if desc_en:
+        parts.append(f" [EN]: {desc_en}")
+    if desc_fr:
+        parts.append(f" [FR]: {desc_fr}")
+    if not desc_en and not desc_fr:
+        parts.append(f" (pas de description)")
+
+    return "".join(parts)
+
+
+def build_batch_prompt(tags_batch: list[dict]) -> str:
+    """Construit un prompt pour générer des descriptions naturelles à partir des descriptions wiki."""
+    lines = [format_tag_descriptions(item) for item in tags_batch]
+
+    return f"""Voici des tags OpenStreetMap avec leurs descriptions wiki en anglais et/ou français.
+Pour chaque tag, produis UNE phrase descriptive naturelle en français (max 20 mots).
+La phrase doit décrire ce qu'est le lieu ou l'attribut pour que quelqu'un qui cherche en français puisse le trouver.
+Ne mets pas le nom du tag dans la phrase. Si aucune description n'est fournie, déduis du nom du tag.
 
 {chr(10).join(lines)}
 
@@ -70,8 +86,13 @@ def main():
             full_tag = f"{category}={tag_val}"
             if full_tag in results:
                 continue
-            keywords = tag_info.get("description_enriched", tag_info.get("description_fr", ""))
-            all_tags.append({"tag": full_tag, "keywords": keywords})
+            desc_en = tag_info.get("description_en", "")
+            desc_fr = tag_info.get("description_fr", "")
+            all_tags.append({
+                "tag": full_tag,
+                "description_en": desc_en,
+                "description_fr": desc_fr,
+            })
 
     print(f"{len(all_tags)} tags à traiter ({len(results)} déjà faits)")
 

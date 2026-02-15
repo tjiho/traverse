@@ -5980,793 +5980,793 @@
     "description": "Type de cuisine",
     "values": {
       "italian_pizza": {
-        "description_fr": "Italian Pizza",
+        "description_fr": "nourriture italian Pizza",
         "description_enriched": "italian pizza, cuisine italienne pizza",
         "category": "attribute",
         "usage_count": 1780
       },
       "indian": {
-        "description_fr": "indienne",
+        "description_fr": "nourriture indienne",
         "description_enriched": "cuisine indienne, curry, tandoori, épices, naan",
         "category": "attribute",
         "usage_count": 26290
       },
       "hawaiian": {
-        "description_fr": "hawaïenne",
+        "description_fr": "nourriture hawaïenne",
         "description_enriched": "hawaïenne, cuisine hawaïenne",
         "category": "attribute",
         "usage_count": 759
       },
       "steak_house": {
-        "description_fr": "grillades",
+        "description_fr": "nourriture grillades",
         "description_enriched": "steakhouse, viande, grill, boeuf, entrecôte",
         "category": "attribute",
         "usage_count": 11219
       },
       "breakfast": {
-        "description_fr": "Petit-déjeuner, brunch",
+        "description_fr": "nourriture petit-déjeuner, brunch",
         "description_enriched": "petit-déjeuner, brunch, petit-déjeuner, brunch",
         "category": "attribute",
         "usage_count": 4065
       },
       "irish": {
-        "description_fr": "irlandaise",
+        "description_fr": "nourriture irlandaise",
         "description_enriched": "irlandaise, cuisine irlandaise",
         "category": "attribute",
         "usage_count": 426
       },
       "asian": {
-        "description_fr": "asiatique ",
+        "description_fr": "nourriture asiatique ",
         "description_enriched": "cuisine asiatique, wok, nouilles, saveurs asie",
         "category": "attribute",
         "usage_count": 22785
       },
       "bar_and_grill": {
-        "description_fr": "Bar And Grill",
+        "description_fr": "nourriture bar And Grill",
         "description_enriched": "bar and grill, cuisine bar and grillade",
         "category": "attribute",
         "usage_count": 414
       },
       "kebab": {
-        "description_fr": "kebabs",
+        "description_fr": "nourriture kebabs",
         "description_enriched": "kebab, döner, grill, viande grillée, sauce",
         "category": "attribute",
         "usage_count": 28132
       },
       "tapas": {
-        "description_fr": "tapas",
+        "description_fr": "nourriture tapas",
         "description_enriched": "tapas",
         "category": "attribute",
         "usage_count": 2036
       },
       "pizza": {
-        "description_fr": "pizzas",
+        "description_fr": "nourriture pizzas",
         "description_enriched": "pizzeria, pizza, italien, four bois, pâte",
         "category": "attribute",
         "usage_count": 132526
       },
       "indonesian": {
-        "description_fr": "indonésienne",
+        "description_fr": "nourriture indonésienne",
         "description_enriched": "indonésienne, cuisine indonésienne",
         "category": "attribute",
         "usage_count": 2272
       },
       "buffet": {
-        "description_fr": "Buffet",
+        "description_fr": "nourriture buffet",
         "description_enriched": "buffet, cuisine buffet",
         "category": "attribute",
         "usage_count": 454
       },
       "sushi": {
-        "description_fr": "sushis",
+        "description_fr": "nourriture sushis",
         "description_enriched": "sushi, japonais, maki, sashimi, restaurant japonais",
         "category": "attribute",
         "usage_count": 24076
       },
       "korean": {
-        "description_fr": "coréenne",
+        "description_fr": "nourriture coréenne",
         "description_enriched": "cuisine coréenne, bibimbap, kimchi, BBQ coréen",
         "category": "attribute",
         "usage_count": 14694
       },
       "soba": {
-        "description_fr": "Soba",
+        "description_fr": "nourriture soba",
         "description_enriched": "soba, cuisine soba",
         "category": "attribute",
         "usage_count": 1251
       },
       "regional": {
-        "description_fr": "régionale",
+        "description_fr": "nourriture régionale",
         "description_enriched": "cuisine régionale, terroir, spécialités locales, tradition",
         "category": "attribute",
         "usage_count": 84788
       },
       "sausage": {
-        "description_fr": "saucisses",
+        "description_fr": "nourriture saucisses",
         "description_enriched": "saucisses",
         "category": "attribute",
         "usage_count": 681
       },
       "ramen": {
-        "description_fr": "Ramen, nouilles japonaises",
+        "description_fr": "nourriture ramen, nouilles japonaises",
         "description_enriched": "ramen, nouilles japonaises, ramen, nouilles japonaises",
         "category": "attribute",
         "usage_count": 8211
       },
       "german": {
-        "description_fr": "allemande",
+        "description_fr": "nourriture allemande",
         "description_enriched": "allemande, cuisine allemande",
         "category": "attribute",
         "usage_count": 11930
       },
       "sandwich": {
-        "description_fr": "sandwich",
+        "description_fr": "nourriture sandwich",
         "description_enriched": "sandwich, sandwichs",
         "category": "attribute",
         "usage_count": 50581
       },
       "lebanese": {
-        "description_fr": "libanaise",
+        "description_fr": "nourriture libanaise",
         "description_enriched": "cuisine libanaise, mezze, falafel, houmous, taboulé",
         "category": "attribute",
         "usage_count": 2352
       },
       "poke": {
-        "description_fr": "poké",
+        "description_fr": "nourriture poké",
         "description_enriched": "poké, cuisine poke",
         "category": "attribute",
         "usage_count": 829
       },
       "frozen_yogurt": {
-        "description_fr": "yaourt glacé",
+        "description_fr": "nourriture yaourt glacé",
         "description_enriched": "yaourt glacé, frozen yogurt",
         "category": "attribute",
         "usage_count": 1670
       },
       "mediterranean": {
-        "description_fr": "méditerranéenne",
+        "description_fr": "nourriture méditerranéenne",
         "description_enriched": "cuisine méditerranéenne, huile olive, légumes, poisson",
         "category": "attribute",
         "usage_count": 4417
       },
       "meat": {
-        "description_fr": "Meat",
+        "description_fr": "nourriture meat",
         "description_enriched": "meat, cuisine meat",
         "category": "attribute",
         "usage_count": 367
       },
       "fried_chicken": {
-        "description_fr": "Fried Chicken",
+        "description_fr": "nourriture fried Chicken",
         "description_enriched": "fried chicken, cuisine fried poulet",
         "category": "attribute",
         "usage_count": 468
       },
       "ice_cream": {
-        "description_fr": "glaces",
+        "description_fr": "nourriture glaces",
         "description_enriched": "glacier, glaces, sorbets, crème glacée, desserts glacés",
         "category": "attribute",
         "usage_count": 14712
       },
       "tex-mex": {
-        "description_fr": "tex-mex",
+        "description_fr": "nourriture tex-mex",
         "description_enriched": "tex-mex",
         "category": "attribute",
         "usage_count": 9490
       },
       "traditional": {
-        "description_fr": "Traditional",
+        "description_fr": "nourriture traditional",
         "description_enriched": "traditional, cuisine traditional",
         "category": "attribute",
         "usage_count": 341
       },
       "ukrainian": {
-        "description_fr": "ukrainienne",
+        "description_fr": "nourriture ukrainienne",
         "description_enriched": "ukrainienne, cuisine ukrainienne",
         "category": "attribute",
         "usage_count": 377
       },
       "mexican": {
-        "description_fr": "mexicaine",
+        "description_fr": "nourriture mexicaine",
         "description_enriched": "cuisine mexicaine, tacos, burritos, guacamole, nachos",
         "category": "attribute",
         "usage_count": 39418
       },
       "italian": {
-        "description_fr": "italienne",
+        "description_fr": "nourriture italienne",
         "description_enriched": "cuisine italienne, pizza, pâtes, risotto, antipasti",
         "category": "attribute",
         "usage_count": 53987
       },
       "juice": {
-        "description_fr": "jus",
+        "description_fr": "nourriture jus",
         "description_enriched": "jus, jus de fruits frais",
         "category": "attribute",
         "usage_count": 6330
       },
       "bubble_tea": {
-        "description_fr": "bubble tea",
+        "description_fr": "nourriture bubble tea",
         "description_enriched": "bubble tea, cuisine bubble thé",
         "category": "attribute",
         "usage_count": 11300
       },
       "latin_american": {
-        "description_fr": "latino-américaine",
+        "description_fr": "nourriture latino-américaine",
         "description_enriched": "latino-américaine, cuisine latino",
         "category": "attribute",
         "usage_count": 758
       },
       "cuban": {
-        "description_fr": "cubaine",
+        "description_fr": "nourriture cubaine",
         "description_enriched": "cubaine, cuisine cubaine",
         "category": "attribute",
         "usage_count": 365
       },
       "bakery": {
-        "description_fr": "Boulangerie",
+        "description_fr": "nourriture boulangerie",
         "description_enriched": "boulangerie, pain, baguette, croissants, viennoiseries, pâtisseries",
         "category": "attribute",
         "usage_count": 381
       },
       "curry": {
-        "description_fr": "curry",
+        "description_fr": "nourriture curry",
         "description_enriched": "curry",
         "category": "attribute",
         "usage_count": 1086
       },
       "friture": {
-        "description_fr": "friture",
+        "description_fr": "nourriture friture",
         "description_enriched": "friture, friterie, baraque à frites",
         "category": "attribute",
         "usage_count": 3950
       },
       "tacos": {
-        "description_fr": "Tacos",
+        "description_fr": "nourriture tacos",
         "description_enriched": "tacos, cuisine tacos",
         "category": "attribute",
         "usage_count": 1323
       },
       "austrian": {
-        "description_fr": "autrichienne",
+        "description_fr": "nourriture autrichienne",
         "description_enriched": "autrichienne, cuisine autrichienne",
         "category": "attribute",
         "usage_count": 403
       },
       "bavarian": {
-        "description_fr": "bavaroise",
+        "description_fr": "nourriture bavaroise",
         "description_enriched": "bavaroise, cuisine bavaroise",
         "category": "attribute",
         "usage_count": 911
       },
       "salad": {
-        "description_fr": "salades",
+        "description_fr": "nourriture salades",
         "description_enriched": "salades",
         "category": "attribute",
         "usage_count": 1559
       },
       "chinese": {
-        "description_fr": "chinoise",
+        "description_fr": "nourriture chinoise",
         "description_enriched": "cuisine chinoise, wok, nouilles, riz, cantonais",
         "category": "attribute",
         "usage_count": 59785
       },
       "caribbean": {
-        "description_fr": "caribéenne",
+        "description_fr": "nourriture caribéenne",
         "description_enriched": "caribéenne, cuisine caribéenne",
         "category": "attribute",
         "usage_count": 1482
       },
       "polish": {
-        "description_fr": "polonaise",
+        "description_fr": "nourriture polonaise",
         "description_enriched": "polonaise, cuisine polonaise",
         "category": "attribute",
         "usage_count": 1701
       },
       "brazilian": {
-        "description_fr": "brésilienne",
+        "description_fr": "nourriture brésilienne",
         "description_enriched": "cuisine brésilienne, churrasco, feijoada, açaï",
         "category": "attribute",
         "usage_count": 1357
       },
       "russian": {
-        "description_fr": "russe",
+        "description_fr": "nourriture russe",
         "description_enriched": "russe, cuisine russe",
         "category": "attribute",
         "usage_count": 1345
       },
       "french": {
-        "description_fr": "française",
+        "description_fr": "nourriture française",
         "description_enriched": "cuisine française, gastronomie, bistrot, tradition, terroir",
         "category": "attribute",
         "usage_count": 15133
       },
       "afghan": {
-        "description_fr": "afghane",
+        "description_fr": "nourriture afghane",
         "description_enriched": "afghane, cuisine afghane",
         "category": "attribute",
         "usage_count": 329
       },
       "international": {
-        "description_fr": "internationale",
+        "description_fr": "nourriture internationale",
         "description_enriched": "cuisine internationale, fusion, monde, cosmopolite",
         "category": "attribute",
         "usage_count": 8500
       },
       "british": {
-        "description_fr": "britannique",
+        "description_fr": "nourriture britannique",
         "description_enriched": "britannique, cuisine britannique",
         "category": "attribute",
         "usage_count": 1050
       },
       "bolivian": {
-        "description_fr": "bolivienne",
+        "description_fr": "nourriture bolivienne",
         "description_enriched": "bolivienne, cuisine bolivienne",
         "category": "attribute",
         "usage_count": 322
       },
       "tea": {
-        "description_fr": "thé",
+        "description_fr": "nourriture thé",
         "description_enriched": "salon thé, thés, infusions, pâtisseries, pause gourmande",
         "category": "attribute",
         "usage_count": 1270
       },
       "syrian": {
-        "description_fr": "syrienne",
+        "description_fr": "nourriture syrienne",
         "description_enriched": "syrienne, cuisine syrienne",
         "category": "attribute",
         "usage_count": 318
       },
       "crepe": {
-        "description_fr": "crêpes",
+        "description_fr": "nourriture crêpes",
         "description_enriched": "crêpes, galettes",
         "category": "attribute",
         "usage_count": 2851
       },
       "steak": {
-        "description_fr": "steak",
+        "description_fr": "nourriture steak",
         "description_enriched": "steak, cuisine steak",
         "category": "attribute",
         "usage_count": 804
       },
       "georgian": {
-        "description_fr": "Georgian",
+        "description_fr": "nourriture georgian",
         "description_enriched": "georgian, cuisine georgian",
         "category": "attribute",
         "usage_count": 2223
       },
       "piadina": {
-        "description_fr": "Piadina",
+        "description_fr": "nourriture piadina",
         "description_enriched": "piadina, cuisine piadina",
         "category": "attribute",
         "usage_count": 462
       },
       "arab": {
-        "description_fr": "arabe",
+        "description_fr": "nourriture arabe",
         "description_enriched": "arabe, cuisine arabe",
         "category": "attribute",
         "usage_count": 1644
       },
       "coffee": {
-        "description_fr": "café",
+        "description_fr": "nourriture café",
         "description_enriched": "café, torréfacteur, grains café, expresso, machine café",
         "category": "attribute",
         "usage_count": 714
       },
       "barbecue": {
-        "description_fr": "barbecue",
+        "description_fr": "nourriture barbecue",
         "description_enriched": "barbecue, grillades",
         "category": "attribute",
         "usage_count": 11545
       },
       "japanese": {
-        "description_fr": "japonaise",
+        "description_fr": "nourriture japonaise",
         "description_enriched": "cuisine japonaise, sushi, ramen, maki, tempura",
         "category": "attribute",
         "usage_count": 32781
       },
       "cake": {
-        "description_fr": "gâteaux",
+        "description_fr": "nourriture gâteaux",
         "description_enriched": "gâteaux, pâtisseries",
         "category": "attribute",
         "usage_count": 1679
       },
       "dumplings": {
-        "description_fr": "Dumplings",
+        "description_fr": "nourriture dumplings",
         "description_enriched": "dumplings, cuisine dumplings",
         "category": "attribute",
         "usage_count": 1317
       },
       "jamaican": {
-        "description_fr": "jamaïcaine",
+        "description_fr": "nourriture jamaïcaine",
         "description_enriched": "jamaïcaine, cuisine jamaïcaine",
         "category": "attribute",
         "usage_count": 423
       },
       "seafood": {
-        "description_fr": "fruits de mer",
+        "description_fr": "nourriture fruits de mer",
         "description_enriched": "poissonnerie, poissons, fruits mer, crustacés, produits mer",
         "category": "attribute",
         "usage_count": 15276
       },
       "argentinian": {
-        "description_fr": "argentine",
+        "description_fr": "nourriture argentine",
         "description_enriched": "argentine, cuisine argentine",
         "category": "attribute",
         "usage_count": 907
       },
       "hotpot": {
-        "description_fr": "fondue chinoise",
+        "description_fr": "nourriture fondue chinoise",
         "description_enriched": "fondue chinoise, cuisine hotpot",
         "category": "attribute",
         "usage_count": 802
       },
       "wings": {
-        "description_fr": "Ailes",
+        "description_fr": "nourriture ailes",
         "description_enriched": "ailes, chicken wings",
         "category": "attribute",
         "usage_count": 3173
       },
       "croatian": {
-        "description_fr": "croate",
+        "description_fr": "nourriture croate",
         "description_enriched": "croate, cuisine croate",
         "category": "attribute",
         "usage_count": 345
       },
       "vietnamese": {
-        "description_fr": "vietnamienne",
+        "description_fr": "nourriture vietnamienne",
         "description_enriched": "cuisine vietnamienne, pho, nems, banh mi, frais",
         "category": "attribute",
         "usage_count": 10894
       },
       "beef_bowl": {
-        "description_fr": "Beef Bowl",
+        "description_fr": "nourriture beef Bowl",
         "description_enriched": "beef bowl, cuisine beef bowl",
         "category": "attribute",
         "usage_count": 3064
       },
       "grill": {
-        "description_fr": "grillade",
+        "description_fr": "nourriture grillade",
         "description_enriched": "grillade, cuisine grillade",
         "category": "attribute",
         "usage_count": 1440
       },
       "churro": {
-        "description_fr": "Churro",
+        "description_fr": "nourriture churro",
         "description_enriched": "churro, cuisine churro",
         "category": "attribute",
         "usage_count": 570
       },
       "diner": {
-        "description_fr": "diner américain",
+        "description_fr": "nourriture diner américain",
         "description_enriched": "diner américain, cuisine diner",
         "category": "attribute",
         "usage_count": 1059
       },
       "taiwanese": {
-        "description_fr": "taïwanaise",
+        "description_fr": "nourriture taïwanaise",
         "description_enriched": "taïwanaise, cuisine taïwanaise",
         "category": "attribute",
         "usage_count": 1173
       },
       "french_tacos": {
-        "description_fr": "French Tacos",
+        "description_fr": "nourriture french Tacos",
         "description_enriched": "french tacos, cuisine française tacos",
         "category": "attribute",
         "usage_count": 353
       },
       "local": {
-        "description_fr": "locale",
+        "description_fr": "nourriture locale",
         "description_enriched": "locale, cuisine locale",
         "category": "attribute",
         "usage_count": 4745
       },
       "noodle": {
-        "description_fr": "nouilles",
+        "description_fr": "nourriture nouilles",
         "description_enriched": "nouilles",
         "category": "attribute",
         "usage_count": 10272
       },
       "fried_food": {
-        "description_fr": "friture",
+        "description_fr": "nourriture friture",
         "description_enriched": "friture, fritures",
         "category": "attribute",
         "usage_count": 539
       },
       "nepalese": {
-        "description_fr": "népalaise",
+        "description_fr": "nourriture népalaise",
         "description_enriched": "népalaise, cuisine népalaise",
         "category": "attribute",
         "usage_count": 388
       },
       "pancake": {
-        "description_fr": "pancakes",
+        "description_fr": "nourriture pancakes",
         "description_enriched": "pancakes",
         "category": "attribute",
         "usage_count": 826
       },
       "cantonese": {
-        "description_fr": "cantonaise",
+        "description_fr": "nourriture cantonaise",
         "description_enriched": "cantonaise, cuisine cantonaise",
         "category": "attribute",
         "usage_count": 337
       },
       "american": {
-        "description_fr": "américaine",
+        "description_fr": "nourriture américaine",
         "description_enriched": "cuisine américaine, burger, frites, steakhouse, BBQ",
         "category": "attribute",
         "usage_count": 26286
       },
       "moroccan": {
-        "description_fr": "Cuisine marocaine",
+        "description_fr": "nourriture cuisine marocaine",
         "description_enriched": "cuisine marocaine, tajine, couscous, pastilla, épices",
         "category": "attribute",
         "usage_count": 817
       },
       "açaí": {
-        "description_fr": "Açaí",
+        "description_fr": "nourriture açaí",
         "description_enriched": "açaí, cuisine açaí",
         "category": "attribute",
         "usage_count": 435
       },
       "portuguese": {
-        "description_fr": "portugaise",
+        "description_fr": "nourriture portugaise",
         "description_enriched": "portugaise, cuisine portugaise",
         "category": "attribute",
         "usage_count": 1945
       },
       "european": {
-        "description_fr": "European",
+        "description_fr": "nourriture european",
         "description_enriched": "european, cuisine european",
         "category": "attribute",
         "usage_count": 458
       },
       "malaysian": {
-        "description_fr": "malaisienne",
+        "description_fr": "nourriture malaisienne",
         "description_enriched": "malaisienne, cuisine malaisienne",
         "category": "attribute",
         "usage_count": 1681
       },
       "oriental": {
-        "description_fr": "orientale",
+        "description_fr": "nourriture orientale",
         "description_enriched": "orientale, cuisine oriental",
         "category": "attribute",
         "usage_count": 707
       },
       "heuriger": {
-        "description_fr": "Heuriger",
+        "description_fr": "nourriture heuriger",
         "description_enriched": "heuriger, cuisine heuriger",
         "category": "attribute",
         "usage_count": 798
       },
       "spanish": {
-        "description_fr": "espagnole",
+        "description_fr": "nourriture espagnole",
         "description_enriched": "cuisine espagnole, tapas, paella, jambon, tortilla",
         "category": "attribute",
         "usage_count": 5069
       },
       "thai": {
-        "description_fr": "thaï",
+        "description_fr": "nourriture thaï",
         "description_enriched": "cuisine thaï, pad thaï, curry, épicé, citronnelle",
         "category": "attribute",
         "usage_count": 17150
       },
       "dessert": {
-        "description_fr": "dessert",
+        "description_fr": "nourriture dessert",
         "description_enriched": "dessert, desserts",
         "category": "attribute",
         "usage_count": 1723
       },
       "yakiniku": {
-        "description_fr": "yakiniku",
+        "description_fr": "nourriture yakiniku",
         "description_enriched": "yakiniku, cuisine yakiniku",
         "category": "attribute",
         "usage_count": 304
       },
       "lao": {
-        "description_fr": "laotienne",
+        "description_fr": "nourriture laotienne",
         "description_enriched": "laotienne, cuisine laotienne",
         "category": "attribute",
         "usage_count": 322
       },
       "bagel": {
-        "description_fr": "bagel",
+        "description_fr": "nourriture bagel",
         "description_enriched": "bagel, bagels",
         "category": "attribute",
         "usage_count": 1981
       },
       "ethiopian": {
-        "description_fr": "éthiopienne",
+        "description_fr": "nourriture éthiopienne",
         "description_enriched": "éthiopienne, cuisine éthiopienne",
         "category": "attribute",
         "usage_count": 668
       },
       "coffee_shop": {
-        "description_fr": "café",
+        "description_fr": "nourriture café",
         "description_enriched": "café, coffee",
         "category": "attribute",
         "usage_count": 101019
       },
       "pita": {
-        "description_fr": "Pita",
+        "description_fr": "nourriture pita",
         "description_enriched": "pita, cuisine pita",
         "category": "attribute",
         "usage_count": 490
       },
       "pasta": {
-        "description_fr": "pâtes",
+        "description_fr": "nourriture pâtes",
         "description_enriched": "pâtes",
         "category": "attribute",
         "usage_count": 1646
       },
       "peruvian": {
-        "description_fr": "péruvienne",
+        "description_fr": "nourriture péruvienne",
         "description_enriched": "cuisine péruvienne, ceviche, lomo saltado, anticuchos",
         "category": "attribute",
         "usage_count": 1551
       },
       "shawarma": {
-        "description_fr": "Shawarma",
+        "description_fr": "nourriture shawarma",
         "description_enriched": "shawarma, cuisine shawarma",
         "category": "attribute",
         "usage_count": 987
       },
       "donut": {
-        "description_fr": "donuts",
+        "description_fr": "nourriture donuts",
         "description_enriched": "donuts, beignets",
         "category": "attribute",
         "usage_count": 5322
       },
       "potato": {
-        "description_fr": "Potato",
+        "description_fr": "nourriture potato",
         "description_enriched": "potato, cuisine potato",
         "category": "attribute",
         "usage_count": 383
       },
       "brunch": {
-        "description_fr": "brunch",
+        "description_fr": "nourriture brunch",
         "description_enriched": "brunch, cuisine brunch",
         "category": "attribute",
         "usage_count": 411
       },
       "teahouse": {
-        "description_fr": "salon de thé",
+        "description_fr": "nourriture salon de thé",
         "description_enriched": "salon de thé",
         "category": "attribute",
         "usage_count": 354
       },
       "fine_dining": {
-        "description_fr": "gastronomique",
+        "description_fr": "nourriture gastronomique",
         "description_enriched": "gastronomique, cuisine fine dining",
         "category": "attribute",
         "usage_count": 736
       },
       "fast_food": {
-        "description_fr": "Fast-food, restauration rapide",
+        "description_fr": "nourriture fast-food, restauration rapide",
         "description_enriched": "fast-food, restauration rapide, fast-food, restauration rapide",
         "category": "attribute",
         "usage_count": 560
       },
       "filipino": {
-        "description_fr": "philippine",
+        "description_fr": "nourriture philippine",
         "description_enriched": "philippine, cuisine philippine",
         "category": "attribute",
         "usage_count": 2401
       },
       "chicken": {
-        "description_fr": "poulet",
+        "description_fr": "nourriture poulet",
         "description_enriched": "poulet",
         "category": "attribute",
         "usage_count": 45400
       },
       "waffle": {
-        "description_fr": "gaufres",
+        "description_fr": "nourriture gaufres",
         "description_enriched": "gaufres",
         "category": "attribute",
         "usage_count": 383
       },
       "cafe": {
-        "description_fr": "Café, salon de thé",
+        "description_fr": "nourriture café, salon de thé",
         "description_enriched": "café, salon de thé, café, salon de thé",
         "category": "attribute",
         "usage_count": 503
       },
       "udon": {
-        "description_fr": "Udon",
+        "description_fr": "nourriture udon",
         "description_enriched": "udon, cuisine udon",
         "category": "attribute",
         "usage_count": 602
       },
       "african": {
-        "description_fr": "africaine",
+        "description_fr": "nourriture africaine",
         "description_enriched": "cuisine africaine, épices, grillades, mafé, yassa",
         "category": "attribute",
         "usage_count": 1745
       },
       "balkan": {
-        "description_fr": "balkanique",
+        "description_fr": "nourriture balkanique",
         "description_enriched": "balkanique, cuisine balkanique",
         "category": "attribute",
         "usage_count": 803
       },
       "fries": {
-        "description_fr": "Fries",
+        "description_fr": "nourriture fries",
         "description_enriched": "fries, cuisine fries",
         "category": "attribute",
         "usage_count": 598
       },
       "pretzel": {
-        "description_fr": "Pretzel",
+        "description_fr": "nourriture pretzel",
         "description_enriched": "pretzel, cuisine pretzel",
         "category": "attribute",
         "usage_count": 898
       },
       "middle_eastern": {
-        "description_fr": "Middle Eastern",
+        "description_fr": "nourriture middle Eastern",
         "description_enriched": "middle eastern, cuisine middle eastern",
         "category": "attribute",
         "usage_count": 1059
       },
       "greek": {
-        "description_fr": "grecque",
+        "description_fr": "nourriture grecque",
         "description_enriched": "cuisine grecque, gyros, tzatziki, moussaka, feta",
         "category": "attribute",
         "usage_count": 13379
       },
       "empanada": {
-        "description_fr": "empanadas",
+        "description_fr": "nourriture empanadas",
         "description_enriched": "empanadas",
         "category": "attribute",
         "usage_count": 534
       },
       "fish_and_chips": {
-        "description_fr": "fish and chips",
+        "description_fr": "nourriture fish and chips",
         "description_enriched": "fish and chips",
         "category": "attribute",
         "usage_count": 10123
       },
       "persian": {
-        "description_fr": "Persian",
+        "description_fr": "nourriture persian",
         "description_enriched": "persian, cuisine persian",
         "category": "attribute",
         "usage_count": 969
       },
       "burger": {
-        "description_fr": "burgers",
+        "description_fr": "nourriture burgers",
         "description_enriched": "burger, hamburger, frites, fast-food, américain",
         "category": "attribute",
         "usage_count": 110777
       },
       "western": {
-        "description_fr": "Western",
+        "description_fr": "nourriture western",
         "description_enriched": "western, cuisine western",
         "category": "attribute",
         "usage_count": 609
       },
       "fish": {
-        "description_fr": "poisson",
+        "description_fr": "nourriture poisson",
         "description_enriched": "poisson",
         "category": "attribute",
         "usage_count": 4628
       },
       "hot_dog": {
-        "description_fr": "hot-dog",
+        "description_fr": "nourriture hot-dog",
         "description_enriched": "hot-dog, cuisine hot dog",
         "category": "attribute",
         "usage_count": 2273
       },
       "turkish": {
-        "description_fr": "turque",
+        "description_fr": "nourriture turque",
         "description_enriched": "cuisine turque, kebab, mezze, lahmacun, pide",
         "category": "attribute",
         "usage_count": 8813
       },
       "vegetarian": {
-        "description_fr": "Vegetarian",
+        "description_fr": "nourriture vegetarian",
         "description_enriched": "végétarien, sans viande, légumes, cuisine végétarienne",
         "category": "attribute",
         "usage_count": 1000
       },
       "vegan": {
-        "description_fr": "Vegan",
+        "description_fr": "nourriture vegan",
         "description_enriched": "vegan, végétalien, sans produit animal, 100% végétal",
         "category": "attribute",
         "usage_count": 1000

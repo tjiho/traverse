@@ -87,7 +87,7 @@ def evaluate(test_file: str = "data/search_cases.json", search_top_k_per_index: 
         print(f"    Search:  recall={search_recall:.0%} mrr={search_mrr:.2f} | Rerank: recall={rerank_recall:.0%} mrr={rerank_mrr:.2f}")
         if rerank_recall < 1.0:
             print(f"    Expected: {expected}")
-            print(f"    Rerank top 5: {rerank_tags[:5]}")
+            print(f"    Rerank: {rerank_tags}")
 
     # Moyennes
     n = len(cases)

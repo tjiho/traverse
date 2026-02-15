@@ -21,7 +21,8 @@ def format_results(results: list) -> str:
     """Formate les résultats pour affichage"""
     lines = []
     for r in results:
-        lines.append(f"  [{r.category[:3].upper()}] {r.tag} ({r.score:.2f}): {r.description_fr}")
+        vis = f" {r.visibility}" if r.visibility else ""
+        lines.append(f"  [{r.category[:3].upper()}{vis}] {r.tag} ({r.score:.2f}): {r.description_fr}")
     return "\n".join(lines)
 
 

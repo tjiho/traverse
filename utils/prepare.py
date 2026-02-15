@@ -16,9 +16,17 @@ DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 # Modèles
 EMBEDDING_MODEL = "intfloat/multilingual-e5-base"
 RERANKER_MODEL = "Qwen/Qwen3-Reranker-0.6B"
+#RERANKER_MODEL = "Qwen/Qwen3-Reranker-4B"
 
 # Reranker config
-TASK_INSTRUCTION = "Given a French natural language query about a place or service, determine if the document describes a matching OpenStreetMap tag."
+TASK_INSTRUCTION_POI = (
+    "Given a French natural language query about a place or service, "
+    "determine if the document describes a matching OpenStreetMap tag."
+)
+TASK_INSTRUCTION_ATTRIBUTE = (
+    "Given a French natural language query, determine if the document "
+    "describes a characteristic or attribute that matches what the user is looking for."
+)
 
 
 def load_candidates(data_dir: str = DATA_DIR) -> list[Candidate]:
@@ -100,7 +108,10 @@ def load_rerank_settings() -> dict:
         "prefix_tokens": tokenizer.encode(prefix, add_special_tokens=False),
         "suffix_tokens": tokenizer.encode(suffix, add_special_tokens=False),
         "max_length": 8192,
-        "task_instruction": TASK_INSTRUCTION,
+        "task_instructions": {
+            "poi": TASK_INSTRUCTION_POI,
+            "attribute": TASK_INSTRUCTION_ATTRIBUTE,
+        },
         "top_k": 5,
         "batch_size": 10,
         "usage_count_threshold": 10_000,
