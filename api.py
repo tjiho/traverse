@@ -5,7 +5,7 @@ from fastapi import FastAPI
 
 from utils.prepare import prepare
 from utils.embedding_search import search
-from utils.rerank_with_crossencoder import rerank
+from utils.rerank import rerank
 from utils.types import Candidate
 
 

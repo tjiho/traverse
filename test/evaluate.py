@@ -11,7 +11,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import json
 from utils.prepare import prepare
 from utils.embedding_search import search
-from utils.rerank_with_crossencoder import rerank
+from utils.rerank import rerank
 
 
 def compute_metrics(expected: set, found_tags: list) -> tuple[float, float]:

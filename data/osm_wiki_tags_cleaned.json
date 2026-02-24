@@ -27,7 +27,7 @@
         "usage_count": 667
       },
       "police": {
-        "description_fr": "Poste/commissariat de police",
+        "description_fr": "Commissariat / Gendarmerie",
         "description_enriched": "commissariat, gendarmerie, poste police, porter plainte, déclarer vol, urgence 17, policiers, forces ordre",
         "category": "poi",
         "usage_count": 158161
@@ -63,7 +63,7 @@
         "usage_count": 35589
       },
       "post_box": {
-        "description_fr": "Boite postale",
+        "description_fr": "Boîte postale",
         "description_enriched": "boîte aux lettres, boîte postale, poster courrier, envoyer lettre, levée, La Poste",
         "category": "poi",
         "usage_count": 402143
@@ -135,7 +135,7 @@
         "usage_count": 16548
       },
       "nightclub": {
-        "description_fr": "Discothèque, boîte de nuit, club",
+        "description_fr": "Discothèque / Boîte de nuit",
         "description_enriched": "discothèque, boîte nuit, club, danser, DJ, soirée, fête, musique électronique",
         "category": "poi",
         "usage_count": 24003
@@ -351,7 +351,7 @@
         "usage_count": 11205
       },
       "bicycle_repair_station": {
-        "description_fr": "Station de réparation de bicyclettes",
+        "description_fr": "Station réparation vélo",
         "description_enriched": "station réparation vélo, pompe vélo, outils vélo, gonfler pneus, réparer crevaison, borne vélo",
         "category": "poi",
         "usage_count": 21065
@@ -477,7 +477,7 @@
         "usage_count": 170842
       },
       "community_centre": {
-        "description_fr": "Centre communautaire / Salle polyvalente",
+        "description_fr": "Salle polyvalente",
         "description_enriched": "salle polyvalente, centre communautaire, MJC, activités, associations, fêtes, réunions",
         "category": "poi",
         "usage_count": 207312
@@ -519,7 +519,7 @@
         "usage_count": 1869
       },
       "kindergarten": {
-        "description_fr": "Crèche / Garderie / École maternelle",
+        "description_fr": "Crèche / Maternelle",
         "description_enriched": "école maternelle, crèche, garderie, enfants, petite section, moyenne section, grande section",
         "category": "poi",
         "usage_count": 330936
@@ -795,7 +795,7 @@
         "usage_count": 353
       },
       "atm": {
-        "description_fr": "DAB  Distributeur automatique de billets",
+        "description_fr": "DAB / Distributeur de billets",
         "description_enriched": "distributeur billets, DAB, retirer argent, espèces, carte bancaire, cash, retrait",
         "category": "poi",
         "usage_count": 234217
@@ -867,7 +867,7 @@
         "usage_count": 33940
       },
       "coworking_space": {
-        "description_fr": "Espace de coworking, bureau partagé",
+        "description_fr": "Espace de coworking",
         "description_enriched": "coworking, espace travail partagé, bureau partagé, télétravail, freelance, startup, open space",
         "category": "poi",
         "usage_count": 2123
@@ -1023,7 +1023,7 @@
         "usage_count": 687
       },
       "spa": {
-        "description_fr": "Spa, centre de bien-être",
+        "description_fr": "Spa / Centre de bien-être",
         "description_enriched": "spa, centre bien-être, massage, détente, hammam, sauna, relaxation, soins corps",
         "category": "poi",
         "usage_count": 691
@@ -1071,7 +1071,7 @@
         "usage_count": 339
       },
       "car_wash": {
-        "description_fr": "Station de lavage pour voitures",
+        "description_fr": "Station de lavage",
         "description_enriched": "station lavage auto, laver voiture, nettoyage voiture, aspirateur, lustrage, portique lavage",
         "category": "poi",
         "usage_count": 120212
@@ -1340,19 +1340,19 @@
         "usage_count": 7937
       },
       "ski": {
-        "description_fr": "Ski",
+        "description_fr": "Magasin de ski",
         "description_enriched": "magasin ski, équipement ski, matériel montagne, snowboard, vêtements ski",
         "category": "poi",
         "usage_count": 402
       },
       "tortilla": {
-        "description_fr": "Tortilla",
+        "description_fr": "Tortilleria",
         "description_enriched": "tortillas, galettes maïs, cuisine mexicaine, tacos, burritos",
         "category": "poi",
         "usage_count": 903
       },
       "groundskeeping": {
-        "description_fr": "Groundskeeping",
+        "description_fr": "Entretien espaces verts",
         "description_enriched": "entretien espaces verts, jardinage, tondeuses, outils jardin",
         "category": "poi",
         "usage_count": 869
@@ -1412,7 +1412,7 @@
         "usage_count": 101534
       },
       "fishing": {
-        "description_fr": "Vente de matériel de pêche",
+        "description_fr": "Magasin de pêche",
         "description_enriched": "pêche, cannes pêche, moulinets, appâts, hameçons, matériel pêche",
         "category": "poi",
         "usage_count": 7015
@@ -1424,7 +1424,7 @@
         "usage_count": 2745
       },
       "telecommunication": {
-        "description_fr": "Telecommunication",
+        "description_fr": "Télécommunications",
         "description_enriched": "télécommunications, téléphonie, internet, forfaits, box",
         "category": "poi",
         "usage_count": 9035
@@ -1460,7 +1460,7 @@
         "usage_count": 41327
       },
       "farm": {
-        "description_fr": "Vente à la ferme",
+        "description_fr": "Magasin de producteur",
         "description_enriched": "vente à la ferme, produits de la ferme, vente directe",
         "category": "poi",
         "usage_count": 31491
@@ -1478,7 +1478,7 @@
         "usage_count": 12459
       },
       "dairy": {
-        "description_fr": "Vente de produits laitiers",
+        "description_fr": "Crèmerie",
         "description_enriched": "vente de produits laitiers, magasin dairy",
         "category": "poi",
         "usage_count": 9104
@@ -1490,13 +1490,13 @@
         "usage_count": 19288
       },
       "beverages": {
-        "description_fr": "Vente de boissons",
+        "description_fr": "Magasin de boissons",
         "description_enriched": "boissons, boissons alcoolisées, sodas, jus, eau minérale, bière",
         "category": "poi",
         "usage_count": 31140
       },
       "frame": {
-        "description_fr": "Vente d'encadrements",
+        "description_fr": "Encadreur",
         "description_enriched": "encadrement, cadres, tableaux, miroirs, baguettes, sous-verre",
         "category": "poi",
         "usage_count": 4373
@@ -1526,19 +1526,19 @@
         "usage_count": 6472
       },
       "snack": {
-        "description_fr": "Snack",
+        "description_fr": "Snack-bar",
         "description_enriched": "snack, sandwicherie, restauration rapide, encas, vente à emporter",
         "category": "poi",
         "usage_count": 325
       },
       "leather": {
-        "description_fr": "Vente de vêtements en cuir / Maroquinerie",
+        "description_fr": "Maroquinerie",
         "description_enriched": "vente de vêtements en cuir   maroquinerie, cuir",
         "category": "poi",
         "usage_count": 3530
       },
       "curtain": {
-        "description_fr": "Vente de rideaux et tentures",
+        "description_fr": "Magasin de rideaux",
         "description_enriched": "vente de rideaux et tentures, rideaux, voilages",
         "category": "poi",
         "usage_count": 5718
@@ -1556,7 +1556,7 @@
         "usage_count": 35485
       },
       "nuts": {
-        "description_fr": "Nuts",
+        "description_fr": "Fruits secs",
         "description_enriched": "fruits secs, noix, amandes, pistaches, noisettes, graines",
         "category": "poi",
         "usage_count": 1276
@@ -1574,19 +1574,19 @@
         "usage_count": 80156
       },
       "electrical": {
-        "description_fr": "Vente de fournitures et d'appareils électriques",
+        "description_fr": "Fournitures électriques",
         "description_enriched": "vente de fournitures et d'appareils électriques, matériel électrique",
         "category": "poi",
         "usage_count": 10902
       },
       "ice_cream": {
-        "description_fr": "Vente de glaces à emporter",
+        "description_fr": "Glacier",
         "description_enriched": "vente de glaces à emporter, magasin glaces",
         "category": "poi",
         "usage_count": 2075
       },
       "camera": {
-        "description_fr": "Vente de matériel photographique",
+        "description_fr": "Magasin photo",
         "description_enriched": "photo, photographe, tirage photos, développement, cadres, impression",
         "category": "poi",
         "usage_count": 1128
@@ -1604,13 +1604,13 @@
         "usage_count": 1875
       },
       "hookah": {
-        "description_fr": "Hookah",
+        "description_fr": "Chicha",
         "description_enriched": "chicha, narguilé, tabac chicha, accessoires fumeur",
         "category": "poi",
         "usage_count": 311
       },
       "boat": {
-        "description_fr": "Boat",
+        "description_fr": "Magasin nautique",
         "description_enriched": "bateau, nautisme, accastillage, marine, voile, moteur bateau",
         "category": "poi",
         "usage_count": 2781
@@ -1628,7 +1628,7 @@
         "usage_count": 246113
       },
       "candles": {
-        "description_fr": "Bougies",
+        "description_fr": "Bougie / Cire",
         "description_enriched": "bougies, cierges, décoration, senteurs, parfums intérieur",
         "category": "poi",
         "usage_count": 1198
@@ -1646,7 +1646,7 @@
         "usage_count": 27592
       },
       "car_parts": {
-        "description_fr": "Magasin d'accessoires automobiles",
+        "description_fr": "Accessoires automobiles",
         "description_enriched": "pièces auto, accessoires voiture, pièces détachées, équipement auto",
         "category": "poi",
         "usage_count": 93121
@@ -1670,13 +1670,13 @@
         "usage_count": 11350
       },
       "photo_studio": {
-        "description_fr": "Photo Studio",
+        "description_fr": "Studio photo",
         "description_enriched": "studio photo, photographe, portraits, photos identité, reportage",
         "category": "poi",
         "usage_count": 929
       },
       "rental": {
-        "description_fr": "Location",
+        "description_fr": "Location diverse",
         "description_enriched": "location matériel, outils, équipement, véhicules, bricolage",
         "category": "poi",
         "usage_count": 8071
@@ -1688,7 +1688,7 @@
         "usage_count": 14012
       },
       "photo": {
-        "description_fr": "Photo",
+        "description_fr": "Labo photo",
         "description_enriched": "photo, photographe, tirage photos, développement, cadres, albums",
         "category": "poi",
         "usage_count": 17118
@@ -1700,25 +1700,25 @@
         "usage_count": 3146
       },
       "trade": {
-        "description_fr": "Négoce",
+        "description_fr": "Négoce professionnel",
         "description_enriched": "négoce, commerce professionnel, grossiste, vente pro, matériaux",
         "category": "poi",
         "usage_count": 35025
       },
       "books": {
-        "description_fr": "Libraire",
+        "description_fr": "Librairie",
         "description_enriched": "librairie, livres, romans, bandes dessinées, littérature, lecture",
         "category": "poi",
         "usage_count": 56493
       },
       "outdoor": {
-        "description_fr": "Magasin d'activités de plein air",
+        "description_fr": "Magasin de plein air",
         "description_enriched": "outdoor, randonnée, camping, trekking, équipement montagne, nature",
         "category": "poi",
         "usage_count": 14886
       },
       "kitchen": {
-        "description_fr": "Cuisines",
+        "description_fr": "Cuisiniste",
         "description_enriched": "cuisine équipée, aménagement cuisine, meubles cuisine, électroménager, plan cuisine",
         "category": "poi",
         "usage_count": 16309
@@ -1736,7 +1736,7 @@
         "usage_count": 171910
       },
       "hvac": {
-        "description_fr": "Hvac",
+        "description_fr": "Chauffage / Climatisation",
         "description_enriched": "chauffage, climatisation, ventilation, pompe chaleur, chaudière",
         "category": "poi",
         "usage_count": 581
@@ -1748,13 +1748,13 @@
         "usage_count": 51890
       },
       "agrarian": {
-        "description_fr": "Vente de fournitures et matériel agricole.s",
+        "description_fr": "Fournitures agricoles",
         "description_enriched": "vente de fournitures et matériel agricole.s, coopérative agricole",
         "category": "poi",
         "usage_count": 14018
       },
       "motorcycle_parts": {
-        "description_fr": "Motorcycle Parts",
+        "description_fr": "Pièces moto",
         "description_enriched": "moto, scooter, deux-roues, accessoires moto, casques, équipement",
         "category": "poi",
         "usage_count": 777
@@ -1796,13 +1796,13 @@
         "usage_count": 3066
       },
       "truck_repair": {
-        "description_fr": "Truck Repair",
+        "description_fr": "Réparation camions",
         "description_enriched": "réparation camions, poids lourds, mécanique camion, garage PL",
         "category": "poi",
         "usage_count": 713
       },
       "funeral_directors": {
-        "description_fr": "Une boutique depompes funèbresfournit des services liés aux funérailles. Ceux-ci sont des fournitures d'accessoires (cercueils, fleurs, objets) et de toutes prestations liées à l'organisation des funérailles.",
+        "description_fr": "Pompes funèbres",
         "description_enriched": "une boutique depompes funèbresfournit des services liés aux funérailles. ceux-ci sont des fournitures d'accessoires (cercueils, fleurs, objets) et de toutes prestations liées à l'organisation des funérailles., une boutique depompes funèbresfournit des services liés aux funérailles",
         "category": "poi",
         "usage_count": 33473
@@ -1814,7 +1814,7 @@
         "usage_count": 69941
       },
       "party": {
-        "description_fr": "Magasin de déguisements et cotillons",
+        "description_fr": "Déguisements / Cotillons",
         "description_enriched": "magasin de déguisements et cotillons, magasin party",
         "category": "poi",
         "usage_count": 4591
@@ -1826,13 +1826,13 @@
         "usage_count": 20809
       },
       "coffee": {
-        "description_fr": "Vente de café / Torréfaction",
+        "description_fr": "Torréfacteur / Café",
         "description_enriched": "vente de café   torréfaction, torréfacteur",
         "category": "poi",
         "usage_count": 13295
       },
       "collector": {
-        "description_fr": "Collection",
+        "description_fr": "Magasin de collection",
         "description_enriched": "collection, objets collection, antiquités, timbres, pièces, vinyles",
         "category": "poi",
         "usage_count": 2347
@@ -1844,13 +1844,13 @@
         "usage_count": 4088
       },
       "alcohol": {
-        "description_fr": "Vente d'alcool",
+        "description_fr": "Cave à alcools",
         "description_enriched": "cave à vins, alcools, spiritueux, vins, champagne, whisky",
         "category": "poi",
         "usage_count": 89903
       },
       "cannabis": {
-        "description_fr": "Cannabis",
+        "description_fr": "Coffee shop / Cannabis",
         "description_enriched": "cannabis, CBD, chanvre, produits CBD, bien-être, huiles",
         "category": "poi",
         "usage_count": 7731
@@ -1868,7 +1868,7 @@
         "usage_count": 19197
       },
       "hifi": {
-        "description_fr": "Vente de matériel hi-fi",
+        "description_fr": "Magasin hi-fi",
         "description_enriched": "hi-fi, audio, enceintes, ampli, sono, home cinéma, casques",
         "category": "poi",
         "usage_count": 5126
@@ -1892,7 +1892,7 @@
         "usage_count": 280146
       },
       "building_materials": {
-        "description_fr": "Building Materials",
+        "description_fr": "Matériaux de construction",
         "description_enriched": "matériaux construction, bricolage, bois, ciment, béton, parpaings, isolation, gros oeuvre",
         "category": "poi",
         "usage_count": 1650
@@ -1904,7 +1904,7 @@
         "usage_count": 369631
       },
       "energy": {
-        "description_fr": "Energy",
+        "description_fr": "Fournisseur énergie",
         "description_enriched": "énergie, panneaux solaires, isolation, pompe chaleur, économies énergie",
         "category": "poi",
         "usage_count": 486
@@ -1916,7 +1916,7 @@
         "usage_count": 16642
       },
       "interior_decoration": {
-        "description_fr": "Vente d'objets de décoration intérieure",
+        "description_fr": "Décoration intérieure",
         "description_enriched": "vente d'objets de décoration intérieure, décoration intérieure",
         "category": "poi",
         "usage_count": 26567
@@ -1928,7 +1928,7 @@
         "usage_count": 483041
       },
       "truck": {
-        "description_fr": "Truck",
+        "description_fr": "Camions",
         "description_enriched": "camions, poids lourds, véhicules utilitaires, vente camions",
         "category": "poi",
         "usage_count": 1187
@@ -1970,13 +1970,13 @@
         "usage_count": 14085
       },
       "repair": {
-        "description_fr": "Repair",
+        "description_fr": "Atelier de réparation",
         "description_enriched": "repair, magasin repair",
         "category": "poi",
         "usage_count": 6291
       },
       "second_hand": {
-        "description_fr": "Boutique de produits d'occasion",
+        "description_fr": "Friperie / Occasion",
         "description_enriched": "occasion, seconde main, fripes, dépôt-vente, recyclerie, vide-grenier",
         "category": "poi",
         "usage_count": 18636
@@ -1994,31 +1994,31 @@
         "usage_count": 11203
       },
       "spices": {
-        "description_fr": "Vente d'épices",
+        "description_fr": "Épicerie d'épices",
         "description_enriched": "vente d'épices, épices",
         "category": "poi",
         "usage_count": 1807
       },
       "accessories": {
-        "description_fr": "Accessories",
+        "description_fr": "Magasin d'accessoires",
         "description_enriched": "accessories, magasin accessories",
         "category": "poi",
         "usage_count": 345
       },
       "doors": {
-        "description_fr": "Portes",
+        "description_fr": "Menuiserie / Portes",
         "description_enriched": "portes, magasin doors",
         "category": "poi",
         "usage_count": 4823
       },
       "wool": {
-        "description_fr": "Laine",
+        "description_fr": "Magasin de laine",
         "description_enriched": "laine, mercerie laine, tricot",
         "category": "poi",
         "usage_count": 564
       },
       "mall": {
-        "description_fr": "Centre commercial, galerie marchande",
+        "description_fr": "Centre commercial",
         "description_enriched": "centre commercial, galerie marchande, centre commercial, galerie marchande",
         "category": "poi",
         "usage_count": 76744
@@ -2042,13 +2042,13 @@
         "usage_count": 6798
       },
       "honey": {
-        "description_fr": "Honey",
+        "description_fr": "Miellerie",
         "description_enriched": "honey, magasin honey",
         "category": "poi",
         "usage_count": 1106
       },
       "haberdashery": {
-        "description_fr": "Haberdashery",
+        "description_fr": "Mercerie",
         "description_enriched": "haberdashery, magasin haberdashery",
         "category": "poi",
         "usage_count": 421
@@ -2060,13 +2060,13 @@
         "usage_count": 54772
       },
       "newsagent": {
-        "description_fr": "Maison de la presse / Kiosque à journaux",
+        "description_fr": "Maison de la presse",
         "description_enriched": "maison de la presse   kiosque à journaux, magasin newsagent",
         "category": "poi",
         "usage_count": 30714
       },
       "car": {
-        "description_fr": "Un magasin qui vend des voitures. Peut aussi avoir un atelier de réparation ou vendre des pièces automobiles mais son activité principale est la vente de véhicules.",
+        "description_fr": "Concessionnaire automobile",
         "description_enriched": "un magasin qui vend des voitures. peut aussi avoir un atelier de réparation ou vendre des pièces automobiles mais son activité principale est la vente de véhicules., un magasin qui vend des voitures",
         "category": "poi",
         "usage_count": 159656
@@ -2078,19 +2078,19 @@
         "usage_count": 55741
       },
       "swimming_pool": {
-        "description_fr": "Piscine",
+        "description_fr": "Magasin de piscines",
         "description_enriched": "piscine",
         "category": "poi",
         "usage_count": 3783
       },
       "window_blind": {
-        "description_fr": "Window Blind",
+        "description_fr": "Stores et volets",
         "description_enriched": "window blind",
         "category": "poi",
         "usage_count": 2646
       },
       "gas": {
-        "description_fr": "Gaz",
+        "description_fr": "Gaz / Bouteilles",
         "description_enriched": "gaz, magasin gas",
         "category": "poi",
         "usage_count": 12700
@@ -2102,7 +2102,7 @@
         "usage_count": 11386
       },
       "houseware": {
-        "description_fr": "Vente d'articles ménagers",
+        "description_fr": "Magasin d'articles ménagers",
         "description_enriched": "vente d'articles ménagers, articles ménagers",
         "category": "poi",
         "usage_count": 24405
@@ -2114,7 +2114,7 @@
         "usage_count": 47887
       },
       "plant_hire": {
-        "description_fr": "Plant Hire",
+        "description_fr": "Location engins",
         "description_enriched": "plant hire, magasin centrale hire",
         "category": "poi",
         "usage_count": 755
@@ -2126,7 +2126,7 @@
         "usage_count": 4982
       },
       "outpost": {
-        "description_fr": "Commerce principalement utilisé pour retirer des articles commandés en ligne (appeléDriveouClick & Collecten France).",
+        "description_fr": "Point retrait / Drive",
         "description_enriched": "commerce principalement utilisé pour retirer des articles commandés en ligne (appelédriveouclick & collecten france).",
         "category": "poi",
         "usage_count": 76777
@@ -2144,7 +2144,7 @@
         "usage_count": 8939
       },
       "trophy": {
-        "description_fr": "Trophées",
+        "description_fr": "Trophées / Gravure",
         "description_enriched": "trophées",
         "category": "poi",
         "usage_count": 643
@@ -2156,7 +2156,7 @@
         "usage_count": 767
       },
       "lottery": {
-        "description_fr": "Loterie",
+        "description_fr": "Point loto",
         "description_enriched": "loterie, jeux hasard, grattage, loto, euromillions, PMU",
         "category": "poi",
         "usage_count": 14589
@@ -2192,31 +2192,31 @@
         "usage_count": 16830
       },
       "gold_buyer": {
-        "description_fr": "Gold Buyer",
+        "description_fr": "Achat d'or",
         "description_enriched": "gold buyer, magasin gold buyer",
         "category": "poi",
         "usage_count": 946
       },
       "scuba_diving": {
-        "description_fr": "plongée sous-marine",
+        "description_fr": "Plongée sous-marine",
         "description_enriched": "plongée sous-marine",
         "category": "poi",
         "usage_count": 1808
       },
       "ticket": {
-        "description_fr": "Billeterie",
+        "description_fr": "Billetterie",
         "description_enriched": "billeterie, billetterie",
         "category": "poi",
         "usage_count": 27623
       },
       "massage": {
-        "description_fr": "shop=massageest utilisé pour cartographier les cabinets de massage.",
+        "description_fr": "Salon de massage",
         "description_enriched": "shop=massageest utilisé pour cartographier les cabinets de massage..",
         "category": "poi",
         "usage_count": 33564
       },
       "mobile_phone_accessories": {
-        "description_fr": "Mobile Phone Accessories",
+        "description_fr": "Accessoires téléphone",
         "description_enriched": "mobile phone accessories, magasin mobile phone accessories",
         "category": "poi",
         "usage_count": 816
@@ -2252,13 +2252,13 @@
         "usage_count": 100989
       },
       "security": {
-        "description_fr": "Security",
+        "description_fr": "Sécurité / Alarmes",
         "description_enriched": "security, magasin security",
         "category": "poi",
         "usage_count": 1352
       },
       "hunting": {
-        "description_fr": "Chasse",
+        "description_fr": "Armurerie / Chasse",
         "description_enriched": "chasse",
         "category": "poi",
         "usage_count": 1250
@@ -2276,13 +2276,13 @@
         "usage_count": 10954
       },
       "pasta": {
-        "description_fr": "Vente de pâtes",
+        "description_fr": "Magasin de pâtes",
         "description_enriched": "vente de pâtes, pâtes fraîches",
         "category": "poi",
         "usage_count": 1129
       },
       "religion": {
-        "description_fr": "Religion",
+        "description_fr": "Articles religieux",
         "description_enriched": "religion",
         "category": "poi",
         "usage_count": 4137
@@ -2294,7 +2294,7 @@
         "usage_count": 17435
       },
       "power_tools": {
-        "description_fr": "Power Tools",
+        "description_fr": "Outillage électrique",
         "description_enriched": "power tools, magasin power tools",
         "category": "poi",
         "usage_count": 1441
@@ -2306,7 +2306,7 @@
         "usage_count": 45177
       },
       "e-cigarette": {
-        "description_fr": "Vente de cigarettes électroniques",
+        "description_fr": "Boutique de vapotage",
         "description_enriched": "vente de cigarettes électroniques, cigarette électronique, vapoteuse",
         "category": "poi",
         "usage_count": 13371
@@ -2318,7 +2318,7 @@
         "usage_count": 70389
       },
       "cosmetics": {
-        "description_fr": "Boutique vendant exclusivement des produits de beauté, des cosmétiques.",
+        "description_fr": "Magasin de cosmétiques",
         "description_enriched": "boutique vendant exclusivement des produits de beauté, des cosmétiques., boutique vendant exclusivement des produits de beauté, des cosmétiques.",
         "category": "poi",
         "usage_count": 37849
@@ -2360,7 +2360,7 @@
         "usage_count": 4724
       },
       "rice": {
-        "description_fr": "riz",
+        "description_fr": "Magasin de riz",
         "description_enriched": "riz, magasin riz",
         "category": "poi",
         "usage_count": 1100
@@ -2384,7 +2384,7 @@
         "usage_count": 8637
       },
       "flooring": {
-        "description_fr": "Flooring",
+        "description_fr": "Revêtements de sol",
         "description_enriched": "flooring",
         "category": "poi",
         "usage_count": 4666
@@ -2402,7 +2402,7 @@
         "usage_count": 654
       },
       "health_food": {
-        "description_fr": "Magasin d'aliments de santé et diététiques",
+        "description_fr": "Magasin diététique",
         "description_enriched": "magasin d'aliments de santé et diététiques, diététique",
         "category": "poi",
         "usage_count": 7945
@@ -2420,7 +2420,7 @@
         "usage_count": 521
       },
       "wigs": {
-        "description_fr": "Wigs",
+        "description_fr": "Perruques",
         "description_enriched": "wigs, magasin wigs",
         "category": "poi",
         "usage_count": 624
@@ -2432,25 +2432,25 @@
         "usage_count": 103389
       },
       "tool_hire": {
-        "description_fr": "Tool Hire",
+        "description_fr": "Location outillage",
         "description_enriched": "tool hire, magasin tool hire",
         "category": "poi",
         "usage_count": 2208
       },
       "water": {
-        "description_fr": "Water",
+        "description_fr": "Fontainier",
         "description_enriched": "water",
         "category": "poi",
         "usage_count": 4498
       },
       "variety_store": {
-        "description_fr": "Vente d'articles à prix réduits",
+        "description_fr": "Bazar / Discount",
         "description_enriched": "vente d'articles à prix réduits, magasin variety store",
         "category": "poi",
         "usage_count": 85531
       },
       "water_sports": {
-        "description_fr": "Water Sports",
+        "description_fr": "Sports nautiques",
         "description_enriched": "sport, équipement sportif, vêtements sport, chaussures, fitness, running",
         "category": "poi",
         "usage_count": 1003
@@ -2474,7 +2474,7 @@
         "usage_count": 36992
       },
       "medical_supply": {
-        "description_fr": "Vente de matériel médical",
+        "description_fr": "Matériel médical",
         "description_enriched": "matériel médical, orthopédie, fauteuils roulants, location médicale",
         "category": "poi",
         "usage_count": 17561
@@ -2498,13 +2498,13 @@
         "usage_count": 7785
       },
       "fishmonger": {
-        "description_fr": "Fishmonger",
+        "description_fr": "Poissonnier",
         "description_enriched": "poissonnerie, poisson, fruits de mer, marée, écailler, crustacés",
         "category": "poi",
         "usage_count": 1000
       },
       "market": {
-        "description_fr": "Market",
+        "description_fr": "Marché",
         "description_enriched": "marché, marché couvert, étals, producteurs, marché fermier",
         "category": "poi",
         "usage_count": 1000
@@ -2515,13 +2515,13 @@
     "description": "Tourisme et hébergement",
     "values": {
       "hunting_lodge": {
-        "description_fr": "Hunting Lodge",
+        "description_fr": "Pavillon de chasse",
         "description_enriched": "pavillon chasse, gîte chasseurs, hébergement chasse, forêt",
         "category": "poi",
         "usage_count": 626
       },
       "hostel": {
-        "description_fr": "Hôtel",
+        "description_fr": "Auberge de jeunesse",
         "description_enriched": "auberge de jeunesse, dormir, hébergement pas cher, dortoir, backpacker, nuit",
         "category": "poi",
         "usage_count": 61374
@@ -2551,7 +2551,7 @@
         "usage_count": 442724
       },
       "resort": {
-        "description_fr": "Resort",
+        "description_fr": "Complexe hôtelier",
         "description_enriched": "resort",
         "category": "poi",
         "usage_count": 443
@@ -2563,7 +2563,7 @@
         "usage_count": 1568
       },
       "wine_cellar": {
-        "description_fr": "Wine Cellar",
+        "description_fr": "Cave à vin",
         "description_enriched": "wine cellar",
         "category": "poi",
         "usage_count": 675
@@ -2593,7 +2593,7 @@
         "usage_count": 10636
       },
       "giant_furniture": {
-        "description_fr": "Giant Furniture",
+        "description_fr": "Mobilier géant",
         "description_enriched": "giant furniture",
         "category": "poi",
         "usage_count": 360
@@ -2605,7 +2605,7 @@
         "usage_count": 252428
       },
       "camp_pitch": {
-        "description_fr": "Une parcelle est l'emplacement pour planter sa tente ou arrêter une caravane/mobilhome dans un camping (tourism=camp_site) ou sur une aire de service (tourism=caravan_site).",
+        "description_fr": "Emplacement de camping",
         "description_enriched": "Une parcelle est l'emplacement pour planter sa tente ou arrêter une caravane/mobilhome dans un camping (tourism=camp_site) ou sur une aire de service (tourism=caravan_site).",
         "category": "poi",
         "usage_count": 125253
@@ -2659,7 +2659,7 @@
         "usage_count": 1632
       },
       "cabin": {
-        "description_fr": "Cabin",
+        "description_fr": "Cabane",
         "description_enriched": "cabin",
         "category": "poi",
         "usage_count": 846
@@ -2706,7 +2706,7 @@
         "usage_count": 31041
       },
       "bathing_place": {
-        "description_fr": "Bathing Place",
+        "description_fr": "Lieu de baignade",
         "description_enriched": "baignade naturelle, baignade sauvage, lac, rivière, plage naturelle",
         "category": "poi",
         "usage_count": 4181
@@ -2772,7 +2772,7 @@
         "usage_count": 6413
       },
       "shooting_ground": {
-        "description_fr": "Shooting Ground",
+        "description_fr": "Stand de tir",
         "description_enriched": "shooting ground, tir ground",
         "category": "poi",
         "usage_count": 473
@@ -2814,7 +2814,7 @@
         "usage_count": 155357
       },
       "schoolyard": {
-        "description_fr": "Unecour d'écoleoucour de récréationest un espace extérieur au sein d'une école où les élèves peuvent passer leurs pauses entre les cours. Il s'agit généralement d'une zone pavée pour se promener et jouer.",
+        "description_fr": "Cour de récréation",
         "description_enriched": "unecour d'écoleoucour de récréationest un espace extérieur au sein d'une école où les élèves peuvent passer leurs pauses entre les cours. il s'agit généralement d'une zone pavée pour se promener et jouer., unecour d'écoleoucour de récréationest un espace extérieur au sein d'une école où les élèves peuvent passer leurs pauses entre les cours",
         "category": "poi",
         "usage_count": 6780
@@ -2826,7 +2826,7 @@
         "usage_count": 18644
       },
       "social_club": {
-        "description_fr": "Social Club",
+        "description_fr": "Club social",
         "description_enriched": "social club",
         "category": "poi",
         "usage_count": 481
@@ -2844,7 +2844,7 @@
         "usage_count": 1131
       },
       "tanning_salon": {
-        "description_fr": "Unsalon de bronzageest un endroit - habituellement à l'intérieur (bronzage en intérieur) - où les clients ou les visiteurs peuvent bronzer leur peau sur des solarium en s'exposant à des lampes ultraviolettes spéciales. Les lampes sont souvent placées",
+        "description_fr": "Salon de bronzage",
         "description_enriched": "salon bronzage, cabine UV, banc solaire, bronzage artificiel",
         "category": "poi",
         "usage_count": 1534
@@ -2898,13 +2898,13 @@
         "usage_count": 2756946
       },
       "recreation_ground": {
-        "description_fr": "Recreation Ground",
+        "description_fr": "Terrain de loisirs",
         "description_enriched": "recreation ground",
         "category": "poi",
         "usage_count": 6826
       },
       "barefoot": {
-        "description_fr": "Barefoot",
+        "description_fr": "Sentier pieds nus",
         "description_enriched": "barefoot",
         "category": "poi",
         "usage_count": 923
@@ -2916,7 +2916,7 @@
         "usage_count": 444303
       },
       "resort": {
-        "description_fr": "Resort",
+        "description_fr": "Complexe de loisirs",
         "description_enriched": "resort",
         "category": "poi",
         "usage_count": 23897
@@ -2934,7 +2934,7 @@
         "usage_count": 1768
       },
       "hot_tub": {
-        "description_fr": "Hot Tub",
+        "description_fr": "Bain à remous",
         "description_enriched": "hot tub",
         "category": "poi",
         "usage_count": 2452
@@ -3012,7 +3012,7 @@
         "usage_count": 78696
       },
       "hammock": {
-        "description_fr": "Hammock",
+        "description_fr": "Hamac",
         "description_enriched": "hammock",
         "category": "poi",
         "usage_count": 468
@@ -3053,7 +3053,7 @@
         "usage_count": 23257
       },
       "security": {
-        "description_fr": "Security",
+        "description_fr": "Sécurité",
         "description_enriched": "security, bureau security",
         "category": "poi",
         "usage_count": 6506
@@ -3107,7 +3107,7 @@
         "usage_count": 3148
       },
       "financial_advisor": {
-        "description_fr": "Financial Advisor",
+        "description_fr": "Conseiller financier",
         "description_enriched": "financial advisor, bureau financial advisor",
         "category": "poi",
         "usage_count": 7552
@@ -3119,7 +3119,7 @@
         "usage_count": 285363
       },
       "construction_company": {
-        "description_fr": "Construction Company",
+        "description_fr": "Entreprise construction",
         "description_enriched": "construction company, bureau construction company",
         "category": "poi",
         "usage_count": 3733
@@ -3251,7 +3251,7 @@
         "usage_count": 14528
       },
       "courier": {
-        "description_fr": "Courier",
+        "description_fr": "Coursier",
         "description_enriched": "courier, bureau courier",
         "category": "poi",
         "usage_count": 2718
@@ -3275,7 +3275,7 @@
         "usage_count": 4070
       },
       "harbour_master": {
-        "description_fr": "Harbour Master",
+        "description_fr": "Capitainerie",
         "description_enriched": "harbour master, bureau harbour master",
         "category": "poi",
         "usage_count": 604
@@ -3287,13 +3287,13 @@
         "usage_count": 2563
       },
       "bail_bond_agent": {
-        "description_fr": "Bail Bond Agent",
+        "description_fr": "Caution judiciaire",
         "description_enriched": "bail bond agent, bureau bail bond agent",
         "category": "poi",
         "usage_count": 358
       },
       "engineering": {
-        "description_fr": "Engineering",
+        "description_fr": "Ingénierie",
         "description_enriched": "engineering, bureau engineering",
         "category": "poi",
         "usage_count": 489
@@ -3335,7 +3335,7 @@
         "usage_count": 413
       },
       "translator": {
-        "description_fr": "Translator",
+        "description_fr": "Traducteur",
         "description_enriched": "translator, bureau translator",
         "category": "poi",
         "usage_count": 552
@@ -3347,13 +3347,13 @@
         "usage_count": 519
       },
       "graphic_design": {
-        "description_fr": "Graphic Design",
+        "description_fr": "Design graphique",
         "description_enriched": "graphic design, bureau graphic design",
         "category": "poi",
         "usage_count": 2099
       },
       "physician": {
-        "description_fr": "Physician",
+        "description_fr": "Médecin",
         "description_enriched": "physician, bureau physician",
         "category": "poi",
         "usage_count": 2262
@@ -3371,7 +3371,7 @@
         "usage_count": 7915
       },
       "medical": {
-        "description_fr": "Medical",
+        "description_fr": "Médical",
         "description_enriched": "medical, bureau medical",
         "category": "poi",
         "usage_count": 659
@@ -3383,7 +3383,7 @@
         "usage_count": 7920
       },
       "administrative": {
-        "description_fr": "Administrative",
+        "description_fr": "Administratif",
         "description_enriched": "administrative, bureau administrative",
         "category": "poi",
         "usage_count": 3836
@@ -3646,7 +3646,7 @@
         "usage_count": 6120
       },
       "oil_mill": {
-        "description_fr": "Oil Mill",
+        "description_fr": "Moulin à huile",
         "description_enriched": "oil mill, artisan oil mill",
         "category": "poi",
         "usage_count": 751
@@ -3807,7 +3807,7 @@
         "usage_count": 4725
       },
       "community_health_worker": {
-        "description_fr": "Community Health Worker",
+        "description_fr": "Agent de santé communautaire",
         "description_enriched": "community health worker",
         "category": "poi",
         "usage_count": 1021
@@ -3831,7 +3831,7 @@
         "usage_count": 1568
       },
       "health_post": {
-        "description_fr": "Health Post",
+        "description_fr": "Poste de santé",
         "description_enriched": "health post",
         "category": "poi",
         "usage_count": 412
@@ -3861,7 +3861,7 @@
         "usage_count": 2054
       },
       "vaccination_centre": {
-        "description_fr": "Vaccination Centre",
+        "description_fr": "Centre de vaccination",
         "description_enriched": "vaccination centre",
         "category": "poi",
         "usage_count": 463
@@ -3891,7 +3891,7 @@
         "usage_count": 1109
       },
       "nurse": {
-        "description_fr": "Nurse",
+        "description_fr": "Infirmier(ère)",
         "description_enriched": "nurse",
         "category": "poi",
         "usage_count": 3318
@@ -3921,7 +3921,7 @@
         "usage_count": 3001
       },
       "counselling": {
-        "description_fr": "Counselling",
+        "description_fr": "Conseil psychologique",
         "description_enriched": "counselling",
         "category": "poi",
         "usage_count": 4160
@@ -3939,7 +3939,7 @@
         "usage_count": 9399
       },
       "sample_collection": {
-        "description_fr": "Sample Collection",
+        "description_fr": "Prélèvements",
         "description_enriched": "sample collection",
         "category": "poi",
         "usage_count": 1413
@@ -4171,7 +4171,7 @@
     "description": "Patrimoine historique",
     "values": {
       "railway_station": {
-        "description_fr": "Railway Station",
+        "description_fr": "Gare historique",
         "description_enriched": "gare historique, patrimoine ferroviaire, architecture",
         "category": "poi",
         "usage_count": 685
@@ -4183,25 +4183,25 @@
         "usage_count": 5821
       },
       "watermill": {
-        "description_fr": "Watermill",
+        "description_fr": "Moulin à eau",
         "description_enriched": "watermill, watermill historique",
         "category": "poi",
         "usage_count": 1133
       },
       "mine_adit": {
-        "description_fr": "Mine Adit",
+        "description_fr": "Entrée de mine",
         "description_enriched": "mine adit, mine adit historique",
         "category": "poi",
         "usage_count": 716
       },
       "mule_path": {
-        "description_fr": "Mule Path",
+        "description_fr": "Chemin muletier",
         "description_enriched": "mule path, mule sentier historique",
         "category": "poi",
         "usage_count": 483
       },
       "wall": {
-        "description_fr": "Wall",
+        "description_fr": "Mur historique",
         "description_enriched": "wall, mur historique",
         "category": "poi",
         "usage_count": 1745
@@ -4219,13 +4219,13 @@
         "usage_count": 5576
       },
       "quarry": {
-        "description_fr": "Quarry",
+        "description_fr": "Carrière",
         "description_enriched": "quarry, quarry historique",
         "category": "poi",
         "usage_count": 1603
       },
       "barn": {
-        "description_fr": "Barn",
+        "description_fr": "Grange historique",
         "description_enriched": "barn, grange historique",
         "category": "poi",
         "usage_count": 325
@@ -4237,31 +4237,31 @@
         "usage_count": 12204
       },
       "highwater_mark": {
-        "description_fr": "Highwater Mark",
+        "description_fr": "Repère de crue",
         "description_enriched": "highwater mark, highwater mark historique",
         "category": "poi",
         "usage_count": 455
       },
       "marker": {
-        "description_fr": "Marker",
+        "description_fr": "Repère historique",
         "description_enriched": "marker, marker historique",
         "category": "poi",
         "usage_count": 416
       },
       "path": {
-        "description_fr": "Path",
+        "description_fr": "Chemin historique",
         "description_enriched": "path, sentier historique",
         "category": "poi",
         "usage_count": 845
       },
       "house": {
-        "description_fr": "House",
+        "description_fr": "Maison historique",
         "description_enriched": "house, maison historique",
         "category": "poi",
         "usage_count": 7123
       },
       "vehicle": {
-        "description_fr": "Vehicle",
+        "description_fr": "Véhicule monument",
         "description_enriched": "vehicle, vehicle historique",
         "category": "poi",
         "usage_count": 827
@@ -4273,37 +4273,37 @@
         "usage_count": 15919
       },
       "gate": {
-        "description_fr": "Gate",
+        "description_fr": "Porte historique",
         "description_enriched": "gate, portail historique",
         "category": "poi",
         "usage_count": 331
       },
       "windmill": {
-        "description_fr": "Windmill",
+        "description_fr": "Moulin à vent",
         "description_enriched": "windmill, windmill historique",
         "category": "poi",
         "usage_count": 314
       },
       "hollow_way": {
-        "description_fr": "Hollow Way",
+        "description_fr": "Chemin creux",
         "description_enriched": "hollow way, hollow way historique",
         "category": "poi",
         "usage_count": 4984
       },
       "pound": {
-        "description_fr": "Pound",
+        "description_fr": "Fourrière historique",
         "description_enriched": "pound, pound historique",
         "category": "poi",
         "usage_count": 365
       },
       "threshing_floor": {
-        "description_fr": "Threshing Floor",
+        "description_fr": "Aire de battage",
         "description_enriched": "threshing floor, threshing floor historique",
         "category": "poi",
         "usage_count": 1104
       },
       "lime_kiln": {
-        "description_fr": "Lime Kiln",
+        "description_fr": "Four à chaux",
         "description_enriched": "lime kiln, lime kiln historique",
         "category": "poi",
         "usage_count": 493
@@ -4333,7 +4333,7 @@
         "usage_count": 7053
       },
       "cemetery": {
-        "description_fr": "Cemetery",
+        "description_fr": "Cimetière historique",
         "description_enriched": "cemetery, cemetery historique",
         "category": "poi",
         "usage_count": 2013
@@ -4357,7 +4357,7 @@
         "usage_count": 833
       },
       "charcoal_pile": {
-        "description_fr": "Charcoal Pile",
+        "description_fr": "Meule à charbon",
         "description_enriched": "charcoal pile, charcoal pile historique",
         "category": "poi",
         "usage_count": 50892
@@ -4393,7 +4393,7 @@
         "usage_count": 2354
       },
       "ancient_road": {
-        "description_fr": "Ancient Road",
+        "description_fr": "Voie antique",
         "description_enriched": "ancient road, ancient road historique",
         "category": "poi",
         "usage_count": 1285
@@ -4429,7 +4429,7 @@
         "usage_count": 3239
       },
       "trench": {
-        "description_fr": "Trench",
+        "description_fr": "Tranchée",
         "description_enriched": "trench, trench historique",
         "category": "poi",
         "usage_count": 507
@@ -4459,37 +4459,37 @@
         "usage_count": 1834
       },
       "fire_hydrant": {
-        "description_fr": "Fire Hydrant",
+        "description_fr": "Borne incendie historique",
         "description_enriched": "fire hydrant, fire hydrant historique",
         "category": "poi",
         "usage_count": 565
       },
       "lighthouse": {
-        "description_fr": "Lighthouse",
+        "description_fr": "Phare historique",
         "description_enriched": "lighthouse, lighthouse historique",
         "category": "poi",
         "usage_count": 415
       },
       "roman_road": {
-        "description_fr": "Roman Road",
+        "description_fr": "Voie romaine",
         "description_enriched": "roman road, roman road historique",
         "category": "poi",
         "usage_count": 4111
       },
       "bomb_crater": {
-        "description_fr": "Bomb Crater",
+        "description_fr": "Cratère de bombe",
         "description_enriched": "bomb crater, bomb crater historique",
         "category": "poi",
         "usage_count": 19675
       },
       "road": {
-        "description_fr": "Road",
+        "description_fr": "Route historique",
         "description_enriched": "road, road historique",
         "category": "poi",
         "usage_count": 1229
       },
       "granary": {
-        "description_fr": "Granary",
+        "description_fr": "Grenier",
         "description_enriched": "granary, granary historique",
         "category": "poi",
         "usage_count": 568
@@ -4507,7 +4507,7 @@
         "usage_count": 513
       },
       "railway": {
-        "description_fr": "Railway",
+        "description_fr": "Voie ferrée historique",
         "description_enriched": "railway, railway historique",
         "category": "poi",
         "usage_count": 19383
@@ -4519,7 +4519,7 @@
         "usage_count": 2905
       },
       "ditch": {
-        "description_fr": "Ditch",
+        "description_fr": "Fossé historique",
         "description_enriched": "ditch, fossé historique",
         "category": "poi",
         "usage_count": 362
@@ -4555,7 +4555,7 @@
         "usage_count": 72359
       },
       "military": {
-        "description_fr": "Military",
+        "description_fr": "Site militaire",
         "description_enriched": "military, military historique",
         "category": "poi",
         "usage_count": 1977
@@ -4567,13 +4567,13 @@
         "usage_count": 2144
       },
       "mine_shaft": {
-        "description_fr": "Mine Shaft",
+        "description_fr": "Puits de mine",
         "description_enriched": "mine shaft, mine shaft historique",
         "category": "poi",
         "usage_count": 10975
       },
       "castle_wall": {
-        "description_fr": "Castle Wall",
+        "description_fr": "Muraille de château",
         "description_enriched": "castle wall, castle mur historique",
         "category": "poi",
         "usage_count": 767
@@ -4597,25 +4597,25 @@
         "usage_count": 16816
       },
       "grave": {
-        "description_fr": "Grave",
+        "description_fr": "Tombe",
         "description_enriched": "grave, grave historique",
         "category": "poi",
         "usage_count": 2279
       },
       "train_station": {
-        "description_fr": "Train Station",
+        "description_fr": "Gare historique",
         "description_enriched": "train station, gare historique",
         "category": "poi",
         "usage_count": 363
       },
       "chapel": {
-        "description_fr": "Chapel",
+        "description_fr": "Chapelle historique",
         "description_enriched": "chapel, chapelle historique",
         "category": "poi",
         "usage_count": 1277
       },
       "way": {
-        "description_fr": "Way",
+        "description_fr": "Voie historique",
         "description_enriched": "way, way historique",
         "category": "poi",
         "usage_count": 797
@@ -4627,13 +4627,13 @@
         "usage_count": 9011
       },
       "mound": {
-        "description_fr": "Mound",
+        "description_fr": "Tumulus",
         "description_enriched": "mound, mound historique",
         "category": "poi",
         "usage_count": 302
       },
       "rune_stone": {
-        "description_fr": "Rune Stone",
+        "description_fr": "Pierre runique",
         "description_enriched": "rune stone, rune stone historique",
         "category": "poi",
         "usage_count": 492
@@ -4651,13 +4651,13 @@
         "usage_count": 92828
       },
       "folly": {
-        "description_fr": "Folly",
+        "description_fr": "Folie architecturale",
         "description_enriched": "folly, folly historique",
         "category": "poi",
         "usage_count": 448
       },
       "shieling": {
-        "description_fr": "Shieling",
+        "description_fr": "Buron",
         "description_enriched": "shieling, shieling historique",
         "category": "poi",
         "usage_count": 21842
@@ -4699,7 +4699,7 @@
         "usage_count": 2654
       },
       "crop_mark": {
-        "description_fr": "Crop Mark",
+        "description_fr": "Trace de culture",
         "description_enriched": "crop mark, crop mark historique",
         "category": "poi",
         "usage_count": 872
@@ -4711,7 +4711,7 @@
         "usage_count": 796
       },
       "tree_shrine": {
-        "description_fr": "Tree Shrine",
+        "description_fr": "Arbre sacré",
         "description_enriched": "tree shrine, arbre shrine historique",
         "category": "poi",
         "usage_count": 329
@@ -4758,7 +4758,7 @@
         "usage_count": 970
       },
       "advertising": {
-        "description_fr": "Advertising",
+        "description_fr": "Publicité",
         "description_enriched": "publicité, panneau publicitaire, affichage, réclame, enseigne",
         "category": "poi",
         "usage_count": 18534
@@ -5010,7 +5010,7 @@
         "usage_count": 528
       },
       "flare": {
-        "description_fr": "Flare",
+        "description_fr": "Torchère",
         "description_enriched": "torchère, brûlage gaz, industrie pétrochimique, flamme",
         "category": "poi",
         "usage_count": 11423
@@ -5034,7 +5034,7 @@
         "usage_count": 5658
       },
       "fuel_pump": {
-        "description_fr": "Fuel Pump",
+        "description_fr": "Pompe à carburant",
         "description_enriched": "pompe carburant, pompe essence, station-service, distributeur carburant",
         "category": "poi",
         "usage_count": 4352
@@ -5124,7 +5124,7 @@
         "usage_count": 419
       },
       "clearcut": {
-        "description_fr": "Clearcut",
+        "description_fr": "Coupe rase",
         "description_enriched": "coupe rase, déforestation, abattage arbres, clairière",
         "category": "poi",
         "usage_count": 75752
@@ -5184,7 +5184,7 @@
         "usage_count": 3146
       },
       "geoglyph": {
-        "description_fr": "Geoglyph",
+        "description_fr": "Géoglyphe",
         "description_enriched": "géoglyphe, dessin sol, motif géant, art rupestre, Nazca",
         "category": "poi",
         "usage_count": 7072
@@ -5388,7 +5388,7 @@
         "usage_count": 893
       },
       "guy_wire": {
-        "description_fr": "Guy Wire",
+        "description_fr": "Hauban",
         "description_enriched": "guy wire",
         "category": "poi",
         "usage_count": 1949
@@ -5406,13 +5406,13 @@
         "usage_count": 61726
       },
       "threshing_floor": {
-        "description_fr": "Threshing Floor",
+        "description_fr": "Aire de battage",
         "description_enriched": "aire battage, battage grain, récolte céréales, agriculture traditionnelle",
         "category": "poi",
         "usage_count": 2011
       },
       "compass_rose": {
-        "description_fr": "Compass Rose",
+        "description_fr": "Rose des vents",
         "description_enriched": "rose des vents, orientation, boussole décorative, point cardinal",
         "category": "poi",
         "usage_count": 828
@@ -5568,7 +5568,7 @@
         "usage_count": 365
       },
       "satellite_dish": {
-        "description_fr": "Satellite Dish",
+        "description_fr": "Parabole",
         "description_enriched": "parabole, antenne satellite, réception télé, communication satellite",
         "category": "poi",
         "usage_count": 8566
@@ -5580,7 +5580,7 @@
         "usage_count": 776
       },
       "avalanche_protection": {
-        "description_fr": "Avalanche Protection",
+        "description_fr": "Pare-avalanche",
         "description_enriched": "protection avalanche, pare-avalanche, sécurité montagne, dispositif anti-avalanche",
         "category": "poi",
         "usage_count": 15184
@@ -5616,7 +5616,7 @@
         "usage_count": 1282
       },
       "cutline": {
-        "description_fr": "Cutline",
+        "description_fr": "Layon",
         "description_enriched": "layon forestier, coupe forêt, ligne déboisée, pare-feu",
         "category": "poi",
         "usage_count": 605203
@@ -5760,7 +5760,7 @@
         "usage_count": 389523
       },
       "water_well": {
-        "description_fr": "Water Well",
+        "description_fr": "Puits",
         "description_enriched": "puits eau, forage, eau souterraine, puisage, source",
         "category": "poi",
         "usage_count": 337610
@@ -5796,7 +5796,7 @@
         "usage_count": 184674
       },
       "frost_fan": {
-        "description_fr": "Frost Fan",
+        "description_fr": "Ventilateur antigel",
         "description_enriched": "ventilateur anti-gel, protection gel, agriculture, vignoble",
         "category": "poi",
         "usage_count": 1028
@@ -5808,7 +5808,7 @@
         "usage_count": 395
       },
       "offshore_platform": {
-        "description_fr": "Offshore Platform",
+        "description_fr": "Plateforme offshore",
         "description_enriched": "offshore platform",
         "category": "poi",
         "usage_count": 4084
@@ -5980,793 +5980,793 @@
     "description": "Type de cuisine",
     "values": {
       "italian_pizza": {
-        "description_fr": "nourriture italian Pizza",
+        "description_fr": "Italian Pizza",
         "description_enriched": "italian pizza, cuisine italienne pizza",
         "category": "attribute",
         "usage_count": 1780
       },
       "indian": {
-        "description_fr": "nourriture indienne",
+        "description_fr": "Indienne",
         "description_enriched": "cuisine indienne, curry, tandoori, épices, naan",
         "category": "attribute",
         "usage_count": 26290
       },
       "hawaiian": {
-        "description_fr": "nourriture hawaïenne",
+        "description_fr": "Hawaïenne",
         "description_enriched": "hawaïenne, cuisine hawaïenne",
         "category": "attribute",
         "usage_count": 759
       },
       "steak_house": {
-        "description_fr": "nourriture grillades",
+        "description_fr": "Grillades",
         "description_enriched": "steakhouse, viande, grill, boeuf, entrecôte",
         "category": "attribute",
         "usage_count": 11219
       },
       "breakfast": {
-        "description_fr": "nourriture petit-déjeuner, brunch",
+        "description_fr": "Petit-déjeuner, brunch",
         "description_enriched": "petit-déjeuner, brunch, petit-déjeuner, brunch",
         "category": "attribute",
         "usage_count": 4065
       },
       "irish": {
-        "description_fr": "nourriture irlandaise",
+        "description_fr": "Irlandaise",
         "description_enriched": "irlandaise, cuisine irlandaise",
         "category": "attribute",
         "usage_count": 426
       },
       "asian": {
-        "description_fr": "nourriture asiatique ",
+        "description_fr": "Asiatique ",
         "description_enriched": "cuisine asiatique, wok, nouilles, saveurs asie",
         "category": "attribute",
         "usage_count": 22785
       },
       "bar_and_grill": {
-        "description_fr": "nourriture bar And Grill",
+        "description_fr": "Bar And Grill",
         "description_enriched": "bar and grill, cuisine bar and grillade",
         "category": "attribute",
         "usage_count": 414
       },
       "kebab": {
-        "description_fr": "nourriture kebabs",
+        "description_fr": "Kebabs",
         "description_enriched": "kebab, döner, grill, viande grillée, sauce",
         "category": "attribute",
         "usage_count": 28132
       },
       "tapas": {
-        "description_fr": "nourriture tapas",
+        "description_fr": "Tapas",
         "description_enriched": "tapas",
         "category": "attribute",
         "usage_count": 2036
       },
       "pizza": {
-        "description_fr": "nourriture pizzas",
+        "description_fr": "Pizzas",
         "description_enriched": "pizzeria, pizza, italien, four bois, pâte",
         "category": "attribute",
         "usage_count": 132526
       },
       "indonesian": {
-        "description_fr": "nourriture indonésienne",
+        "description_fr": "Indonésienne",
         "description_enriched": "indonésienne, cuisine indonésienne",
         "category": "attribute",
         "usage_count": 2272
       },
       "buffet": {
-        "description_fr": "nourriture buffet",
+        "description_fr": "Buffet",
         "description_enriched": "buffet, cuisine buffet",
         "category": "attribute",
         "usage_count": 454
       },
       "sushi": {
-        "description_fr": "nourriture sushis",
+        "description_fr": "Sushis",
         "description_enriched": "sushi, japonais, maki, sashimi, restaurant japonais",
         "category": "attribute",
         "usage_count": 24076
       },
       "korean": {
-        "description_fr": "nourriture coréenne",
+        "description_fr": "Coréenne",
         "description_enriched": "cuisine coréenne, bibimbap, kimchi, BBQ coréen",
         "category": "attribute",
         "usage_count": 14694
       },
       "soba": {
-        "description_fr": "nourriture soba",
+        "description_fr": "Soba",
         "description_enriched": "soba, cuisine soba",
         "category": "attribute",
         "usage_count": 1251
       },
       "regional": {
-        "description_fr": "nourriture régionale",
+        "description_fr": "Régionale",
         "description_enriched": "cuisine régionale, terroir, spécialités locales, tradition",
         "category": "attribute",
         "usage_count": 84788
       },
       "sausage": {
-        "description_fr": "nourriture saucisses",
+        "description_fr": "Saucisses",
         "description_enriched": "saucisses",
         "category": "attribute",
         "usage_count": 681
       },
       "ramen": {
-        "description_fr": "nourriture ramen, nouilles japonaises",
+        "description_fr": "Ramen, nouilles japonaises",
         "description_enriched": "ramen, nouilles japonaises, ramen, nouilles japonaises",
         "category": "attribute",
         "usage_count": 8211
       },
       "german": {
-        "description_fr": "nourriture allemande",
+        "description_fr": "Allemande",
         "description_enriched": "allemande, cuisine allemande",
         "category": "attribute",
         "usage_count": 11930
       },
       "sandwich": {
-        "description_fr": "nourriture sandwich",
+        "description_fr": "Sandwich",
         "description_enriched": "sandwich, sandwichs",
         "category": "attribute",
         "usage_count": 50581
       },
       "lebanese": {
-        "description_fr": "nourriture libanaise",
+        "description_fr": "Libanaise",
         "description_enriched": "cuisine libanaise, mezze, falafel, houmous, taboulé",
         "category": "attribute",
         "usage_count": 2352
       },
       "poke": {
-        "description_fr": "nourriture poké",
+        "description_fr": "Poké",
         "description_enriched": "poké, cuisine poke",
         "category": "attribute",
         "usage_count": 829
       },
       "frozen_yogurt": {
-        "description_fr": "nourriture yaourt glacé",
+        "description_fr": "Yaourt glacé",
         "description_enriched": "yaourt glacé, frozen yogurt",
         "category": "attribute",
         "usage_count": 1670
       },
       "mediterranean": {
-        "description_fr": "nourriture méditerranéenne",
+        "description_fr": "Méditerranéenne",
         "description_enriched": "cuisine méditerranéenne, huile olive, légumes, poisson",
         "category": "attribute",
         "usage_count": 4417
       },
       "meat": {
-        "description_fr": "nourriture meat",
+        "description_fr": "Meat",
         "description_enriched": "meat, cuisine meat",
         "category": "attribute",
         "usage_count": 367
       },
       "fried_chicken": {
-        "description_fr": "nourriture fried Chicken",
+        "description_fr": "Fried Chicken",
         "description_enriched": "fried chicken, cuisine fried poulet",
         "category": "attribute",
         "usage_count": 468
       },
       "ice_cream": {
-        "description_fr": "nourriture glaces",
+        "description_fr": "Glaces",
         "description_enriched": "glacier, glaces, sorbets, crème glacée, desserts glacés",
         "category": "attribute",
         "usage_count": 14712
       },
       "tex-mex": {
-        "description_fr": "nourriture tex-mex",
+        "description_fr": "Tex-mex",
         "description_enriched": "tex-mex",
         "category": "attribute",
         "usage_count": 9490
       },
       "traditional": {
-        "description_fr": "nourriture traditional",
+        "description_fr": "Traditional",
         "description_enriched": "traditional, cuisine traditional",
         "category": "attribute",
         "usage_count": 341
       },
       "ukrainian": {
-        "description_fr": "nourriture ukrainienne",
+        "description_fr": "Ukrainienne",
         "description_enriched": "ukrainienne, cuisine ukrainienne",
         "category": "attribute",
         "usage_count": 377
       },
       "mexican": {
-        "description_fr": "nourriture mexicaine",
+        "description_fr": "Mexicaine",
         "description_enriched": "cuisine mexicaine, tacos, burritos, guacamole, nachos",
         "category": "attribute",
         "usage_count": 39418
       },
       "italian": {
-        "description_fr": "nourriture italienne",
+        "description_fr": "Italienne",
         "description_enriched": "cuisine italienne, pizza, pâtes, risotto, antipasti",
         "category": "attribute",
         "usage_count": 53987
       },
       "juice": {
-        "description_fr": "nourriture jus",
+        "description_fr": "Jus",
         "description_enriched": "jus, jus de fruits frais",
         "category": "attribute",
         "usage_count": 6330
       },
       "bubble_tea": {
-        "description_fr": "nourriture bubble tea",
+        "description_fr": "Bubble tea",
         "description_enriched": "bubble tea, cuisine bubble thé",
         "category": "attribute",
         "usage_count": 11300
       },
       "latin_american": {
-        "description_fr": "nourriture latino-américaine",
+        "description_fr": "Latino-américaine",
         "description_enriched": "latino-américaine, cuisine latino",
         "category": "attribute",
         "usage_count": 758
       },
       "cuban": {
-        "description_fr": "nourriture cubaine",
+        "description_fr": "Cubaine",
         "description_enriched": "cubaine, cuisine cubaine",
         "category": "attribute",
         "usage_count": 365
       },
       "bakery": {
-        "description_fr": "nourriture boulangerie",
+        "description_fr": "Boulangerie",
         "description_enriched": "boulangerie, pain, baguette, croissants, viennoiseries, pâtisseries",
         "category": "attribute",
         "usage_count": 381
       },
       "curry": {
-        "description_fr": "nourriture curry",
+        "description_fr": "Curry",
         "description_enriched": "curry",
         "category": "attribute",
         "usage_count": 1086
       },
       "friture": {
-        "description_fr": "nourriture friture",
+        "description_fr": "Friture",
         "description_enriched": "friture, friterie, baraque à frites",
         "category": "attribute",
         "usage_count": 3950
       },
       "tacos": {
-        "description_fr": "nourriture tacos",
+        "description_fr": "Tacos",
         "description_enriched": "tacos, cuisine tacos",
         "category": "attribute",
         "usage_count": 1323
       },
       "austrian": {
-        "description_fr": "nourriture autrichienne",
+        "description_fr": "Autrichienne",
         "description_enriched": "autrichienne, cuisine autrichienne",
         "category": "attribute",
         "usage_count": 403
       },
       "bavarian": {
-        "description_fr": "nourriture bavaroise",
+        "description_fr": "Bavaroise",
         "description_enriched": "bavaroise, cuisine bavaroise",
         "category": "attribute",
         "usage_count": 911
       },
       "salad": {
-        "description_fr": "nourriture salades",
+        "description_fr": "Salades",
         "description_enriched": "salades",
         "category": "attribute",
         "usage_count": 1559
       },
       "chinese": {
-        "description_fr": "nourriture chinoise",
+        "description_fr": "Chinoise",
         "description_enriched": "cuisine chinoise, wok, nouilles, riz, cantonais",
         "category": "attribute",
         "usage_count": 59785
       },
       "caribbean": {
-        "description_fr": "nourriture caribéenne",
+        "description_fr": "Caribéenne",
         "description_enriched": "caribéenne, cuisine caribéenne",
         "category": "attribute",
         "usage_count": 1482
       },
       "polish": {
-        "description_fr": "nourriture polonaise",
+        "description_fr": "Polonaise",
         "description_enriched": "polonaise, cuisine polonaise",
         "category": "attribute",
         "usage_count": 1701
       },
       "brazilian": {
-        "description_fr": "nourriture brésilienne",
+        "description_fr": "Brésilienne",
         "description_enriched": "cuisine brésilienne, churrasco, feijoada, açaï",
         "category": "attribute",
         "usage_count": 1357
       },
       "russian": {
-        "description_fr": "nourriture russe",
+        "description_fr": "Russe",
         "description_enriched": "russe, cuisine russe",
         "category": "attribute",
         "usage_count": 1345
       },
       "french": {
-        "description_fr": "nourriture française",
+        "description_fr": "Française",
         "description_enriched": "cuisine française, gastronomie, bistrot, tradition, terroir",
         "category": "attribute",
         "usage_count": 15133
       },
       "afghan": {
-        "description_fr": "nourriture afghane",
+        "description_fr": "Afghane",
         "description_enriched": "afghane, cuisine afghane",
         "category": "attribute",
         "usage_count": 329
       },
       "international": {
-        "description_fr": "nourriture internationale",
+        "description_fr": "Internationale",
         "description_enriched": "cuisine internationale, fusion, monde, cosmopolite",
         "category": "attribute",
         "usage_count": 8500
       },
       "british": {
-        "description_fr": "nourriture britannique",
+        "description_fr": "Britannique",
         "description_enriched": "britannique, cuisine britannique",
         "category": "attribute",
         "usage_count": 1050
       },
       "bolivian": {
-        "description_fr": "nourriture bolivienne",
+        "description_fr": "Bolivienne",
         "description_enriched": "bolivienne, cuisine bolivienne",
         "category": "attribute",
         "usage_count": 322
       },
       "tea": {
-        "description_fr": "nourriture thé",
+        "description_fr": "Thé",
         "description_enriched": "salon thé, thés, infusions, pâtisseries, pause gourmande",
         "category": "attribute",
         "usage_count": 1270
       },
       "syrian": {
-        "description_fr": "nourriture syrienne",
+        "description_fr": "Syrienne",
         "description_enriched": "syrienne, cuisine syrienne",
         "category": "attribute",
         "usage_count": 318
       },
       "crepe": {
-        "description_fr": "nourriture crêpes",
+        "description_fr": "Crêpes",
         "description_enriched": "crêpes, galettes",
         "category": "attribute",
         "usage_count": 2851
       },
       "steak": {
-        "description_fr": "nourriture steak",
+        "description_fr": "Steak",
         "description_enriched": "steak, cuisine steak",
         "category": "attribute",
         "usage_count": 804
       },
       "georgian": {
-        "description_fr": "nourriture georgian",
+        "description_fr": "Georgian",
         "description_enriched": "georgian, cuisine georgian",
         "category": "attribute",
         "usage_count": 2223
       },
       "piadina": {
-        "description_fr": "nourriture piadina",
+        "description_fr": "Piadina",
         "description_enriched": "piadina, cuisine piadina",
         "category": "attribute",
         "usage_count": 462
       },
       "arab": {
-        "description_fr": "nourriture arabe",
+        "description_fr": "Arabe",
         "description_enriched": "arabe, cuisine arabe",
         "category": "attribute",
         "usage_count": 1644
       },
       "coffee": {
-        "description_fr": "nourriture café",
+        "description_fr": "Café",
         "description_enriched": "café, torréfacteur, grains café, expresso, machine café",
         "category": "attribute",
         "usage_count": 714
       },
       "barbecue": {
-        "description_fr": "nourriture barbecue",
+        "description_fr": "Barbecue",
         "description_enriched": "barbecue, grillades",
         "category": "attribute",
         "usage_count": 11545
       },
       "japanese": {
-        "description_fr": "nourriture japonaise",
+        "description_fr": "Japonaise",
         "description_enriched": "cuisine japonaise, sushi, ramen, maki, tempura",
         "category": "attribute",
         "usage_count": 32781
       },
       "cake": {
-        "description_fr": "nourriture gâteaux",
+        "description_fr": "Gâteaux",
         "description_enriched": "gâteaux, pâtisseries",
         "category": "attribute",
         "usage_count": 1679
       },
       "dumplings": {
-        "description_fr": "nourriture dumplings",
+        "description_fr": "Dumplings",
         "description_enriched": "dumplings, cuisine dumplings",
         "category": "attribute",
         "usage_count": 1317
       },
       "jamaican": {
-        "description_fr": "nourriture jamaïcaine",
+        "description_fr": "Jamaïcaine",
         "description_enriched": "jamaïcaine, cuisine jamaïcaine",
         "category": "attribute",
         "usage_count": 423
       },
       "seafood": {
-        "description_fr": "nourriture fruits de mer",
+        "description_fr": "Fruits de mer",
         "description_enriched": "poissonnerie, poissons, fruits mer, crustacés, produits mer",
         "category": "attribute",
         "usage_count": 15276
       },
       "argentinian": {
-        "description_fr": "nourriture argentine",
+        "description_fr": "Argentine",
         "description_enriched": "argentine, cuisine argentine",
         "category": "attribute",
         "usage_count": 907
       },
       "hotpot": {
-        "description_fr": "nourriture fondue chinoise",
+        "description_fr": "Fondue chinoise",
         "description_enriched": "fondue chinoise, cuisine hotpot",
         "category": "attribute",
         "usage_count": 802
       },
       "wings": {
-        "description_fr": "nourriture ailes",
+        "description_fr": "Ailes",
         "description_enriched": "ailes, chicken wings",
         "category": "attribute",
         "usage_count": 3173
       },
       "croatian": {
-        "description_fr": "nourriture croate",
+        "description_fr": "Croate",
         "description_enriched": "croate, cuisine croate",
         "category": "attribute",
         "usage_count": 345
       },
       "vietnamese": {
-        "description_fr": "nourriture vietnamienne",
+        "description_fr": "Vietnamienne",
         "description_enriched": "cuisine vietnamienne, pho, nems, banh mi, frais",
         "category": "attribute",
         "usage_count": 10894
       },
       "beef_bowl": {
-        "description_fr": "nourriture beef Bowl",
+        "description_fr": "Beef Bowl",
         "description_enriched": "beef bowl, cuisine beef bowl",
         "category": "attribute",
         "usage_count": 3064
       },
       "grill": {
-        "description_fr": "nourriture grillade",
+        "description_fr": "Grillade",
         "description_enriched": "grillade, cuisine grillade",
         "category": "attribute",
         "usage_count": 1440
       },
       "churro": {
-        "description_fr": "nourriture churro",
+        "description_fr": "Churro",
         "description_enriched": "churro, cuisine churro",
         "category": "attribute",
         "usage_count": 570
       },
       "diner": {
-        "description_fr": "nourriture diner américain",
+        "description_fr": "Diner américain",
         "description_enriched": "diner américain, cuisine diner",
         "category": "attribute",
         "usage_count": 1059
       },
       "taiwanese": {
-        "description_fr": "nourriture taïwanaise",
+        "description_fr": "Taïwanaise",
         "description_enriched": "taïwanaise, cuisine taïwanaise",
         "category": "attribute",
         "usage_count": 1173
       },
       "french_tacos": {
-        "description_fr": "nourriture french Tacos",
+        "description_fr": "French Tacos",
         "description_enriched": "french tacos, cuisine française tacos",
         "category": "attribute",
         "usage_count": 353
       },
       "local": {
-        "description_fr": "nourriture locale",
+        "description_fr": "Locale",
         "description_enriched": "locale, cuisine locale",
         "category": "attribute",
         "usage_count": 4745
       },
       "noodle": {
-        "description_fr": "nourriture nouilles",
+        "description_fr": "Nouilles",
         "description_enriched": "nouilles",
         "category": "attribute",
         "usage_count": 10272
       },
       "fried_food": {
-        "description_fr": "nourriture friture",
+        "description_fr": "Friture",
         "description_enriched": "friture, fritures",
         "category": "attribute",
         "usage_count": 539
       },
       "nepalese": {
-        "description_fr": "nourriture népalaise",
+        "description_fr": "Népalaise",
         "description_enriched": "népalaise, cuisine népalaise",
         "category": "attribute",
         "usage_count": 388
       },
       "pancake": {
-        "description_fr": "nourriture pancakes",
+        "description_fr": "Pancakes",
         "description_enriched": "pancakes",
         "category": "attribute",
         "usage_count": 826
       },
       "cantonese": {
-        "description_fr": "nourriture cantonaise",
+        "description_fr": "Cantonaise",
         "description_enriched": "cantonaise, cuisine cantonaise",
         "category": "attribute",
         "usage_count": 337
       },
       "american": {
-        "description_fr": "nourriture américaine",
+        "description_fr": "Américaine",
         "description_enriched": "cuisine américaine, burger, frites, steakhouse, BBQ",
         "category": "attribute",
         "usage_count": 26286
       },
       "moroccan": {
-        "description_fr": "nourriture cuisine marocaine",
+        "description_fr": "Cuisine marocaine",
         "description_enriched": "cuisine marocaine, tajine, couscous, pastilla, épices",
         "category": "attribute",
         "usage_count": 817
       },
       "açaí": {
-        "description_fr": "nourriture açaí",
+        "description_fr": "Açaí",
         "description_enriched": "açaí, cuisine açaí",
         "category": "attribute",
         "usage_count": 435
       },
       "portuguese": {
-        "description_fr": "nourriture portugaise",
+        "description_fr": "Portugaise",
         "description_enriched": "portugaise, cuisine portugaise",
         "category": "attribute",
         "usage_count": 1945
       },
       "european": {
-        "description_fr": "nourriture european",
+        "description_fr": "European",
         "description_enriched": "european, cuisine european",
         "category": "attribute",
         "usage_count": 458
       },
       "malaysian": {
-        "description_fr": "nourriture malaisienne",
+        "description_fr": "Malaisienne",
         "description_enriched": "malaisienne, cuisine malaisienne",
         "category": "attribute",
         "usage_count": 1681
       },
       "oriental": {
-        "description_fr": "nourriture orientale",
+        "description_fr": "Orientale",
         "description_enriched": "orientale, cuisine oriental",
         "category": "attribute",
         "usage_count": 707
       },
       "heuriger": {
-        "description_fr": "nourriture heuriger",
+        "description_fr": "Heuriger",
         "description_enriched": "heuriger, cuisine heuriger",
         "category": "attribute",
         "usage_count": 798
       },
       "spanish": {
-        "description_fr": "nourriture espagnole",
+        "description_fr": "Espagnole",
         "description_enriched": "cuisine espagnole, tapas, paella, jambon, tortilla",
         "category": "attribute",
         "usage_count": 5069
       },
       "thai": {
-        "description_fr": "nourriture thaï",
+        "description_fr": "Thaï",
         "description_enriched": "cuisine thaï, pad thaï, curry, épicé, citronnelle",
         "category": "attribute",
         "usage_count": 17150
       },
       "dessert": {
-        "description_fr": "nourriture dessert",
+        "description_fr": "Dessert",
         "description_enriched": "dessert, desserts",
         "category": "attribute",
         "usage_count": 1723
       },
       "yakiniku": {
-        "description_fr": "nourriture yakiniku",
+        "description_fr": "Yakiniku",
         "description_enriched": "yakiniku, cuisine yakiniku",
         "category": "attribute",
         "usage_count": 304
       },
       "lao": {
-        "description_fr": "nourriture laotienne",
+        "description_fr": "Laotienne",
         "description_enriched": "laotienne, cuisine laotienne",
         "category": "attribute",
         "usage_count": 322
       },
       "bagel": {
-        "description_fr": "nourriture bagel",
+        "description_fr": "Bagel",
         "description_enriched": "bagel, bagels",
         "category": "attribute",
         "usage_count": 1981
       },
       "ethiopian": {
-        "description_fr": "nourriture éthiopienne",
+        "description_fr": "Éthiopienne",
         "description_enriched": "éthiopienne, cuisine éthiopienne",
         "category": "attribute",
         "usage_count": 668
       },
       "coffee_shop": {
-        "description_fr": "nourriture café",
+        "description_fr": "Café",
         "description_enriched": "café, coffee",
         "category": "attribute",
         "usage_count": 101019
       },
       "pita": {
-        "description_fr": "nourriture pita",
+        "description_fr": "Pita",
         "description_enriched": "pita, cuisine pita",
         "category": "attribute",
         "usage_count": 490
       },
       "pasta": {
-        "description_fr": "nourriture pâtes",
+        "description_fr": "Pâtes",
         "description_enriched": "pâtes",
         "category": "attribute",
         "usage_count": 1646
       },
       "peruvian": {
-        "description_fr": "nourriture péruvienne",
+        "description_fr": "Péruvienne",
         "description_enriched": "cuisine péruvienne, ceviche, lomo saltado, anticuchos",
         "category": "attribute",
         "usage_count": 1551
       },
       "shawarma": {
-        "description_fr": "nourriture shawarma",
+        "description_fr": "Shawarma",
         "description_enriched": "shawarma, cuisine shawarma",
         "category": "attribute",
         "usage_count": 987
       },
       "donut": {
-        "description_fr": "nourriture donuts",
+        "description_fr": "Donuts",
         "description_enriched": "donuts, beignets",
         "category": "attribute",
         "usage_count": 5322
       },
       "potato": {
-        "description_fr": "nourriture potato",
+        "description_fr": "Potato",
         "description_enriched": "potato, cuisine potato",
         "category": "attribute",
         "usage_count": 383
       },
       "brunch": {
-        "description_fr": "nourriture brunch",
+        "description_fr": "Brunch",
         "description_enriched": "brunch, cuisine brunch",
         "category": "attribute",
         "usage_count": 411
       },
       "teahouse": {
-        "description_fr": "nourriture salon de thé",
+        "description_fr": "Salon de thé",
         "description_enriched": "salon de thé",
         "category": "attribute",
         "usage_count": 354
       },
       "fine_dining": {
-        "description_fr": "nourriture gastronomique",
+        "description_fr": "Gastronomique",
         "description_enriched": "gastronomique, cuisine fine dining",
         "category": "attribute",
         "usage_count": 736
       },
       "fast_food": {
-        "description_fr": "nourriture fast-food, restauration rapide",
+        "description_fr": "Fast-food, restauration rapide",
         "description_enriched": "fast-food, restauration rapide, fast-food, restauration rapide",
         "category": "attribute",
         "usage_count": 560
       },
       "filipino": {
-        "description_fr": "nourriture philippine",
+        "description_fr": "Philippine",
         "description_enriched": "philippine, cuisine philippine",
         "category": "attribute",
         "usage_count": 2401
       },
       "chicken": {
-        "description_fr": "nourriture poulet",
+        "description_fr": "Poulet",
         "description_enriched": "poulet",
         "category": "attribute",
         "usage_count": 45400
       },
       "waffle": {
-        "description_fr": "nourriture gaufres",
+        "description_fr": "Gaufres",
         "description_enriched": "gaufres",
         "category": "attribute",
         "usage_count": 383
       },
       "cafe": {
-        "description_fr": "nourriture café, salon de thé",
+        "description_fr": "Café, salon de thé",
         "description_enriched": "café, salon de thé, café, salon de thé",
         "category": "attribute",
         "usage_count": 503
       },
       "udon": {
-        "description_fr": "nourriture udon",
+        "description_fr": "Udon",
         "description_enriched": "udon, cuisine udon",
         "category": "attribute",
         "usage_count": 602
       },
       "african": {
-        "description_fr": "nourriture africaine",
+        "description_fr": "Africaine",
         "description_enriched": "cuisine africaine, épices, grillades, mafé, yassa",
         "category": "attribute",
         "usage_count": 1745
       },
       "balkan": {
-        "description_fr": "nourriture balkanique",
+        "description_fr": "Balkanique",
         "description_enriched": "balkanique, cuisine balkanique",
         "category": "attribute",
         "usage_count": 803
       },
       "fries": {
-        "description_fr": "nourriture fries",
+        "description_fr": "Fries",
         "description_enriched": "fries, cuisine fries",
         "category": "attribute",
         "usage_count": 598
       },
       "pretzel": {
-        "description_fr": "nourriture pretzel",
+        "description_fr": "Pretzel",
         "description_enriched": "pretzel, cuisine pretzel",
         "category": "attribute",
         "usage_count": 898
       },
       "middle_eastern": {
-        "description_fr": "nourriture middle Eastern",
+        "description_fr": "Middle Eastern",
         "description_enriched": "middle eastern, cuisine middle eastern",
         "category": "attribute",
         "usage_count": 1059
       },
       "greek": {
-        "description_fr": "nourriture grecque",
+        "description_fr": "Grecque",
         "description_enriched": "cuisine grecque, gyros, tzatziki, moussaka, feta",
         "category": "attribute",
         "usage_count": 13379
       },
       "empanada": {
-        "description_fr": "nourriture empanadas",
+        "description_fr": "Empanadas",
         "description_enriched": "empanadas",
         "category": "attribute",
         "usage_count": 534
       },
       "fish_and_chips": {
-        "description_fr": "nourriture fish and chips",
+        "description_fr": "Fish and chips",
         "description_enriched": "fish and chips",
         "category": "attribute",
         "usage_count": 10123
       },
       "persian": {
-        "description_fr": "nourriture persian",
+        "description_fr": "Persian",
         "description_enriched": "persian, cuisine persian",
         "category": "attribute",
         "usage_count": 969
       },
       "burger": {
-        "description_fr": "nourriture burgers",
+        "description_fr": "Burgers",
         "description_enriched": "burger, hamburger, frites, fast-food, américain",
         "category": "attribute",
         "usage_count": 110777
       },
       "western": {
-        "description_fr": "nourriture western",
+        "description_fr": "Western",
         "description_enriched": "western, cuisine western",
         "category": "attribute",
         "usage_count": 609
       },
       "fish": {
-        "description_fr": "nourriture poisson",
+        "description_fr": "Poisson",
         "description_enriched": "poisson",
         "category": "attribute",
         "usage_count": 4628
       },
       "hot_dog": {
-        "description_fr": "nourriture hot-dog",
+        "description_fr": "Hot-dog",
         "description_enriched": "hot-dog, cuisine hot dog",
         "category": "attribute",
         "usage_count": 2273
       },
       "turkish": {
-        "description_fr": "nourriture turque",
+        "description_fr": "Turque",
         "description_enriched": "cuisine turque, kebab, mezze, lahmacun, pide",
         "category": "attribute",
         "usage_count": 8813
       },
       "vegetarian": {
-        "description_fr": "nourriture vegetarian",
+        "description_fr": "Vegetarian",
         "description_enriched": "végétarien, sans viande, légumes, cuisine végétarienne",
         "category": "attribute",
         "usage_count": 1000
       },
       "vegan": {
-        "description_fr": "nourriture vegan",
+        "description_fr": "Vegan",
         "description_enriched": "vegan, végétalien, sans produit animal, 100% végétal",
         "category": "attribute",
         "usage_count": 1000
@@ -6943,7 +6943,7 @@
     "description": "Sports et activités sportives",
     "values": {
       "batting_cage": {
-        "description_fr": "Batting Cage",
+        "description_fr": "Cage de frappe",
         "description_enriched": "batting cage",
         "category": "attribute",
         "usage_count": 838
@@ -7057,7 +7057,7 @@
         "usage_count": 2213
       },
       "gaga": {
-        "description_fr": "Gaga",
+        "description_fr": "Gaga ball",
         "description_enriched": "gaga",
         "category": "attribute",
         "usage_count": 887
@@ -7069,7 +7069,7 @@
         "usage_count": 630
       },
       "table_soccer": {
-        "description_fr": "Table Soccer",
+        "description_fr": "Baby-foot",
         "description_enriched": "table soccer, table football",
         "category": "attribute",
         "usage_count": 732
@@ -7111,7 +7111,7 @@
         "usage_count": 1430
       },
       "marching_band": {
-        "description_fr": "Marching Band",
+        "description_fr": "Fanfare",
         "description_enriched": "marching band",
         "category": "attribute",
         "usage_count": 491
@@ -7123,7 +7123,7 @@
         "usage_count": 5936
       },
       "four_square": {
-        "description_fr": "Four Square",
+        "description_fr": "Four square",
         "description_enriched": "four square",
         "category": "attribute",
         "usage_count": 10366
@@ -7177,7 +7177,7 @@
         "usage_count": 160487
       },
       "calisthenics": {
-        "description_fr": "Calisthenics",
+        "description_fr": "Callisthénie",
         "description_enriched": "calisthenics",
         "category": "attribute",
         "usage_count": 578
@@ -7189,7 +7189,7 @@
         "usage_count": 2497
       },
       "american_handball": {
-        "description_fr": "American Handball",
+        "description_fr": "Handball américain",
         "description_enriched": "american handball",
         "category": "attribute",
         "usage_count": 1607
@@ -7225,7 +7225,7 @@
         "usage_count": 1201
       },
       "horseshoes": {
-        "description_fr": "Jeter de fer à cheval",
+        "description_fr": "Fer à cheval",
         "description_enriched": "jeter de fer à cheval, horseshoes",
         "category": "attribute",
         "usage_count": 2847
@@ -7273,7 +7273,7 @@
         "usage_count": 570
       },
       "tetherball": {
-        "description_fr": "Tetherball",
+        "description_fr": "Ballon captif",
         "description_enriched": "tetherball",
         "category": "attribute",
         "usage_count": 2811
@@ -7321,7 +7321,7 @@
         "usage_count": 1612
       },
       "mtb": {
-        "description_fr": "Mtb",
+        "description_fr": "VTT",
         "description_enriched": "mtb",
         "category": "attribute",
         "usage_count": 894
@@ -7399,13 +7399,13 @@
         "usage_count": 397
       },
       "ski_jumping": {
-        "description_fr": "Ski Jumping",
+        "description_fr": "Saut à ski",
         "description_enriched": "ski jumping",
         "category": "attribute",
         "usage_count": 1044
       },
       "car_racing": {
-        "description_fr": "Car Racing",
+        "description_fr": "Course automobile",
         "description_enriched": "car racing",
         "category": "attribute",
         "usage_count": 307
@@ -7423,7 +7423,7 @@
         "usage_count": 321408
       },
       "exercise": {
-        "description_fr": "Exercise",
+        "description_fr": "Exercice",
         "description_enriched": "exercise",
         "category": "attribute",
         "usage_count": 2221
@@ -7477,7 +7477,7 @@
         "usage_count": 2930
       },
       "five-a-side": {
-        "description_fr": "Five-A-Side",
+        "description_fr": "Foot à 5",
         "description_enriched": "five-a-side, five-",
         "category": "attribute",
         "usage_count": 994
@@ -7501,7 +7501,7 @@
         "usage_count": 2697
       },
       "dog": {
-        "description_fr": "Dog",
+        "description_fr": "Sport canin",
         "description_enriched": "dog",
         "category": "attribute",
         "usage_count": 359
@@ -7555,7 +7555,7 @@
         "usage_count": 324
       },
       "ultralight_aviation": {
-        "description_fr": "Ultralight Aviation",
+        "description_fr": "ULM",
         "description_enriched": "ultralight aviation",
         "category": "attribute",
         "usage_count": 567
@@ -7663,7 +7663,7 @@
         "usage_count": 1354
       },
       "shuffleboard": {
-        "description_fr": "Shuffleboard",
+        "description_fr": "Palet",
         "description_enriched": "shuffleboard",
         "category": "attribute",
         "usage_count": 2030
@@ -7675,7 +7675,7 @@
         "usage_count": 68475
       },
       "diving": {
-        "description_fr": "Diving",
+        "description_fr": "Plongeon",
         "description_enriched": "plongée, plongée sous-marine, apnée, sous l'eau",
         "category": "attribute",
         "usage_count": 1000
@@ -7692,7 +7692,7 @@
         "usage_count": 2412
       },
       "policlinic": {
-        "description_fr": "Policlinic",
+        "description_fr": "Polyclinique",
         "description_enriched": "policlinic, bâtiment policlinic",
         "category": "other",
         "usage_count": 407
@@ -7710,19 +7710,19 @@
         "usage_count": 17374
       },
       "watermill": {
-        "description_fr": "Watermill",
+        "description_fr": "Moulin à eau",
         "description_enriched": "watermill, bâtiment watermill",
         "category": "other",
         "usage_count": 416
       },
       "data_center": {
-        "description_fr": "Data Center",
+        "description_fr": "Centre de données",
         "description_enriched": "data center, bâtiment data center",
         "category": "other",
         "usage_count": 1018
       },
       "storage": {
-        "description_fr": "Storage",
+        "description_fr": "Bâtiment de stockage",
         "description_enriched": "storage, bâtiment storage",
         "category": "other",
         "usage_count": 2810
@@ -7740,19 +7740,19 @@
         "usage_count": 1577
       },
       "wine_cellar": {
-        "description_fr": "Wine Cellar",
+        "description_fr": "Cave à vin",
         "description_enriched": "wine cellar, bâtiment wine cellar",
         "category": "other",
         "usage_count": 513
       },
       "wall": {
-        "description_fr": "Wall",
+        "description_fr": "Mur",
         "description_enriched": "wall, bâtiment mur",
         "category": "other",
         "usage_count": 1527
       },
       "greenhouse_horticulture": {
-        "description_fr": "Greenhouse Horticulture",
+        "description_fr": "Serre horticole",
         "description_enriched": "greenhouse horticulture, bâtiment serre horticulture",
         "category": "other",
         "usage_count": 531
@@ -7770,7 +7770,7 @@
         "usage_count": 2982
       },
       "pagoda": {
-        "description_fr": "Pagoda",
+        "description_fr": "Pagode",
         "description_enriched": "pagoda",
         "category": "other",
         "usage_count": 572
@@ -7800,7 +7800,7 @@
         "usage_count": 426382
       },
       "horsewalker": {
-        "description_fr": "Horsewalker",
+        "description_fr": "Marcheur équin",
         "description_enriched": "horsewalker, bâtiment horsewalker",
         "category": "other",
         "usage_count": 432
@@ -7830,13 +7830,13 @@
         "usage_count": 25547
       },
       "townhouse": {
-        "description_fr": "Townhouse",
+        "description_fr": "Maison de ville",
         "description_enriched": "townhouse, bâtiment townhouse",
         "category": "other",
         "usage_count": 1344
       },
       "ruin": {
-        "description_fr": "Ruin",
+        "description_fr": "Ruine",
         "description_enriched": "ruin, bâtiment ruin",
         "category": "other",
         "usage_count": 1979
@@ -7848,7 +7848,7 @@
         "usage_count": 926
       },
       "dovecote": {
-        "description_fr": "Dovecote",
+        "description_fr": "Pigeonnier",
         "description_enriched": "dovecote, bâtiment dovecote",
         "category": "other",
         "usage_count": 638
@@ -7896,7 +7896,7 @@
         "usage_count": 101135
       },
       "wine_press_house": {
-        "description_fr": "Wine Press House",
+        "description_fr": "Pressoir",
         "description_enriched": "wine press house, bâtiment wine press maison",
         "category": "other",
         "usage_count": 503
@@ -7914,7 +7914,7 @@
         "usage_count": 7907674
       },
       "maybe": {
-        "description_fr": "Maybe",
+        "description_fr": "Possible",
         "description_enriched": "maybe, bâtiment maybe",
         "category": "other",
         "usage_count": 1522
@@ -7926,19 +7926,19 @@
         "usage_count": 154990
       },
       "guardhouse": {
-        "description_fr": "Guardhouse",
+        "description_fr": "Corps de garde",
         "description_enriched": "guardhouse, bâtiment guardhouse",
         "category": "other",
         "usage_count": 8644
       },
       "hayrack": {
-        "description_fr": "Hayrack",
+        "description_fr": "Séchoir à foin",
         "description_enriched": "hayrack, bâtiment hayrack",
         "category": "other",
         "usage_count": 3229
       },
       "proposed": {
-        "description_fr": "Proposed",
+        "description_fr": "Projeté",
         "description_enriched": "proposed, bâtiment proposed",
         "category": "other",
         "usage_count": 3468
@@ -7956,13 +7956,13 @@
         "usage_count": 3397
       },
       "power_substation": {
-        "description_fr": "Power Substation",
+        "description_fr": "Poste électrique",
         "description_enriched": "power substation, bâtiment power poste",
         "category": "other",
         "usage_count": 1878
       },
       "demolished": {
-        "description_fr": "Demolished",
+        "description_fr": "Démoli",
         "description_enriched": "demolished, bâtiment demolished",
         "category": "other",
         "usage_count": 768
@@ -7998,7 +7998,7 @@
         "usage_count": 316766
       },
       "brewery": {
-        "description_fr": "Brewery",
+        "description_fr": "Brasserie",
         "description_enriched": "brasserie artisanale, bière, microbrasserie, houblon, malt",
         "category": "other",
         "usage_count": 536
@@ -8016,7 +8016,7 @@
         "usage_count": 3044
       },
       "palace": {
-        "description_fr": "Palace",
+        "description_fr": "Palais",
         "description_enriched": "palace, bâtiment palace",
         "category": "other",
         "usage_count": 365
@@ -8046,7 +8046,7 @@
         "usage_count": 9649871
       },
       "leisure": {
-        "description_fr": "Leisure",
+        "description_fr": "Bâtiment de loisirs",
         "description_enriched": "leisure, bâtiment leisure",
         "category": "other",
         "usage_count": 306
@@ -8058,25 +8058,25 @@
         "usage_count": 3744
       },
       "home": {
-        "description_fr": "Home",
+        "description_fr": "Maison",
         "description_enriched": "home, bâtiment home",
         "category": "other",
         "usage_count": 535
       },
       "granary": {
-        "description_fr": "Granary",
+        "description_fr": "Grenier",
         "description_enriched": "granary, bâtiment granary",
         "category": "other",
         "usage_count": 2660
       },
       "railway": {
-        "description_fr": "Railway",
+        "description_fr": "Bâtiment ferroviaire",
         "description_enriched": "railway, bâtiment railway",
         "category": "other",
         "usage_count": 604
       },
       "residence": {
-        "description_fr": "Residence",
+        "description_fr": "Résidence",
         "description_enriched": "residence, bâtiment residence",
         "category": "other",
         "usage_count": 301
@@ -8088,7 +8088,7 @@
         "usage_count": 8389
       },
       "tank": {
-        "description_fr": "Tank",
+        "description_fr": "Cuve",
         "description_enriched": "tank, bâtiment tank",
         "category": "other",
         "usage_count": 3284
@@ -8100,7 +8100,7 @@
         "usage_count": 7071
       },
       "basilica": {
-        "description_fr": "Basilica",
+        "description_fr": "Basilique",
         "description_enriched": "basilica, bâtiment basilica",
         "category": "other",
         "usage_count": 418
@@ -8112,25 +8112,25 @@
         "usage_count": 209336
       },
       "depot": {
-        "description_fr": "Depot",
+        "description_fr": "Dépôt",
         "description_enriched": "depot, bâtiment depot",
         "category": "other",
         "usage_count": 902
       },
       "poultry_house": {
-        "description_fr": "Poultry House",
+        "description_fr": "Poulailler",
         "description_enriched": "poultry house, bâtiment poultry maison",
         "category": "other",
         "usage_count": 1833
       },
       "portable_classroom": {
-        "description_fr": "Portable Classroom",
+        "description_fr": "Salle de classe mobile",
         "description_enriched": "portable classroom, bâtiment portable classroom",
         "category": "other",
         "usage_count": 833
       },
       "sport": {
-        "description_fr": "Sport",
+        "description_fr": "Bâtiment sportif",
         "description_enriched": "sport, équipement sportif, vêtements sport, chaussures, fitness, running",
         "category": "other",
         "usage_count": 1118
@@ -8142,25 +8142,25 @@
         "usage_count": 294990
       },
       "pumping_station": {
-        "description_fr": "Pumping Station",
+        "description_fr": "Station de pompage",
         "description_enriched": "pumping station, bâtiment pumping gare",
         "category": "other",
         "usage_count": 408
       },
       "historic": {
-        "description_fr": "Historic",
+        "description_fr": "Bâtiment historique",
         "description_enriched": "historic, bâtiment historic",
         "category": "other",
         "usage_count": 1154
       },
       "garbage_shed": {
-        "description_fr": "Resserre à déchêts",
+        "description_fr": "Resserre à déchets",
         "description_enriched": "resserre à déchêts, local poubelles",
         "category": "other",
         "usage_count": 763
       },
       "prefabricated": {
-        "description_fr": "Prefabricated",
+        "description_fr": "Préfabriqué",
         "description_enriched": "prefabricated, bâtiment prefabricated",
         "category": "other",
         "usage_count": 334
@@ -8172,7 +8172,7 @@
         "usage_count": 488
       },
       "chicken_shed": {
-        "description_fr": "Chicken Shed",
+        "description_fr": "Poulailler",
         "description_enriched": "chicken shed, bâtiment poulet cabanon",
         "category": "other",
         "usage_count": 632
@@ -8220,13 +8220,13 @@
         "usage_count": 383
       },
       "terraced": {
-        "description_fr": "Terraced",
+        "description_fr": "Maisons mitoyennes",
         "description_enriched": "terraced, bâtiment terraced",
         "category": "other",
         "usage_count": 1011
       },
       "security_booth": {
-        "description_fr": "Security Booth",
+        "description_fr": "Guérite",
         "description_enriched": "security booth, bâtiment security booth",
         "category": "other",
         "usage_count": 362
@@ -8244,7 +8244,7 @@
         "usage_count": 52554
       },
       "substation": {
-        "description_fr": "Substation",
+        "description_fr": "Poste électrique",
         "description_enriched": "substation, bâtiment poste",
         "category": "other",
         "usage_count": 1268
@@ -8262,13 +8262,13 @@
         "usage_count": 1031
       },
       "bathroom": {
-        "description_fr": "Bathroom",
+        "description_fr": "Sanitaires",
         "description_enriched": "bathroom, bâtiment bathroom",
         "category": "other",
         "usage_count": 402
       },
       "mixed_use": {
-        "description_fr": "Mixed Use",
+        "description_fr": "Usage mixte",
         "description_enriched": "mixed use, bâtiment mixed use",
         "category": "other",
         "usage_count": 2037
@@ -8280,7 +8280,7 @@
         "usage_count": 15903057
       },
       "demountable": {
-        "description_fr": "Demountable",
+        "description_fr": "Démontable",
         "description_enriched": "demountable, bâtiment demountable",
         "category": "other",
         "usage_count": 694
@@ -8292,19 +8292,19 @@
         "usage_count": 123912
       },
       "presbytery": {
-        "description_fr": "Presbytery",
+        "description_fr": "Presbytère",
         "description_enriched": "presbytery",
         "category": "other",
         "usage_count": 4704
       },
       "community_group_office": {
-        "description_fr": "Community Group Office",
+        "description_fr": "Bureau associatif",
         "description_enriched": "community group office, bâtiment community group bureau",
         "category": "other",
         "usage_count": 2088
       },
       "damaged": {
-        "description_fr": "Damaged",
+        "description_fr": "Endommagé",
         "description_enriched": "damaged, bâtiment damaged",
         "category": "other",
         "usage_count": 5616
@@ -8322,31 +8322,31 @@
         "usage_count": 3443
       },
       "flat": {
-        "description_fr": "Flat",
+        "description_fr": "Appartement",
         "description_enriched": "flat, bâtiment flat",
         "category": "other",
         "usage_count": 423
       },
       "livestock": {
-        "description_fr": "Livestock",
+        "description_fr": "Bâtiment d'élevage",
         "description_enriched": "livestock, bâtiment livestock",
         "category": "other",
         "usage_count": 6110
       },
       "annex": {
-        "description_fr": "Annex",
+        "description_fr": "Annexe",
         "description_enriched": "annex, bâtiment annex",
         "category": "other",
         "usage_count": 656
       },
       "balcony": {
-        "description_fr": "Balcony",
+        "description_fr": "Balcon",
         "description_enriched": "balcony, bâtiment balcony",
         "category": "other",
         "usage_count": 1824
       },
       "terraced_house": {
-        "description_fr": "Terraced House",
+        "description_fr": "Maison mitoyenne",
         "description_enriched": "terraced house, bâtiment terraced maison",
         "category": "other",
         "usage_count": 567
@@ -8358,7 +8358,7 @@
         "usage_count": 167029
       },
       "chimney": {
-        "description_fr": "Chimney",
+        "description_fr": "Cheminée",
         "description_enriched": "chimney, bâtiment chimney",
         "category": "other",
         "usage_count": 556
@@ -8376,19 +8376,19 @@
         "usage_count": 3962
       },
       "abandoned": {
-        "description_fr": "Abandoned",
+        "description_fr": "Abandonné",
         "description_enriched": "abandoned, bâtiment abandoned",
         "category": "other",
         "usage_count": 7845
       },
       "destroyed": {
-        "description_fr": "Destroyed",
+        "description_fr": "Détruit",
         "description_enriched": "destroyed, bâtiment destroyed",
         "category": "other",
         "usage_count": 707
       },
       "semidetached": {
-        "description_fr": "Semidetached",
+        "description_fr": "Maison jumelée",
         "description_enriched": "semidetached, bâtiment semidetached",
         "category": "other",
         "usage_count": 1221
@@ -8436,7 +8436,7 @@
         "usage_count": 441
       },
       "houseboat": {
-        "description_fr": "Houseboat",
+        "description_fr": "Péniche habitable",
         "description_enriched": "houseboat, péniche habitable",
         "category": "other",
         "usage_count": 17349
@@ -8448,7 +8448,7 @@
         "usage_count": 49998
       },
       "convent": {
-        "description_fr": "Convent",
+        "description_fr": "Couvent",
         "description_enriched": "convent, bâtiment convent",
         "category": "other",
         "usage_count": 818
@@ -8502,31 +8502,31 @@
         "usage_count": 15818
       },
       "mink_shed": {
-        "description_fr": "Mink Shed",
+        "description_fr": "Vison élevage",
         "description_enriched": "mink shed, bâtiment mink cabanon",
         "category": "other",
         "usage_count": 402
       },
       "semi_detached": {
-        "description_fr": "Semi Detached",
+        "description_fr": "Maison jumelée",
         "description_enriched": "semi detached, bâtiment semi individuelle",
         "category": "other",
         "usage_count": 1354
       },
       "barracks": {
-        "description_fr": "Barracks",
+        "description_fr": "Caserne",
         "description_enriched": "barracks",
         "category": "other",
         "usage_count": 2099
       },
       "clubhouse": {
-        "description_fr": "Clubhouse",
+        "description_fr": "Club house",
         "description_enriched": "clubhouse, bâtiment clubhouse",
         "category": "other",
         "usage_count": 1078
       },
       "canopy": {
-        "description_fr": "Canopy",
+        "description_fr": "Auvent",
         "description_enriched": "canopy, bâtiment canopy",
         "category": "other",
         "usage_count": 3972
@@ -8538,13 +8538,13 @@
         "usage_count": 2344122
       },
       "dam": {
-        "description_fr": "Dam",
+        "description_fr": "Barrage",
         "description_enriched": "dam, bâtiment barrage",
         "category": "other",
         "usage_count": 6388
       },
       "collapsed": {
-        "description_fr": "Collapsed",
+        "description_fr": "Effondré",
         "description_enriched": "collapsed, bâtiment collapsed",
         "category": "other",
         "usage_count": 49004
@@ -8580,7 +8580,7 @@
         "usage_count": 701
       },
       "gate": {
-        "description_fr": "Gate",
+        "description_fr": "Porte",
         "description_enriched": "gate, bâtiment portail",
         "category": "other",
         "usage_count": 402
@@ -8616,19 +8616,19 @@
         "usage_count": 5632
       },
       "store": {
-        "description_fr": "Store",
+        "description_fr": "Magasin",
         "description_enriched": "store, bâtiment store",
         "category": "other",
         "usage_count": 2016
       },
       "semi": {
-        "description_fr": "Semi",
+        "description_fr": "Maison jumelée",
         "description_enriched": "semi, bâtiment semi",
         "category": "other",
         "usage_count": 3796
       },
       "wayside_shrine": {
-        "description_fr": "Wayside Shrine",
+        "description_fr": "Oratoire",
         "description_enriched": "wayside shrine, bâtiment wayside shrine",
         "category": "other",
         "usage_count": 6680
@@ -8640,19 +8640,19 @@
         "usage_count": 28248
       },
       "window": {
-        "description_fr": "Window",
+        "description_fr": "Fenêtre",
         "description_enriched": "window, bâtiment window",
         "category": "other",
         "usage_count": 744
       },
       "utility": {
-        "description_fr": "Utility",
+        "description_fr": "Technique",
         "description_enriched": "utility, bâtiment utility",
         "category": "other",
         "usage_count": 1886
       },
       "porch": {
-        "description_fr": "Porch",
+        "description_fr": "Porche",
         "description_enriched": "porch, bâtiment porch",
         "category": "other",
         "usage_count": 431
@@ -8664,13 +8664,13 @@
         "usage_count": 1316554
       },
       "plot": {
-        "description_fr": "Plot",
+        "description_fr": "Parcelle",
         "description_enriched": "plot, bâtiment plot",
         "category": "other",
         "usage_count": 527
       },
       "summer_house": {
-        "description_fr": "Summer House",
+        "description_fr": "Maison d'été",
         "description_enriched": "summer house, bâtiment summer maison",
         "category": "other",
         "usage_count": 823
@@ -8682,19 +8682,19 @@
         "usage_count": 1843213
       },
       "storage_tunnel": {
-        "description_fr": "Storage Tunnel",
+        "description_fr": "Tunnel de stockage",
         "description_enriched": "storage tunnel, bâtiment storage tunnel",
         "category": "other",
         "usage_count": 537
       },
       "mobile_home": {
-        "description_fr": "Mobile Home",
+        "description_fr": "Mobil-home",
         "description_enriched": "mobile home, bâtiment mobile home",
         "category": "other",
         "usage_count": 4893
       },
       "bunglows": {
-        "description_fr": "Bunglows",
+        "description_fr": "Bungalows",
         "description_enriched": "bunglows, bâtiment bunglows",
         "category": "other",
         "usage_count": 888
@@ -8706,7 +8706,7 @@
         "usage_count": 2080
       },
       "castle": {
-        "description_fr": "Castle",
+        "description_fr": "Château",
         "description_enriched": "château, monument historique, forteresse, patrimoine",
         "category": "other",
         "usage_count": 3386
@@ -8724,25 +8724,25 @@
         "usage_count": 71128
       },
       "village_office": {
-        "description_fr": "Village Office",
+        "description_fr": "Bureau communal",
         "description_enriched": "village office, bâtiment village bureau",
         "category": "other",
         "usage_count": 927
       },
       "workshop": {
-        "description_fr": "Workshop",
+        "description_fr": "Atelier",
         "description_enriched": "workshop, bâtiment workshop",
         "category": "other",
         "usage_count": 476
       },
       "ail": {
-        "description_fr": "Ail",
+        "description_fr": "Aile",
         "description_enriched": "ail, bâtiment ail",
         "category": "other",
         "usage_count": 3803
       },
       "foundation": {
-        "description_fr": "Foundation",
+        "description_fr": "Fondation",
         "description_enriched": "foundation, bâtiment foundation",
         "category": "other",
         "usage_count": 2703
@@ -8754,19 +8754,19 @@
         "usage_count": 867
       },
       "yurt": {
-        "description_fr": "Yurt",
+        "description_fr": "Yourte",
         "description_enriched": "yurt, bâtiment yurt",
         "category": "other",
         "usage_count": 938
       },
       "kiln": {
-        "description_fr": "Kiln",
+        "description_fr": "Four",
         "description_enriched": "kiln, bâtiment kiln",
         "category": "other",
         "usage_count": 740
       },
       "wayside_chapel": {
-        "description_fr": "Wayside Chapel",
+        "description_fr": "Oratoire",
         "description_enriched": "wayside chapel, bâtiment wayside chapelle",
         "category": "other",
         "usage_count": 659
@@ -8778,13 +8778,13 @@
         "usage_count": 10577
       },
       "summer_cottage": {
-        "description_fr": "Summer Cottage",
+        "description_fr": "Chalet d'été",
         "description_enriched": "summer cottage, bâtiment summer cottage",
         "category": "other",
         "usage_count": 2290
       },
       "power": {
-        "description_fr": "Power",
+        "description_fr": "Bâtiment électrique",
         "description_enriched": "power, bâtiment power",
         "category": "other",
         "usage_count": 915
@@ -8796,7 +8796,7 @@
         "usage_count": 653436
       },
       "dwelling_house": {
-        "description_fr": "Dwelling House",
+        "description_fr": "Habitation",
         "description_enriched": "dwelling house, bâtiment dwelling maison",
         "category": "other",
         "usage_count": 4898
@@ -8808,25 +8808,25 @@
         "usage_count": 2446240
       },
       "bell_tower": {
-        "description_fr": "Bell Tower",
+        "description_fr": "Clocher",
         "description_enriched": "bell tower, bâtiment bell pylône",
         "category": "other",
         "usage_count": 812
       },
       "beach_hut": {
-        "description_fr": "Beach Hut",
+        "description_fr": "Cabine de plage",
         "description_enriched": "beach hut, bâtiment plage hut",
         "category": "other",
         "usage_count": 7388
       },
       "hall": {
-        "description_fr": "Hall",
+        "description_fr": "Salle",
         "description_enriched": "hall, bâtiment hall",
         "category": "other",
         "usage_count": 1275
       },
       "tech_cab": {
-        "description_fr": "Tech Cab",
+        "description_fr": "Armoire technique",
         "description_enriched": "tech cab",
         "category": "other",
         "usage_count": 1540
@@ -8838,19 +8838,19 @@
         "usage_count": 327445
       },
       "elevator": {
-        "description_fr": "Elevator",
+        "description_fr": "Ascenseur",
         "description_enriched": "elevator, bâtiment elevator",
         "category": "other",
         "usage_count": 1267
       },
       "lighthouse": {
-        "description_fr": "Lighthouse",
+        "description_fr": "Phare",
         "description_enriched": "lighthouse, bâtiment lighthouse",
         "category": "other",
         "usage_count": 494
       },
       "administrative": {
-        "description_fr": "Administrative",
+        "description_fr": "Administratif",
         "description_enriched": "administrative, bâtiment administrative",
         "category": "other",
         "usage_count": 1893
@@ -8874,13 +8874,13 @@
         "usage_count": 42335
       },
       "gazebo": {
-        "description_fr": "Gazebo",
+        "description_fr": "Gloriette",
         "description_enriched": "gazebo, bâtiment gazebo",
         "category": "other",
         "usage_count": 2096
       },
       "barrack": {
-        "description_fr": "Barrack",
+        "description_fr": "Baraque",
         "description_enriched": "barrack, bâtiment barrack",
         "category": "other",
         "usage_count": 519
@@ -8892,7 +8892,7 @@
         "usage_count": 1467758
       },
       "marquee": {
-        "description_fr": "Marquee",
+        "description_fr": "Chapiteau",
         "description_enriched": "marquee, bâtiment marquee",
         "category": "other",
         "usage_count": 368
@@ -8922,19 +8922,19 @@
         "usage_count": 31217
       },
       "gasometer": {
-        "description_fr": "Gasometer",
+        "description_fr": "Gazomètre",
         "description_enriched": "gasometer, bâtiment gasometer",
         "category": "other",
         "usage_count": 1536
       },
       "tomb": {
-        "description_fr": "Tomb",
+        "description_fr": "Tombeau",
         "description_enriched": "tomb, bâtiment tomb",
         "category": "other",
         "usage_count": 10598
       },
       "barrier": {
-        "description_fr": "Barrier",
+        "description_fr": "Barrière",
         "description_enriched": "barrier, bâtiment barrier",
         "category": "other",
         "usage_count": 874
@@ -8964,19 +8964,19 @@
         "usage_count": 11432
       },
       "recreation": {
-        "description_fr": "Recreation",
+        "description_fr": "Loisirs",
         "description_enriched": "recreation, bâtiment recreation",
         "category": "other",
         "usage_count": 387
       },
       "maisonette": {
-        "description_fr": "Maisonette",
+        "description_fr": "Maisonnette",
         "description_enriched": "maisonette, bâtiment maisonette",
         "category": "other",
         "usage_count": 1130
       },
       "other": {
-        "description_fr": "Other",
+        "description_fr": "Autre",
         "description_enriched": "other, bâtiment other",
         "category": "other",
         "usage_count": 2107
@@ -8994,7 +8994,7 @@
         "usage_count": 16678
       },
       "mixed": {
-        "description_fr": "Mixed",
+        "description_fr": "Mixte",
         "description_enriched": "mixed, bâtiment mixed",
         "category": "other",
         "usage_count": 364
@@ -9024,7 +9024,7 @@
         "usage_count": 27683
       },
       "unit": {
-        "description_fr": "Unit",
+        "description_fr": "Unité",
         "description_enriched": "unit, bâtiment unit",
         "category": "other",
         "usage_count": 455
@@ -9036,7 +9036,7 @@
         "usage_count": 15526
       },
       "agricultural": {
-        "description_fr": "Agricultural",
+        "description_fr": "Agricole",
         "description_enriched": "agricultural, bâtiment agricultural",
         "category": "other",
         "usage_count": 21885
@@ -9048,7 +9048,7 @@
         "usage_count": 436
       },
       "semi-detached": {
-        "description_fr": "Semi-Detached",
+        "description_fr": "Maison jumelée",
         "description_enriched": "semi-detached, bâtiment semi-detached",
         "category": "other",
         "usage_count": 320
@@ -9066,19 +9066,19 @@
         "usage_count": 2530462
       },
       "government_office": {
-        "description_fr": "Government Office",
+        "description_fr": "Bureau gouvernemental",
         "description_enriched": "government office, bâtiment gouvernement bureau",
         "category": "other",
         "usage_count": 3455
       },
       "factory": {
-        "description_fr": "Factory",
+        "description_fr": "Usine",
         "description_enriched": "factory, bâtiment factory",
         "category": "other",
         "usage_count": 4616
       },
       "entrance": {
-        "description_fr": "Entrance",
+        "description_fr": "Entrée",
         "description_enriched": "entrance, bâtiment entrance",
         "category": "other",
         "usage_count": 1231
@@ -9090,7 +9090,7 @@
         "usage_count": 1411
       },
       "column": {
-        "description_fr": "Column",
+        "description_fr": "Colonne",
         "description_enriched": "column, bâtiment column",
         "category": "other",
         "usage_count": 342
@@ -9102,19 +9102,19 @@
         "usage_count": 32534
       },
       "farmhouse": {
-        "description_fr": "Farmhouse",
+        "description_fr": "Corps de ferme",
         "description_enriched": "farmhouse, bâtiment farmhouse",
         "category": "other",
         "usage_count": 415
       },
       "station": {
-        "description_fr": "Station",
+        "description_fr": "Gare",
         "description_enriched": "station, bâtiment gare",
         "category": "other",
         "usage_count": 578
       },
       "glasshouse": {
-        "description_fr": "Glasshouse",
+        "description_fr": "Serre",
         "description_enriched": "glasshouse, bâtiment glasshouse",
         "category": "other",
         "usage_count": 1496
@@ -9126,19 +9126,19 @@
         "usage_count": 7566107
       },
       "gymnasium": {
-        "description_fr": "Gymnasium",
+        "description_fr": "Gymnase",
         "description_enriched": "gymnasium, bâtiment gymnasium",
         "category": "other",
         "usage_count": 364
       },
       "transformer": {
-        "description_fr": "Transformer",
+        "description_fr": "Transformateur",
         "description_enriched": "transformer, bâtiment transformateur",
         "category": "other",
         "usage_count": 943
       },
       "education": {
-        "description_fr": "Education",
+        "description_fr": "Enseignement",
         "description_enriched": "education, bâtiment education",
         "category": "other",
         "usage_count": 1499
@@ -9174,7 +9174,7 @@
         "usage_count": 775
       },
       "deck": {
-        "description_fr": "Deck",
+        "description_fr": "Terrasse",
         "description_enriched": "deck, bâtiment deck",
         "category": "other",
         "usage_count": 1443
@@ -9186,7 +9186,7 @@
         "usage_count": 1840
       },
       "chicken_coop": {
-        "description_fr": "Chicken Coop",
+        "description_fr": "Poulailler",
         "description_enriched": "chicken coop, bâtiment poulet coop",
         "category": "other",
         "usage_count": 2269
@@ -9198,7 +9198,7 @@
         "usage_count": 903
       },
       "market": {
-        "description_fr": "Market",
+        "description_fr": "Marché",
         "description_enriched": "market, bâtiment market",
         "category": "other",
         "usage_count": 872
@@ -9482,7 +9482,7 @@
         "usage_count": 878
       },
       "mining": {
-        "description_fr": "Mining",
+        "description_fr": "Engins miniers",
         "description_enriched": "mining",
         "category": "other",
         "usage_count": 381
@@ -9601,7 +9601,7 @@
         "usage_count": 110749
       },
       "private": {
-        "description_fr": "Vélos interdit",
+        "description_fr": "Vélos interdits",
         "description_enriched": "vélos, cycles, bicyclettes, réparation vélo, accessoires vélo, VTT",
         "category": "other",
         "usage_count": 69792
@@ -9737,7 +9737,7 @@
         "usage_count": 1701
       },
       "amusement_ride": {
-        "description_fr": "Amusement Ride",
+        "description_fr": "Manège",
         "description_enriched": "amusement ride",
         "category": "attribute",
         "usage_count": 7543
@@ -9932,7 +9932,7 @@
     "description": "aeroway",
     "values": {
       "aerodrome": {
-        "description_fr": "Aerodrome",
+        "description_fr": "Aérodrome",
         "description_enriched": "aéroport, aérodrome, avion, vol, aviation, terminal, piste",
         "category": "poi",
         "usage_count": 1000

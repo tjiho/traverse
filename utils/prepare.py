@@ -7,7 +7,6 @@ import os
 import faiss
 import torch
 from sentence_transformers import SentenceTransformer
-from transformers import AutoTokenizer, AutoModelForCausalLM
 
 from .types import Candidate
 
@@ -15,8 +14,8 @@ DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 
 # Modèles
 EMBEDDING_MODEL = "intfloat/multilingual-e5-base"
-RERANKER_MODEL = "Qwen/Qwen3-Reranker-0.6B"
-#RERANKER_MODEL = "Qwen/Qwen3-Reranker-4B"
+QWEN3_RERANKER_MODEL = "Qwen/Qwen3-Reranker-0.6B"
+DEFAULT_CROSSENCODER_MODEL = "mixedbread-ai/mxbai-rerank-base-v2"
 
 # Reranker config
 TASK_INSTRUCTION_POI = (
@@ -89,11 +88,14 @@ def load_search_settings(data_dir: str = DATA_DIR) -> dict:
     }
 
 
-def load_rerank_settings() -> dict:
-    """Charge le modèle de reranking et prépare les tokens."""
-    tokenizer = AutoTokenizer.from_pretrained(RERANKER_MODEL, padding_side='left')
+def _load_qwen3_rerank_settings() -> dict:
+    """Charge le modèle Qwen3-Reranker (LLM génératif)."""
+    from transformers import AutoTokenizer, AutoModelForCausalLM
+    from .rerank_with_crossencoder import score_candidates
+
+    tokenizer = AutoTokenizer.from_pretrained(QWEN3_RERANKER_MODEL, padding_side='left')
     model = AutoModelForCausalLM.from_pretrained(
-        RERANKER_MODEL,
+        QWEN3_RERANKER_MODEL,
         torch_dtype=torch.float16,
     ).cuda().eval()
 
@@ -108,14 +110,49 @@ def load_rerank_settings() -> dict:
         "prefix_tokens": tokenizer.encode(prefix, add_special_tokens=False),
         "suffix_tokens": tokenizer.encode(suffix, add_special_tokens=False),
         "max_length": 8192,
+        "batch_size": 10,
+        "score_fn": score_candidates,
+    }
+
+
+def _load_crossencoder_rerank_settings(model_name: str) -> dict:
+    """Charge un CrossEncoder léger (Jina v2, MixedBread v2, etc.)."""
+    from .rerank_with_sentence_transformer import load_settings, score_candidates
+
+    model_settings = load_settings(model_name)
+    return {
+        **model_settings,
+        "score_fn": score_candidates,
+    }
+
+
+def load_rerank_settings() -> dict:
+    """
+    Charge le reranker selon les variables d'environnement.
+
+    RERANKER: "qwen3" (défaut) ou "crossencoder"
+    RERANKER_MODEL: modèle CrossEncoder (défaut: jina-reranker-v2-base-multilingual)
+    """
+    reranker = os.environ.get("RERANKER", "qwen3").lower()
+
+    if reranker == "crossencoder":
+        model_name = os.environ.get("RERANKER_MODEL", DEFAULT_CROSSENCODER_MODEL)
+        print(f"Reranker: CrossEncoder ({model_name})")
+        settings = _load_crossencoder_rerank_settings(model_name)
+    else:
+        print(f"Reranker: Qwen3 ({QWEN3_RERANKER_MODEL})")
+        settings = _load_qwen3_rerank_settings()
+
+    settings.update({
         "task_instructions": {
             "poi": TASK_INSTRUCTION_POI,
             "attribute": TASK_INSTRUCTION_ATTRIBUTE,
         },
         "top_k": 5,
-        "batch_size": 10,
         "usage_count_threshold": 10_000,
-    }
+    })
+
+    return settings
 
 
 def prepare(data_dir: str = DATA_DIR) -> tuple[list[Candidate], dict, dict]:
